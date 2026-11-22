@@ -167,7 +167,7 @@ section{display:flex;flex-direction:column;gap:12px}
       <div class="row" id="topics"></div>
       <div class="label">Which questions</div>
       <div class="row" id="modes">
-        <button class="chip" data-mode="smart" aria-pressed="true">Smart mix (missed &amp; new first)</button>
+        <button class="chip" data-mode="smart" aria-pressed="true" id="smart-chip">Smart mix (missed &amp; new first)</button>
         <button class="chip" data-mode="new" aria-pressed="false">Only new (never answered)</button>
         <button class="chip" data-mode="missed" aria-pressed="false">Only ones I've missed</button>
         <button class="chip" data-mode="all" aria-pressed="false">Everything, shuffled</button>
@@ -407,7 +407,7 @@ async function loadStatic(){
   const a = (await answersAll()).map(migrateAnswer).map(r => regrade(r, byId))
     .sort((x, y) => String(x.answeredAt).localeCompare(String(y.answeredAt)));
   BANK = q; HISTORY = a.map(r => ({ ...r, ts: r.answeredAt }));
-  loadGlossary();
+  loadGlossary(); loadWeights();
   $('#bank-count').textContent = BANK.length + ' questions';
   renderPicker(); renderStats(); renderProgressCard();
 }
@@ -426,7 +426,7 @@ async function load(){
   const have = new Set(a.map(x => x.uid).filter(Boolean));
   const pending = (await outboxAll()).filter(i => i.url === '/api/answers' && !have.has(i.uid)).map(i => ({ ...i.body, ts: i.body.answeredAt }));
   BANK = q; HISTORY = [...a, ...pending];
-  loadGlossary();
+  loadGlossary(); loadWeights();
   $('#bank-count').textContent = BANK.length + ' questions';
   renderPicker(); renderStats();
   if (offline) showSync(); else flush();
@@ -466,12 +466,30 @@ function pool(){
   return p;
 }
 
+// Exam-likelihood weights (0–100, tools/exam-weights.js). Optional: without them the smart mix
+// falls back to missed-then-new ordering.
+let WEIGHTS = null;
+async function loadWeights(){
+  try { const w = await getJSON('weights/exam3.json' + (STATIC ? '?v=' + encodeURIComponent(CONFIG.version || '') : '')); WEIGHTS = w.weights; cacheSet('weights', w) }
+  catch { const w = await cacheGet('weights'); WEIGHTS = w ? w.weights : null }
+  if (WEIGHTS) $('#smart-chip').textContent = 'Smart mix (likely on Exam 3, missed & new first)';
+}
 function pickRound(p){
   if (sel.mode==='smart'){
     const last = latest();
     const counts = {}; for (const h of HISTORY) if (h.who===who() && h.correct) counts[h.qid]=(counts[h.qid]||0)+1;
-    const pri = q => { const l=last[q.id]; if(!l) return 3; if(!l.correct) return 4; return counts[q.id]>1?0:1 };
-    p = shuffle(p).sort((a,b)=>pri(b)-pri(a));
+    // How much they still need it: missed last time > never seen > right once > right twice or more.
+    const need = q => { const l=last[q.id]; if(!l) return 0.9; if(!l.correct) return 1; return counts[q.id]>1 ? 0.1 : 0.35 };
+    if (WEIGHTS) {
+      // Need × exam likelihood, with a little randomness so rounds vary. A likely exam question not yet
+      // seen can outrank an unlikely one that was missed; questions not on the exam (weight 0) come last.
+      const score = q => need(q) * ((WEIGHTS[q.id]?.w ?? 50) + 10) * (0.85 + Math.random() * 0.3);
+      const s = new Map(p.map(q => [q.id, score(q)]));
+      p = p.sort((a,b) => s.get(b.id) - s.get(a.id));
+    } else {
+      const pri = q => { const l=last[q.id]; if(!l) return 3; if(!l.correct) return 4; return counts[q.id]>1?0:1 };
+      p = shuffle(p).sort((a,b)=>pri(b)-pri(a));
+    }
   } else p = shuffle(p);
   return sel.n ? p.slice(0, sel.n) : p;
 }
