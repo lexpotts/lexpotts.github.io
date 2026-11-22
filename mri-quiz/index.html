@@ -97,6 +97,18 @@ section{display:flex;flex-direction:column;gap:12px}
 .missed-list{margin:0;padding-left:1.2em;display:flex;flex-direction:column;gap:8px}
 .big{font:700 2.4rem var(--font-display);font-variant-numeric:tabular-nums}
 .note{font-size:.9rem;color:var(--muted)}
+/* About panel */
+.about{gap:0;padding:0}
+.about summary{cursor:pointer;list-style:none;padding:14px 20px;font:700 1rem var(--font-display);display:flex;align-items:center;gap:10px}
+.about summary::-webkit-details-marker{display:none}
+.about summary::before{content:"";width:8px;height:8px;border-right:2px solid var(--accent);border-bottom:2px solid var(--accent);transform:rotate(-45deg);transition:transform .15s;flex:none}
+.about[open] summary::before{transform:rotate(45deg)}
+.about summary:focus-visible{outline:3px solid var(--accent);outline-offset:-3px;border-radius:var(--r)}
+.about-body{padding:0 20px 18px;font-size:.95rem}
+.about-body h3{font-size:.95rem;margin:14px 0 4px}
+.about-body ul{margin:0;padding-left:1.2em;display:flex;flex-direction:column;gap:4px}
+.about-body kbd{font:500 .8rem var(--font-mono);border:1px solid var(--line);border-radius:5px;padding:0 5px;background:var(--bg)}
+.term-demo{text-decoration:underline dotted var(--accent);text-decoration-thickness:2px;text-underline-offset:3px}
 .err{color:var(--bad)}
 .btn.small{font-size:.88rem;padding:8px 14px}
 .fix{display:flex;flex-wrap:wrap;gap:8px}
@@ -112,6 +124,38 @@ section{display:flex;flex-direction:column;gap:12px}
     <label class="who" for="who">Quizzing <input id="who" autocomplete="off"></label>
     <p class="sync" id="sync" role="status" hidden></p>
   </header>
+
+  <!-- ABOUT (static site only): how to use it, switching users, privacy, limits. Open on the first
+       visit; once someone collapses it, that's remembered and it starts collapsed from then on. -->
+  <details class="card about" id="about" hidden>
+    <summary><span>About this quiz: how it works, privacy, limits</span></summary>
+    <div class="about-body">
+      <h3>How to use it</h3>
+      <ul>
+        <li>Pick a course and, if you like, topics. Then choose which questions and how many, and press <b>Start</b>.</li>
+        <li><b>Smart mix</b> puts questions you missed and ones you haven't seen first. <b>Only new</b> skips anything you've answered.</li>
+        <li>After each answer you get an explanation and where it is in the course slides (deck and slide or page). <span class="term-demo">Dotted words</span> show a definition when you hover or tap them.</li>
+        <li>Keys: <kbd>1</kbd>–<kbd>9</kbd> pick an option, <kbd>Enter</kbd> checks and moves on.</li>
+      </ul>
+      <h3>Switching who's quizzing</h3>
+      <ul>
+        <li>Type a name in the <b>Quizzing</b> box at the top. Each name keeps its own history on this device, so friends sharing a computer can each use their own name.</li>
+        <li>Type it the same way each time: "Sam" and "sam" count as different people.</li>
+      </ul>
+      <h3>What's tracked</h3>
+      <ul>
+        <li><b>Nothing leaves your device.</b> No account, no sign-in, no analytics. Your answers, scores and notes are stored only in this browser.</li>
+        <li>Notes you write about a question stay in your browser too; nobody else sees them.</li>
+        <li>Like any website, GitHub (which hosts this page) may keep standard server logs of visits.</li>
+      </ul>
+      <h3>Limits</h3>
+      <ul>
+        <li>Progress lives in this browser only. It doesn't sync to your other devices, and clearing your browsing data, or using a private window, erases it. Use <b>Save progress to a file</b> below to back it up or move it.</li>
+        <li>This is an unofficial study aid, not course material. Questions were written with AI help from the course slides and can contain mistakes: check anything surprising against your slides or instructor.</li>
+        <li>References name the deck and slide; the slides themselves aren't included here.</li>
+      </ul>
+    </div>
+  </details>
 
   <!-- START SCREEN -->
   <section id="start">
@@ -451,7 +495,7 @@ function renderStats(target='#stats', subset=null){
 }
 
 // ---------- quiz flow ----------
-function show(id){ for (const s of ['start','quiz','done']) $('#'+s).hidden = s!==id; window.scrollTo(0,0) }
+function show(id){ for (const s of ['start','quiz','done']) $('#'+s).hidden = s!==id; $('#about').hidden = !(STATIC && id === 'start'); window.scrollTo(0,0) }
 
 function startRound(qs){
   if (!qs.length) return;
@@ -775,6 +819,11 @@ $('#import-file').onchange = async e => {
     if (CONFIG.title) { document.title = CONFIG.title; $('#app-title').textContent = CONFIG.title }
     $('#flag').textContent = 'Make a note about this question';
     $('#flag-send').textContent = 'Save note';
+    // About panel: open on a first visit; remember once it's been collapsed (and if it's reopened).
+    const about = $('#about');
+    about.open = store.get('quiz-about', 'open') !== 'closed';
+    about.hidden = false;
+    about.addEventListener('toggle', () => store.set('quiz-about', about.open ? 'open' : 'closed'));
   } else {
     // Alex's LAN server: this copy is Mer's.
     DEFAULT_WHO = 'Mer';
