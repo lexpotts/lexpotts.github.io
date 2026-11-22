@@ -1,0 +1,2766 @@
+[
+ {
+  "t": "anaphylaxis",
+  "a": [
+   "anaphylactic",
+   "anaphylactic shock"
+  ],
+  "d": "A severe, whole-body allergic reaction: airway swelling, wheezing, hives and falling blood pressure. Life-threatening; epinephrine is the first drug."
+ },
+ {
+  "t": "allergic-like reaction",
+  "a": [
+   "allergic-like"
+  ],
+  "d": "A contrast reaction that looks like allergy (hives, swelling, wheezing, anaphylaxis) even though most aren't true IgE allergy, so a first exposure can react."
+ },
+ {
+  "t": "physiologic reaction",
+  "a": [
+   "physiologic"
+  ],
+  "d": "A contrast reaction caused by the drug's direct effect on the body (nausea, flushing, vasovagal, arrhythmia, seizure), not by allergy. Needs no premedication later."
+ },
+ {
+  "t": "vasovagal reaction",
+  "a": [
+   "vasovagal"
+  ],
+  "d": "A nerve reflex that slows the heart and drops blood pressure: pale, sweaty, lightheaded, SLOW pulse, may faint. Treated with legs up, fluids, atropine if it persists."
+ },
+ {
+  "t": "IgE-mediated",
+  "a": [
+   "IgE"
+  ],
+  "cs": true,
+  "d": "A true allergy driven by IgE antibodies, which requires an earlier exposure to become sensitized."
+ },
+ {
+  "t": "premedication",
+  "a": [
+   "premedicate",
+   "premedicated",
+   "premedicating"
+  ],
+  "d": "Drugs (usually a steroid like prednisone, sometimes an antihistamine) given before contrast to lower the risk of a repeat allergic-like reaction."
+ },
+ {
+  "t": "epinephrine",
+  "a": [
+   "epi",
+   "adrenaline"
+  ],
+  "d": "Adrenaline. The first drug for anaphylaxis: opens the airways and raises blood pressure. IM dose for adults is 0.3 mg of the 1 mg/mL product."
+ },
+ {
+  "t": "diphenhydramine",
+  "a": [
+   "Benadryl"
+  ],
+  "d": "An antihistamine for hives and itching. Sedating (no driving after). It does not treat anaphylaxis and never replaces epinephrine."
+ },
+ {
+  "t": "antihistamine",
+  "a": [],
+  "d": "A drug that blocks histamine to ease hives and itching (e.g., diphenhydramine, promethazine)."
+ },
+ {
+  "t": "flumazenil",
+  "a": [],
+  "d": "Reversal agent for benzodiazepines like midazolam. Can wear off before the sedative and can cause seizures."
+ },
+ {
+  "t": "naloxone",
+  "a": [
+   "Narcan"
+  ],
+  "d": "Reversal agent for opioids like morphine and fentanyl."
+ },
+ {
+  "t": "benzodiazepine",
+  "a": [
+   "benzos",
+   "diazepam",
+   "lorazepam"
+  ],
+  "d": "A class of sedative and anti-anxiety drugs: midazolam (Versed), diazepam, lorazepam. Reversed by flumazenil."
+ },
+ {
+  "t": "opioid",
+  "a": [
+   "opiate"
+  ],
+  "d": "A class of strong pain relievers (morphine, fentanyl, oxycodone) that can slow breathing. Reversed by naloxone."
+ },
+ {
+  "t": "midazolam",
+  "a": [
+   "Versed"
+  ],
+  "d": "A short-acting benzodiazepine sedative used for procedures. Reversed by flumazenil. DEA Schedule IV."
+ },
+ {
+  "t": "fentanyl",
+  "a": [],
+  "d": "A potent opioid, given IV or as a skin patch (Duragesic). Heat over a patch increases the dose absorbed."
+ },
+ {
+  "t": "propofol",
+  "a": [
+   "Diprivan"
+  ],
+  "d": "An IV anesthetic used for sedation (looks like milk). It has no reversal agent; watch for apnea and low blood pressure."
+ },
+ {
+  "t": "atropine",
+  "a": [],
+  "d": "An anticholinergic drug that speeds up a slow heart rate (e.g., a vasovagal reaction that doesn't settle)."
+ },
+ {
+  "t": "warfarin",
+  "a": [
+   "Coumadin"
+  ],
+  "d": "An oral anticoagulant (blood thinner) that blocks vitamin K. Monitored with the INR; reversed with vitamin K1."
+ },
+ {
+  "t": "heparin",
+  "a": [],
+  "d": "An anticoagulant. In imaging you mostly see it in flushes that keep catheters from clotting."
+ },
+ {
+  "t": "anticoagulant",
+  "a": [
+   "anticoagulated",
+   "blood thinner"
+  ],
+  "d": "A drug that slows blood clotting (warfarin, heparin, apixaban). Patients bleed longer at puncture sites."
+ },
+ {
+  "t": "antiplatelet",
+  "a": [],
+  "d": "A drug that stops platelets from clumping (aspirin, clopidogrel), so puncture sites bleed longer."
+ },
+ {
+  "t": "metformin",
+  "a": [],
+  "d": "A diabetes pill cleared unchanged by the kidneys. If kidney function suddenly drops it can build up and cause lactic acidosis."
+ },
+ {
+  "t": "lactic acidosis",
+  "a": [],
+  "d": "A dangerous buildup of lactic acid in the blood. The worry with metformin when the kidneys fail."
+ },
+ {
+  "t": "beta-blocker",
+  "a": [],
+  "d": "A blood pressure and heart drug (e.g., metoprolol). Can blunt the effect of epinephrine during a reaction."
+ },
+ {
+  "t": "corticosteroid",
+  "a": [
+   "steroid",
+   "prednisone",
+   "methylprednisolone"
+  ],
+  "d": "An anti-inflammatory drug. Used for contrast premedication; it raises blood glucose."
+ },
+ {
+  "t": "albuterol",
+  "a": [],
+  "d": "A rescue inhaler that relaxes the airway muscles in bronchospasm (asthma, wheezing)."
+ },
+ {
+  "t": "bronchospasm",
+  "a": [],
+  "d": "Sudden tightening of the muscles around the airways, causing wheezing and shortness of breath."
+ },
+ {
+  "t": "phytonadione",
+  "a": [
+   "vitamin K1"
+  ],
+  "d": "Vitamin K1, the drug that reverses warfarin."
+ },
+ {
+  "t": "glucagon",
+  "a": [],
+  "d": "A hormone given by injection to raise blood glucose when a hypoglycemic patient can't safely take anything by mouth."
+ },
+ {
+  "t": "pharmacokinetics",
+  "a": [],
+  "d": "What the body does to a drug: Absorption, Distribution, Metabolism (mostly liver), Excretion (mostly kidneys)."
+ },
+ {
+  "t": "first-pass effect",
+  "a": [
+   "first-pass",
+   "first pass"
+  ],
+  "d": "The liver breaks down part of a swallowed drug before it reaches the body, so oral doses are often bigger than IV doses."
+ },
+ {
+  "t": "bioavailability",
+  "a": [],
+  "d": "The fraction of a dose that reaches the bloodstream unchanged. IV is 100%."
+ },
+ {
+  "t": "half-life",
+  "a": [],
+  "d": "The time it takes for the drug level in the blood to fall by half."
+ },
+ {
+  "t": "clearance",
+  "a": [],
+  "d": "The volume of plasma cleared of a drug per unit of time (mL/min)."
+ },
+ {
+  "t": "potency",
+  "a": [],
+  "d": "How much drug it takes to get an effect. A drug that works at a low dose is potent."
+ },
+ {
+  "t": "efficacy",
+  "a": [],
+  "d": "The maximum effect a drug can produce, at any dose (the ceiling)."
+ },
+ {
+  "t": "sublingual",
+  "a": [],
+  "d": "Under the tongue until it dissolves. Skips the first-pass effect."
+ },
+ {
+  "t": "buccal",
+  "a": [],
+  "d": "Held against the cheek until it dissolves."
+ },
+ {
+  "t": "intradermal",
+  "a": [],
+  "d": "Injected into the skin layer itself, just under the surface (e.g., a TB skin test)."
+ },
+ {
+  "t": "subcutaneous",
+  "a": [
+   "SUBQ",
+   "subq",
+   "SC",
+   "SQ"
+  ],
+  "d": "Injected into the fat under the skin; absorbs slowly. Write SUBQ, never SC or SQ."
+ },
+ {
+  "t": "intramuscular",
+  "a": [
+   "IM"
+  ],
+  "cs": false,
+  "d": "Injected into a muscle (e.g., the outer thigh for epinephrine). Faster than subcutaneous."
+ },
+ {
+  "t": "intrathecal",
+  "a": [],
+  "d": "Injected into the spinal fluid (subarachnoid space), as in myelography. Only agents labeled for this route."
+ },
+ {
+  "t": "intraosseous",
+  "a": [],
+  "d": "A needle into the bone marrow (humerus, tibia, femur, sternum) for emergency access when an IV fails."
+ },
+ {
+  "t": "parenteral",
+  "a": [],
+  "d": "Any route that bypasses the GI tract, mainly injections (IV, IM, SUBQ)."
+ },
+ {
+  "t": "transdermal",
+  "a": [],
+  "d": "Delivered through the skin from a patch (fentanyl, nitroglycerin, nicotine, scopolamine)."
+ },
+ {
+  "t": "enteric-coated",
+  "a": [],
+  "d": "A tablet coating that keeps it from dissolving in the stomach. Never crush it."
+ },
+ {
+  "t": "controlled substance",
+  "a": [
+   "controlled substances",
+   "controlled drug",
+   "controlled drugs"
+  ],
+  "d": "A drug with abuse potential, regulated by the DEA in Schedules I–V. Kept locked and logged; waste is witnessed."
+ },
+ {
+  "t": "DEA schedule",
+  "a": [
+   "Schedule II",
+   "Schedule IV",
+   "Schedule V",
+   "Schedule I",
+   "Schedule III"
+  ],
+  "d": "The DEA's legal classes for controlled drugs. I: high abuse, no medical use. II: high abuse, medical use (opioids). III: moderate. IV: lower (benzodiazepines). V: lowest."
+ },
+ {
+  "t": "six rights",
+  "a": [
+   "6 rights",
+   "six rights of drug administration"
+  ],
+  "d": "Right patient, drug, dose, route, time, and documentation."
+ },
+ {
+  "t": "medication reconciliation",
+  "a": [
+   "reconciliation"
+  ],
+  "d": "Collecting everything a patient takes, comparing it to what's ordered now, resolving problems, and passing the list on."
+ },
+ {
+  "t": "osmolality",
+  "a": [
+   "osmolar"
+  ],
+  "d": "How concentrated a solution's particles are. Higher-osmolality contrast causes more heat, discomfort, fluid shift and physiologic reactions. Plasma is about 290 mOsm/kg."
+ },
+ {
+  "t": "iso-osmolar",
+  "a": [
+   "IOCM"
+  ],
+  "d": "Contrast with about the same osmolality as blood plasma (iodixanol/Visipaque, a nonionic dimer)."
+ },
+ {
+  "t": "low-osmolar",
+  "a": [
+   "LOCM"
+  ],
+  "d": "Contrast about 1–3 times plasma osmolality; most nonionic monomers (iohexol, iopamidol). The usual IV contrast."
+ },
+ {
+  "t": "high-osmolar",
+  "a": [
+   "HOCM",
+   "hyperosmolar"
+  ],
+  "d": "Contrast with much higher osmolality than plasma (about 5x), e.g. diatrizoate. Draws water in; no longer given into vessels."
+ },
+ {
+  "t": "ionic",
+  "a": [],
+  "d": "Contrast that splits into charged particles in solution, which raises osmolality."
+ },
+ {
+  "t": "nonionic",
+  "a": [],
+  "d": "Contrast that doesn't split into charged particles, so it has lower osmolality. Most modern IV contrast."
+ },
+ {
+  "t": "iodinated contrast",
+  "a": [
+   "iodinated"
+  ],
+  "d": "X-ray and CT contrast containing iodine. Excreted unchanged by the kidneys."
+ },
+ {
+  "t": "gadolinium",
+  "a": [
+   "GBCA",
+   "gadolinium-based contrast agent"
+  ],
+  "d": "The metal in MRI contrast. It shortens T1 so enhancing tissue looks bright. Always bound in a chelate because free gadolinium is toxic."
+ },
+ {
+  "t": "chelate",
+  "a": [
+   "chelates"
+  ],
+  "d": "A molecule that wraps around and holds gadolinium so the toxic free metal isn't released."
+ },
+ {
+  "t": "macrocyclic",
+  "a": [],
+  "d": "A ring-shaped gadolinium chelate that holds the metal tightly, with less retention in the body than linear agents."
+ },
+ {
+  "t": "nephrogenic systemic fibrosis",
+  "a": [
+   "NSF"
+  ],
+  "d": "A rare, serious thickening of the skin and organs after some gadolinium agents (mostly ACR Group I) in severe kidney disease or AKI."
+ },
+ {
+  "t": "eGFR",
+  "a": [
+   "GFR"
+  ],
+  "cs": true,
+  "d": "Estimated glomerular filtration rate: how well the kidneys filter, calculated from serum creatinine. Lower means worse kidney function."
+ },
+ {
+  "t": "creatinine",
+  "a": [],
+  "d": "A muscle waste product cleared by the kidneys. Serum creatinine is used to calculate eGFR."
+ },
+ {
+  "t": "BUN",
+  "a": [
+   "blood urea nitrogen"
+  ],
+  "cs": true,
+  "d": "Blood urea nitrogen, a protein waste product cleared by the kidneys. It does not decide contrast kidney risk; eGFR does."
+ },
+ {
+  "t": "acute kidney injury",
+  "a": [
+   "AKI"
+  ],
+  "d": "A sudden drop in kidney function over hours to days."
+ },
+ {
+  "t": "barium",
+  "a": [
+   "barium sulfate"
+  ],
+  "d": "Positive GI contrast (bright white). A suspension, not a solution. Never used when perforation is suspected."
+ },
+ {
+  "t": "suspension",
+  "a": [],
+  "d": "Solid particles mixed through a liquid without dissolving. They settle, so mix before use (barium)."
+ },
+ {
+  "t": "perforation",
+  "a": [],
+  "d": "A hole through the wall of the bowel or another hollow organ."
+ },
+ {
+  "t": "peritonitis",
+  "a": [],
+  "d": "Inflammation of the lining of the abdominal cavity, e.g. from barium leaking through a perforation."
+ },
+ {
+  "t": "diatrizoate",
+  "a": [
+   "Gastrografin"
+  ],
+  "d": "A hyperosmolar, water-soluble iodinated contrast for oral or bladder use. Draws water into the bowel and is harmful if aspirated."
+ },
+ {
+  "t": "water-soluble",
+  "a": [],
+  "d": "Iodinated contrast that dissolves in water and is absorbed if it leaks, used instead of barium when a leak or perforation is possible."
+ },
+ {
+  "t": "double contrast",
+  "a": [
+   "double-contrast"
+  ],
+  "d": "Barium coats the lining while gas (air or CO2) distends the lumen, so small lesions stand out."
+ },
+ {
+  "t": "radiopaque",
+  "a": [
+   "positive contrast"
+  ],
+  "d": "Absorbs x-rays and shows white (barium, iodine)."
+ },
+ {
+  "t": "radiolucent",
+  "a": [
+   "negative contrast"
+  ],
+  "d": "Lets x-rays through and shows dark (air, carbon dioxide)."
+ },
+ {
+  "t": "viscosity",
+  "a": [
+   "viscous"
+  ],
+  "d": "How thick a fluid is. Thick contrast flows poorly through small catheters; warming it lowers viscosity."
+ },
+ {
+  "t": "extravasation",
+  "a": [
+   "extravasates",
+   "extravasated"
+  ],
+  "d": "INS: a VESICANT fluid or drug leaking into tissue, which can blister and kill tissue. In radiology the ACR calls any contrast leak extravasation."
+ },
+ {
+  "t": "infiltration",
+  "a": [
+   "infiltrated"
+  ],
+  "d": "INS: a NON-vesicant fluid or drug leaking out of the vein into surrounding tissue."
+ },
+ {
+  "t": "vesicant",
+  "a": [
+   "non-vesicant"
+  ],
+  "d": "A drug or fluid that can cause blisters and tissue death if it leaks out of the vein."
+ },
+ {
+  "t": "phlebitis",
+  "a": [],
+  "d": "An inflamed vein: red, warm, tender, sometimes a firm cord above the IV. Warm compress."
+ },
+ {
+  "t": "air embolism",
+  "a": [
+   "venous air embolism"
+  ],
+  "d": "Air entering the bloodstream and blocking flow. Sudden shortness of breath, chest pain, low BP. 100% oxygen and left side down."
+ },
+ {
+  "t": "embolism",
+  "a": [
+   "embolus",
+   "emboli"
+  ],
+  "d": "Something traveling in the blood (clot, air, fat) that lodges and blocks a vessel."
+ },
+ {
+  "t": "pulmonary embolism",
+  "a": [
+   "pulmonary embolus",
+   "PE"
+  ],
+  "cs": false,
+  "d": "A clot (usually from the legs) blocking an artery in the lungs: sudden shortness of breath, chest pain, fast heart rate."
+ },
+ {
+  "t": "compartment syndrome",
+  "a": [],
+  "d": "Pressure building inside a closed muscle compartment (e.g., the hand or forearm) that cuts off blood flow. A surgical emergency."
+ },
+ {
+  "t": "capillary refill",
+  "a": [],
+  "d": "How fast color returns to a nail bed after you press it. Slow refill means poor blood flow."
+ },
+ {
+  "t": "gauge",
+  "a": [],
+  "d": "Needle or catheter size. A HIGHER number means a SMALLER lumen (24 G small, 18 G large)."
+ },
+ {
+  "t": "French",
+  "a": [
+   "French size",
+   "French sizes",
+   "Fr"
+  ],
+  "cs": true,
+  "d": "Catheter and tube size. Opposite of gauge: a higher number means BIGGER (1 Fr = 1/3 mm outside diameter)."
+ },
+ {
+  "t": "lumen",
+  "a": [
+   "lumens"
+  ],
+  "d": "The hollow channel inside a needle, catheter, tube or vessel."
+ },
+ {
+  "t": "bevel",
+  "a": [],
+  "d": "The slanted tip of a needle. Inserted bevel up."
+ },
+ {
+  "t": "flashback",
+  "a": [],
+  "d": "Blood appearing in the catheter's chamber, showing the needle tip is in the vein."
+ },
+ {
+  "t": "antecubital",
+  "a": [
+   "antecubital fossa"
+  ],
+  "d": "The inside bend of the elbow, where the median cubital, cephalic and basilic veins are; preferred for power injection."
+ },
+ {
+  "t": "volar",
+  "a": [],
+  "d": "The palm side of the hand or wrist. The volar wrist is avoided for IVs (painful, nerve injury risk)."
+ },
+ {
+  "t": "chlorhexidine",
+  "a": [],
+  "d": "The preferred skin antiseptic (in alcohol) before an IV. Scrub and let it dry completely."
+ },
+ {
+  "t": "power injector",
+  "a": [
+   "power injection",
+   "power-injected",
+   "power-injectable",
+   "power-rated"
+  ],
+  "d": "A machine that injects contrast at a set rate and volume under pressure, for CT and MR timing. Only devices labeled for it."
+ },
+ {
+  "t": "bolus",
+  "a": [],
+  "d": "A dose given all at once (by hand push or power injector) rather than dripped in slowly."
+ },
+ {
+  "t": "over-the-needle catheter",
+  "a": [
+   "angiocath"
+  ],
+  "d": "A flexible plastic IV catheter threaded over a needle; the needle comes out and the plastic stays in the vein."
+ },
+ {
+  "t": "butterfly",
+  "a": [
+   "winged needle",
+   "winged steel needle"
+  ],
+  "d": "A short steel needle with plastic wings for brief access or blood draws. It stays in the vein, so it dislodges easily; avoid for power injection."
+ },
+ {
+  "t": "ampule",
+  "a": [
+   "ampules",
+   "ampoule"
+  ],
+  "d": "A sealed glass single-dose container you snap open. Draw up through a filter needle, then change needles."
+ },
+ {
+  "t": "vial",
+  "a": [
+   "single-dose vial",
+   "multiple-dose vial"
+  ],
+  "d": "A container with a rubber stopper. Single-dose: one patient, once. Multiple-dose: has a preservative, discard 28 days after opening."
+ },
+ {
+  "t": "PICC",
+  "a": [
+   "PICCs",
+   "peripherally inserted central catheter"
+  ],
+  "cs": true,
+  "d": "Peripherally inserted central catheter: put in through an upper-arm vein with the tip near the heart (lower SVC)."
+ },
+ {
+  "t": "central line",
+  "a": [
+   "central venous catheter",
+   "CVC",
+   "central venous access device"
+  ],
+  "d": "A catheter whose tip sits in a large central vein near the heart (SVC/cavoatrial junction). PICCs and ports count."
+ },
+ {
+  "t": "implanted port",
+  "a": [
+   "Port-a-cath"
+  ],
+  "d": "A small reservoir under the chest skin connected to a central-vein catheter, reached through the skin with a non-coring (Huber) needle."
+ },
+ {
+  "t": "non-coring needle",
+  "a": [
+   "Huber needle",
+   "Huber",
+   "non-coring"
+  ],
+  "d": "A specially angled needle used to access an implanted port without cutting a core out of its rubber septum."
+ },
+ {
+  "t": "tunneled catheter",
+  "a": [
+   "tunneled",
+   "Hickman",
+   "Broviac"
+  ],
+  "d": "A central line run under the skin from the vein to a chest exit site, for long-term chemo or TPN."
+ },
+ {
+  "t": "Groshong",
+  "a": [],
+  "d": "A valve at the tip of some tunneled catheters and PICCs, not its own type of line."
+ },
+ {
+  "t": "cavoatrial junction",
+  "a": [],
+  "d": "Where the superior vena cava meets the right atrium; where an upper-body central line tip should sit."
+ },
+ {
+  "t": "superior vena cava",
+  "a": [
+   "SVC"
+  ],
+  "d": "The large vein that returns blood from the upper body into the right atrium."
+ },
+ {
+  "t": "TPN",
+  "a": [
+   "total parenteral nutrition"
+  ],
+  "cs": true,
+  "d": "Total parenteral nutrition: concentrated IV feeding, given through a central line because it would injure a small vein."
+ },
+ {
+  "t": "carina",
+  "a": [],
+  "d": "The ridge where the trachea splits into the right and left main bronchi. ETT tip sits about 5 cm above it."
+ },
+ {
+  "t": "endotracheal tube",
+  "a": [
+   "ETT",
+   "ET tube",
+   "ETTs"
+  ],
+  "d": "A breathing tube passed through the mouth or nose into the trachea, sealed by an inflated cuff."
+ },
+ {
+  "t": "tracheostomy",
+  "a": [
+   "trach",
+   "trachs"
+  ],
+  "d": "An opening in the front of the neck into the trachea, with a tube held by neck ties."
+ },
+ {
+  "t": "obturator",
+  "a": [],
+  "courses": [
+   "Patient Care"
+  ],
+  "d": "The guide used to insert a tracheostomy tube. It travels with a patient who has a new trach."
+ },
+ {
+  "t": "fenestrated",
+  "a": [],
+  "d": "Having a window. A fenestrated trach tube has an opening above the cuff so air reaches the vocal cords."
+ },
+ {
+  "t": "ventilator",
+  "a": [
+   "ventilated",
+   "ventilator circuit"
+  ],
+  "d": "A machine that breathes for the patient through a tube. Never unplug it or open the circuit."
+ },
+ {
+  "t": "suction",
+  "a": [],
+  "d": "Negative pressure that pulls secretions or stomach contents out. Only qualified staff suction an airway."
+ },
+ {
+  "t": "nasogastric tube",
+  "a": [
+   "NG tube",
+   "NG"
+  ],
+  "d": "A tube from the nose into the stomach to drain it, or to give feeds, drugs or contrast."
+ },
+ {
+  "t": "orogastric tube",
+  "a": [
+   "OG tube",
+   "OG"
+  ],
+  "cs": true,
+  "d": "Like an NG tube, but placed through the mouth."
+ },
+ {
+  "t": "nasoenteric tube",
+  "a": [
+   "NE tube",
+   "nasointestinal",
+   "NE"
+  ],
+  "d": "A tube from the nose past the stomach into the duodenum or jejunum. The technologist never removes it."
+ },
+ {
+  "t": "Dobhoff",
+  "a": [
+   "small-bore feeding tube"
+  ],
+  "d": "A small-bore feeding tube with a weighted tip, placed over a wire stylet."
+ },
+ {
+  "t": "Salem Sump",
+  "a": [],
+  "d": "A double-lumen NG tube for drainage under suction, with a blue air vent (pigtail) that is never clamped."
+ },
+ {
+  "t": "Levin tube",
+  "a": [
+   "Levin"
+  ],
+  "d": "A single-lumen gastric tube with holes near the tip, for decompression, drainage and lavage."
+ },
+ {
+  "t": "gastrostomy",
+  "a": [
+   "PEG",
+   "PEG tube",
+   "G-tube"
+  ],
+  "d": "A feeding tube through the abdominal wall directly into the stomach."
+ },
+ {
+  "t": "gastroesophageal junction",
+  "a": [
+   "GE junction"
+  ],
+  "d": "Where the esophagus joins the stomach. An NG tip must be well past it."
+ },
+ {
+  "t": "duodenum",
+  "a": [
+   "duodenal"
+  ],
+  "d": "The first part of the small intestine, right after the stomach."
+ },
+ {
+  "t": "jejunum",
+  "a": [],
+  "d": "The middle section of the small intestine."
+ },
+ {
+  "t": "Sengstaken-Blakemore",
+  "a": [],
+  "d": "A tube with gastric and esophageal balloons that press on bleeding esophageal varices. ICU only."
+ },
+ {
+  "t": "varices",
+  "a": [
+   "esophageal varices"
+  ],
+  "d": "Swollen veins in the esophagus (often from liver disease) that can bleed heavily."
+ },
+ {
+  "t": "tamponade",
+  "a": [],
+  "d": "Stopping bleeding by pressing on it, e.g. with an inflated balloon."
+ },
+ {
+  "t": "decompression",
+  "a": [
+   "decompress"
+  ],
+  "d": "Draining air or fluid to relieve pressure, e.g. emptying the stomach with an NG tube."
+ },
+ {
+  "t": "lavage",
+  "a": [],
+  "d": "Washing out a body cavity (e.g., the stomach) with fluid."
+ },
+ {
+  "t": "aspiration",
+  "a": [
+   "aspirate",
+   "aspirated"
+  ],
+  "d": "Breathing fluid, food or vomit into the airway and lungs. (Also: drawing fluid back with a syringe.)"
+ },
+ {
+  "t": "pneumothorax",
+  "a": [],
+  "d": "Air in the pleural space, collapsing part of the lung."
+ },
+ {
+  "t": "tension pneumothorax",
+  "a": [],
+  "d": "Air that enters the pleural space and can't escape, building pressure on the heart and lungs. An emergency."
+ },
+ {
+  "t": "hemothorax",
+  "a": [],
+  "d": "Blood in the pleural space."
+ },
+ {
+  "t": "pleural effusion",
+  "a": [
+   "effusion"
+  ],
+  "d": "Fluid (other than blood) collecting in the pleural space."
+ },
+ {
+  "t": "pleural space",
+  "a": [
+   "pleura"
+  ],
+  "d": "The thin space between the lung and the chest wall."
+ },
+ {
+  "t": "water seal",
+  "a": [
+   "water-seal"
+  ],
+  "d": "The chamber of a chest drain with a shallow column of water acting as a one-way valve: air leaves the chest but can't return."
+ },
+ {
+  "t": "tidaling",
+  "a": [],
+  "d": "The water in a chest drain's water seal rising and falling with breathing, showing the tube is open to the pleural space."
+ },
+ {
+  "t": "Swan-Ganz",
+  "a": [
+   "pulmonary artery catheter"
+  ],
+  "d": "A balloon-tipped catheter floated through the right heart into the pulmonary artery to measure heart pressures and output."
+ },
+ {
+  "t": "pulmonary infarction",
+  "a": [],
+  "d": "Death of lung tissue from blocked blood flow."
+ },
+ {
+  "t": "pacemaker",
+  "a": [],
+  "d": "A device that paces a heart that beats too slowly or has a conduction block."
+ },
+ {
+  "t": "implantable cardioverter defibrillator",
+  "a": [
+   "ICD",
+   "ICDs"
+  ],
+  "d": "An implanted device that shocks dangerous fast ventricular rhythms (and transvenous ones can also pace)."
+ },
+ {
+  "t": "depolarization",
+  "a": [
+   "depolarize",
+   "depolarizes"
+  ],
+  "d": "The electrical firing of heart muscle cells that triggers them to contract."
+ },
+ {
+  "t": "repolarization",
+  "a": [
+   "repolarize"
+  ],
+  "d": "Heart muscle cells electrically resetting after firing, ready for the next beat."
+ },
+ {
+  "t": "P wave",
+  "a": [],
+  "d": "The first small bump on the ECG: the atria depolarize."
+ },
+ {
+  "t": "QRS complex",
+  "a": [
+   "QRS"
+  ],
+  "d": "The tall spike on the ECG: the ventricles depolarize. (Atrial repolarization is hidden inside it.)"
+ },
+ {
+  "t": "T wave",
+  "a": [],
+  "d": "The bump after the QRS on the ECG: the ventricles repolarize."
+ },
+ {
+  "t": "ECG",
+  "a": [
+   "EKG",
+   "electrocardiogram"
+  ],
+  "cs": true,
+  "d": "Electrocardiogram: a tracing of the heart's electrical activity."
+ },
+ {
+  "t": "atrial fibrillation",
+  "a": [
+   "A-fib",
+   "afib"
+  ],
+  "d": "Irregularly irregular rhythm with no distinct P waves; the atria quiver instead of beating. Makes cardiac gating hard."
+ },
+ {
+  "t": "premature ventricular contraction",
+  "a": [
+   "PVC",
+   "PVCs"
+  ],
+  "d": "An early, wide, bizarre beat with no P wave, followed by a pause."
+ },
+ {
+  "t": "ventricular fibrillation",
+  "a": [
+   "VF",
+   "V-fib"
+  ],
+  "d": "Chaotic quivering of the ventricles with no pulse. Shockable: CPR and defibrillation."
+ },
+ {
+  "t": "ventricular tachycardia",
+  "a": [
+   "V-tach",
+   "VT",
+   "pulseless ventricular tachycardia"
+  ],
+  "d": "A very fast rhythm from the ventricles. Without a pulse it's shockable."
+ },
+ {
+  "t": "asystole",
+  "a": [
+   "flatline"
+  ],
+  "d": "No electrical activity at all. Not shockable: CPR."
+ },
+ {
+  "t": "pulseless electrical activity",
+  "a": [
+   "PEA"
+  ],
+  "d": "An organized rhythm on the monitor but no pulse in the patient. Not shockable: treat as cardiac arrest with CPR."
+ },
+ {
+  "t": "tachycardia",
+  "a": [],
+  "d": "Heart rate above 100 beats per minute in an adult."
+ },
+ {
+  "t": "bradycardia",
+  "a": [],
+  "d": "Heart rate below 60 beats per minute in an adult."
+ },
+ {
+  "t": "tachypnea",
+  "a": [],
+  "d": "Breathing faster than normal."
+ },
+ {
+  "t": "dyspnea",
+  "a": [
+   "dyspneic"
+  ],
+  "d": "Difficult or labored breathing; shortness of breath."
+ },
+ {
+  "t": "apnea",
+  "a": [],
+  "d": "No breathing."
+ },
+ {
+  "t": "hypoxia",
+  "a": [
+   "hypoxic"
+  ],
+  "d": "Not enough oxygen reaching the tissues."
+ },
+ {
+  "t": "cyanosis",
+  "a": [
+   "cyanotic"
+  ],
+  "d": "A bluish color of skin or lips from low oxygen."
+ },
+ {
+  "t": "stridor",
+  "a": [],
+  "d": "A high-pitched noise on breathing in, from a narrowed upper airway (e.g., laryngeal swelling). An emergency sign."
+ },
+ {
+  "t": "wheezing",
+  "a": [
+   "wheeze"
+  ],
+  "d": "A whistling sound from narrowed lower airways (asthma, bronchospasm)."
+ },
+ {
+  "t": "laryngeal edema",
+  "a": [
+   "laryngeal swelling"
+  ],
+  "d": "Swelling of the voice box that can block the airway; hoarseness can be an early sign."
+ },
+ {
+  "t": "hypotension",
+  "a": [
+   "hypotensive"
+  ],
+  "d": "Low blood pressure."
+ },
+ {
+  "t": "hypertension",
+  "a": [
+   "hypertensive"
+  ],
+  "d": "High blood pressure."
+ },
+ {
+  "t": "orthostatic hypotension",
+  "a": [
+   "postural hypotension",
+   "orthostatic"
+  ],
+  "d": "A drop of at least 20 mm Hg systolic or 10 mm Hg diastolic within 3 minutes of standing. Causes dizziness and falls."
+ },
+ {
+  "t": "syncope",
+  "a": [],
+  "d": "Fainting: a brief loss of consciousness from too little blood flow to the brain."
+ },
+ {
+  "t": "hypovolemic shock",
+  "a": [
+   "hypovolemic",
+   "hypovolemia"
+  ],
+  "d": "Shock from too little blood volume (bleeding, dehydration): fast pulse, cool clammy skin."
+ },
+ {
+  "t": "cardiogenic shock",
+  "a": [
+   "cardiogenic"
+  ],
+  "d": "Shock because the heart pump is failing."
+ },
+ {
+  "t": "neurogenic shock",
+  "a": [
+   "neurogenic"
+  ],
+  "d": "Shock after a spinal cord injury: vessels dilate, so low BP with a SLOW pulse and warm, dry skin."
+ },
+ {
+  "t": "distributive shock",
+  "a": [
+   "distributive"
+  ],
+  "d": "Shock from blood vessels dilating too much (anaphylactic, septic, neurogenic)."
+ },
+ {
+  "t": "obstructive shock",
+  "a": [],
+  "d": "Shock where the heart works but something blocks the circuit (e.g., a large PE or tension pneumothorax)."
+ },
+ {
+  "t": "hypoglycemia",
+  "a": [
+   "hypoglycemic"
+  ],
+  "d": "Low blood glucose: shaky, sweaty, pale, confused, within minutes. Classic setup: fasted for the study but took usual insulin."
+ },
+ {
+  "t": "hyperglycemia",
+  "a": [
+   "hyperglycemic"
+  ],
+  "d": "High blood glucose: warm dry skin, thirst, drowsy, develops over hours to days."
+ },
+ {
+  "t": "diabetic ketoacidosis",
+  "a": [
+   "DKA",
+   "ketoacidosis"
+  ],
+  "d": "A high-glucose emergency (more often type 1) with deep rapid breathing and fruity breath."
+ },
+ {
+  "t": "transient ischemic attack",
+  "a": [
+   "TIA"
+  ],
+  "d": "Stroke symptoms that fully resolve. A warning that a larger stroke may follow; worked up urgently."
+ },
+ {
+  "t": "ischemic stroke",
+  "a": [
+   "ischemic",
+   "ischemia"
+  ],
+  "d": "Ischemia = too little blood flow. An ischemic stroke is a blocked brain artery (about 7 in 8 strokes)."
+ },
+ {
+  "t": "hemorrhagic stroke",
+  "a": [
+   "hemorrhagic"
+  ],
+  "d": "A stroke from a ruptured vessel bleeding into or around the brain."
+ },
+ {
+  "t": "last known well",
+  "a": [],
+  "d": "The last time the patient was seen at their normal neurologic baseline. The stroke treatment clock starts here."
+ },
+ {
+  "t": "aphasia",
+  "a": [],
+  "d": "A language problem: trouble finding or understanding words. The brain's language centers are affected, not the mouth."
+ },
+ {
+  "t": "dysarthria",
+  "a": [],
+  "d": "Slurred or effortful speech from weak or uncoordinated speech muscles; language itself is intact."
+ },
+ {
+  "t": "apraxia",
+  "a": [
+   "apraxia of speech"
+  ],
+  "d": "Trouble sequencing the movements of speech, so sounds come out in the wrong order."
+ },
+ {
+  "t": "AED",
+  "a": [
+   "automated external defibrillator"
+  ],
+  "cs": true,
+  "d": "Automated external defibrillator: analyzes the rhythm and tells you when to shock."
+ },
+ {
+  "t": "defibrillation",
+  "a": [
+   "defibrillator",
+   "defibrillate"
+  ],
+  "d": "An electric shock to the heart to stop VF or pulseless VT so a normal rhythm can restart."
+ },
+ {
+  "t": "CPR",
+  "a": [
+   "cardiopulmonary resuscitation"
+  ],
+  "cs": true,
+  "d": "Cardiopulmonary resuscitation: chest compressions (plus breaths) for a patient with no pulse."
+ },
+ {
+  "t": "rescue breathing",
+  "a": [
+   "rescue breaths"
+  ],
+  "d": "Breaths given to someone who has a pulse but isn't breathing normally: adults 1 every 6 s, children and infants 1 every 2–3 s."
+ },
+ {
+  "t": "rapid response team",
+  "a": [
+   "rapid response"
+  ],
+  "d": "A team called for a patient who is getting worse but hasn't arrested (a code is for arrest)."
+ },
+ {
+  "t": "Code Blue",
+  "a": [
+   "code"
+  ],
+  "d": "The usual call for cardiac or respiratory arrest. Give code type, age group and exact location."
+ },
+ {
+  "t": "seizure",
+  "a": [],
+  "d": "Uncontrolled electrical activity in the brain, often with jerking movements and loss of awareness."
+ },
+ {
+  "t": "Foley",
+  "a": [
+   "Foley catheter",
+   "indwelling catheter",
+   "indwelling"
+  ],
+  "d": "An indwelling urinary catheter held in the bladder by a balloon filled with sterile water."
+ },
+ {
+  "t": "suprapubic",
+  "a": [],
+  "d": "Above the pubic bone. A suprapubic catheter goes through the lower abdominal wall into the bladder."
+ },
+ {
+  "t": "nephrostomy",
+  "a": [],
+  "d": "A tube through the skin into the kidney to drain urine."
+ },
+ {
+  "t": "T tube",
+  "a": [
+   "T-tube"
+  ],
+  "d": "A drain placed in the common bile duct after gallbladder or bile duct surgery."
+ },
+ {
+  "t": "stoma",
+  "a": [
+   "stomas"
+  ],
+  "d": "An opening of bowel (or another organ) brought out onto the skin of the abdomen."
+ },
+ {
+  "t": "ostomy",
+  "a": [
+   "ostomies"
+  ],
+  "d": "A surgically created opening (stoma), named for where it opens (ileostomy, colostomy)."
+ },
+ {
+  "t": "ileostomy",
+  "a": [],
+  "d": "A stoma from the ileum (small bowel); output is liquid to paste-like."
+ },
+ {
+  "t": "colostomy",
+  "a": [],
+  "d": "A stoma from the colon; output gets firmer the farther along the colon it is."
+ },
+ {
+  "t": "Jackson-Pratt",
+  "a": [
+   "JP drain"
+  ],
+  "d": "A surgical drain with a squeezed bulb that creates suction. Don't let the bulb hang by its tubing."
+ },
+ {
+  "t": "Hemovac",
+  "a": [],
+  "d": "A spring-loaded surgical drain that creates suction, often after joint surgery."
+ },
+ {
+  "t": "Penrose",
+  "a": [],
+  "d": "A soft open drain that works by gravity, with a safety pin so it can't slip into the wound."
+ },
+ {
+  "t": "retrograde",
+  "a": [],
+  "d": "Flowing backward against the normal direction, e.g. contrast up a bladder catheter or by enema."
+ },
+ {
+  "t": "antegrade",
+  "a": [],
+  "d": "Flowing forward in the normal direction, e.g. contrast down an NG tube."
+ },
+ {
+  "t": "retrograde pyelogram",
+  "a": [],
+  "d": "Contrast injected up the ureter through a cystoscope to show the ureter and collecting system (not kidney function)."
+ },
+ {
+  "t": "airborne precautions",
+  "a": [
+   "airborne"
+  ],
+  "d": "For germs that float in the air over distance (TB, measles, chickenpox): negative-pressure room and a fit-tested N95."
+ },
+ {
+  "t": "droplet precautions",
+  "a": [
+   "droplet"
+  ],
+  "d": "For germs spread by large droplets within about 3–6 feet (influenza, pertussis, mumps): a surgical mask on entering."
+ },
+ {
+  "t": "contact precautions",
+  "a": [],
+  "d": "For germs spread by touch (C. diff, MRSA, VRE): gown and gloves."
+ },
+ {
+  "t": "N95",
+  "a": [
+   "N95s",
+   "N95 respirator"
+  ],
+  "cs": true,
+  "d": "A fit-tested respirator that filters airborne particles. Used for airborne precautions."
+ },
+ {
+  "t": "negative-pressure room",
+  "a": [
+   "airborne infection isolation room",
+   "AIIR",
+   "negative pressure"
+  ],
+  "d": "A room where air flows in but not out to the hallway, keeping airborne germs contained."
+ },
+ {
+  "t": "PPE",
+  "a": [
+   "personal protective equipment"
+  ],
+  "cs": true,
+  "d": "Personal protective equipment: gloves, gowns, masks, respirators, eye protection."
+ },
+ {
+  "t": "doffing",
+  "a": [],
+  "d": "Taking off PPE. Gloves come off before you touch your face, the gown is peeled so the outside ends up inside, hand hygiene last."
+ },
+ {
+  "t": "donning",
+  "a": [],
+  "cs": false,
+  "d": "Putting on PPE."
+ },
+ {
+  "t": "C. difficile",
+  "a": [
+   "C. diff",
+   "Clostridioides difficile",
+   "difficile"
+  ],
+  "d": "A gut bacterium whose spores alcohol hand rub can't kill: wash with soap and water. Contact precautions."
+ },
+ {
+  "t": "MRSA",
+  "a": [],
+  "cs": true,
+  "d": "Methicillin-resistant Staphylococcus aureus: a staph bacterium resistant to many antibiotics."
+ },
+ {
+  "t": "VRE",
+  "a": [],
+  "cs": true,
+  "d": "Vancomycin-resistant Enterococcus: a gut bacterium resistant to vancomycin."
+ },
+ {
+  "t": "ESBL",
+  "a": [],
+  "cs": true,
+  "d": "Extended-spectrum beta-lactamase producers: bacteria that destroy many common antibiotics."
+ },
+ {
+  "t": "norovirus",
+  "a": [],
+  "d": "A highly contagious stomach virus. Alcohol hand rub doesn't work well against it: soap and water."
+ },
+ {
+  "t": "neutropenia",
+  "a": [
+   "neutropenic",
+   "immunocompromised"
+  ],
+  "d": "Too few infection-fighting white cells (or a weakened immune system), so the patient needs protective (reverse) isolation."
+ },
+ {
+  "t": "protective isolation",
+  "a": [
+   "reverse isolation"
+  ],
+  "d": "Precautions that protect a patient with weak immunity from staff and visitors' germs."
+ },
+ {
+  "t": "Spaulding classification",
+  "a": [
+   "Spaulding"
+  ],
+  "d": "Sorts items by infection risk: critical (enters sterile tissue → sterilize), semicritical (touches mucous membranes → high-level disinfection), noncritical (intact skin → clean/low-level)."
+ },
+ {
+  "t": "sterilization",
+  "a": [
+   "sterilize"
+  ],
+  "d": "Killing ALL microorganisms, including spores (e.g., steam autoclave)."
+ },
+ {
+  "t": "disinfection",
+  "a": [
+   "disinfectant",
+   "high-level disinfection"
+  ],
+  "d": "Killing most microorganisms, but not necessarily all spores."
+ },
+ {
+  "t": "autoclave",
+  "a": [],
+  "d": "A machine that sterilizes with pressurized steam; preferred for heat-tolerant items."
+ },
+ {
+  "t": "sterile field",
+  "a": [],
+  "d": "The area kept free of all microorganisms during a procedure. Only sterile items and gloved hands touch it."
+ },
+ {
+  "t": "cycle of infection",
+  "a": [
+   "chain of infection"
+  ],
+  "d": "The links an infection needs: agent, reservoir, portal of exit, mode of transmission, susceptible host. Break any link to stop it."
+ },
+ {
+  "t": "HIPAA",
+  "a": [],
+  "cs": true,
+  "d": "The federal law protecting patients' health information. Looking at a record you don't need for your job is a violation."
+ },
+ {
+  "t": "licensure",
+  "a": [
+   "license"
+  ],
+  "d": "Legal permission from a STATE to practice there."
+ },
+ {
+  "t": "registration",
+  "a": [],
+  "d": "Keeping your ARRT credential active: annual renewal, CE requirements and ethics attestation."
+ },
+ {
+  "t": "certification",
+  "a": [],
+  "d": "Earning the ARRT credential by meeting education and ethics requirements and passing the exam."
+ },
+ {
+  "t": "ARRT",
+  "a": [],
+  "cs": true,
+  "d": "American Registry of Radiologic Technologists: certifies and registers technologists, sets ethics rules and CE requirements."
+ },
+ {
+  "t": "ASRT",
+  "a": [],
+  "cs": true,
+  "d": "American Society of Radiologic Technologists: the professional society you join as a member; publishes the Practice Standards and scope of practice."
+ },
+ {
+  "t": "JRCERT",
+  "a": [],
+  "cs": true,
+  "d": "Joint Review Committee on Education in Radiologic Technology: accredits educational programs."
+ },
+ {
+  "t": "continuing education",
+  "a": [
+   "CE"
+  ],
+  "d": "Required ongoing education to keep ARRT registration (24 credits every 2 years)."
+ },
+ {
+  "t": "scope of practice",
+  "a": [],
+  "d": "What a technologist is educated, competent and legally allowed to do. State law and facility policy can narrow it."
+ },
+ {
+  "t": "informed consent",
+  "a": [
+   "consent"
+  ],
+  "d": "A patient's agreement after a conversation about purpose, method, risks, benefits and alternatives. Obtained by the licensed practitioner; can be withdrawn."
+ },
+ {
+  "t": "DNR",
+  "a": [
+   "do not resuscitate"
+  ],
+  "cs": true,
+  "d": "Do not resuscitate: no CPR if the heart or breathing stops. Other care, including for a patient who is struggling but has a pulse, continues."
+ },
+ {
+  "t": "advance directive",
+  "a": [],
+  "d": "A legal document stating a patient's wishes for care if they can't speak for themselves."
+ },
+ {
+  "t": "durable power of attorney for health care",
+  "a": [
+   "DPOA",
+   "health care proxy"
+  ],
+  "d": "An advance directive naming someone the patient trusts to make health decisions when the patient can't."
+ },
+ {
+  "t": "therapeutic communication",
+  "a": [],
+  "d": "Communication that helps the patient express feelings and feel heard (reflecting, restating, open-ended questions), not reassuring or changing the subject."
+ },
+ {
+  "t": "paralanguage",
+  "a": [],
+  "d": "How something is said, not the words: tone, pitch, rate, volume, pauses."
+ },
+ {
+  "t": "kinesics",
+  "a": [],
+  "d": "Body language: gestures, posture, facial expression, eye movement."
+ },
+ {
+  "t": "teach-back",
+  "a": [],
+  "d": "Asking the patient to explain or show the instructions back to you, to confirm they understood."
+ },
+ {
+  "t": "open-ended",
+  "a": [
+   "open-ended question"
+  ],
+  "d": "A question that can't be answered yes or no, inviting the patient to explain."
+ },
+ {
+  "t": "electrolarynx",
+  "a": [],
+  "d": "A battery device held against the neck that lets a patient who lost their voice box speak."
+ },
+ {
+  "t": "pressure injury",
+  "a": [
+   "pressure injuries",
+   "pressure ulcer",
+   "bedsore"
+  ],
+  "d": "Skin and tissue damage from prolonged pressure, usually over bone. Staged 1–4, plus unstageable and deep tissue."
+ },
+ {
+  "t": "shearing",
+  "a": [
+   "shear"
+  ],
+  "d": "Tissue layers sliding against each other (e.g., dragging a patient), tearing deeper tissue."
+ },
+ {
+  "t": "bony prominence",
+  "a": [
+   "bony prominences",
+   "prominences"
+  ],
+  "d": "Places where bone is close to the skin (sacrum, heels, scapulae, elbows): highest pressure injury risk."
+ },
+ {
+  "t": "gait belt",
+  "a": [],
+  "d": "A belt around the patient's waist that you hold to support them during standing and transfers."
+ },
+ {
+  "t": "Fowler",
+  "a": [
+   "high Fowler",
+   "semi-Fowler",
+   "Fowler's"
+  ],
+  "d": "Sitting up in bed. High Fowler: upright (~90°); semi-Fowler: head raised about 30–45°."
+ },
+ {
+  "t": "Trendelenburg",
+  "a": [],
+  "d": "Lying flat with the head lower than the feet."
+ },
+ {
+  "t": "restraint",
+  "a": [
+   "restraints",
+   "immobilizer",
+   "immobilizers"
+  ],
+  "d": "Anything that restricts a patient's movement beyond ordinary transport safety. Needs an order and follows restraint policy; not a fall-prevention device."
+ },
+ {
+  "t": "Safety Data Sheet",
+  "a": [
+   "SDS"
+  ],
+  "d": "The 16-section sheet that comes with every hazardous chemical. Section 4 is first aid."
+ },
+ {
+  "t": "RACE",
+  "a": [],
+  "cs": true,
+  "d": "Fire response: Rescue, Alarm, Contain/Confine, Extinguish/Evacuate."
+ },
+ {
+  "t": "PASS",
+  "a": [],
+  "cs": true,
+  "d": "Using an extinguisher: Pull the pin, Aim at the base, Squeeze, Sweep."
+ },
+ {
+  "t": "pulse oximetry",
+  "a": [
+   "pulse oximeter",
+   "oximetry",
+   "SpO2"
+  ],
+  "d": "A clip that estimates oxygen saturation of the blood. Cold hands, shivering, nail polish and a BP cuff on the same arm can give false readings."
+ },
+ {
+  "t": "apical pulse",
+  "a": [
+   "apical"
+  ],
+  "d": "The heartbeat heard with a stethoscope over the apex of the heart. Used for infants and when the radial pulse is irregular or weak."
+ },
+ {
+  "t": "carotid",
+  "a": [
+   "carotid pulse"
+  ],
+  "d": "The pulse in the neck. Check one side at a time with light pressure.",
+  "courses": [
+   "Patient Care"
+  ]
+ },
+ {
+  "t": "systolic",
+  "a": [],
+  "d": "The top blood pressure number: pressure when the heart contracts."
+ },
+ {
+  "t": "diastolic",
+  "a": [],
+  "d": "The bottom blood pressure number: pressure when the heart relaxes between beats."
+ },
+ {
+  "t": "INR",
+  "a": [],
+  "cs": true,
+  "d": "International normalized ratio: a standardized clotting test. About 0.8–1.2 without anticoagulants; higher means slower clotting."
+ },
+ {
+  "t": "prothrombin time",
+  "a": [
+   "PT"
+  ],
+  "d": "A blood clotting test (seconds), reported along with the INR."
+ },
+ {
+  "t": "aPTT",
+  "a": [
+   "PTT"
+  ],
+  "cs": true,
+  "d": "Activated partial thromboplastin time: a clotting test in seconds, used to monitor heparin."
+ },
+ {
+  "t": "hCG",
+  "a": [
+   "β-hCG",
+   "beta-hCG"
+  ],
+  "cs": true,
+  "d": "Human chorionic gonadotropin: the pregnancy hormone measured in pregnancy tests."
+ },
+ {
+  "t": "Venturi mask",
+  "a": [
+   "Venturi"
+  ],
+  "d": "An oxygen mask that delivers a set, precise oxygen concentration regardless of how the patient breathes."
+ },
+ {
+  "t": "non-rebreather",
+  "a": [
+   "non-rebreather mask"
+  ],
+  "d": "An oxygen mask with a reservoir bag and one-way valves so exhaled air can't enter the bag; delivers high concentrations."
+ },
+ {
+  "t": "nasal cannula",
+  "a": [
+   "cannula"
+  ],
+  "d": "Oxygen tubing with two prongs in the nostrils; low-flow."
+ },
+ {
+  "t": "DXA",
+  "a": [
+   "DEXA",
+   "bone densitometry",
+   "bone density"
+  ],
+  "cs": false,
+  "d": "Dual-energy x-ray absorptiometry: a low-dose scan of bone mineral density, usually lumbar spine and hip."
+ },
+ {
+  "t": "T-score",
+  "a": [],
+  "d": "DXA result compared with a healthy young adult. −1.0 or above normal; −1.0 to −2.5 osteopenia; −2.5 or below osteoporosis."
+ },
+ {
+  "t": "Z-score",
+  "a": [],
+  "d": "DXA result compared with people of the same age and sex."
+ },
+ {
+  "t": "osteoporosis",
+  "a": [],
+  "d": "Low bone density with fragile bones and high fracture risk (T-score −2.5 or below)."
+ },
+ {
+  "t": "osteopenia",
+  "a": [],
+  "d": "Bone density lower than normal but not yet osteoporosis (T-score between −1.0 and −2.5)."
+ },
+ {
+  "t": "tomosynthesis",
+  "a": [],
+  "d": "3D mammography: the tube sweeps in an arc over the compressed breast and builds thin slices."
+ },
+ {
+  "t": "MQSA",
+  "a": [],
+  "cs": true,
+  "d": "Mammography Quality Standards Act: federal rules for mammography, including sending results letters on time."
+ },
+ {
+  "t": "CC",
+  "a": [
+   "craniocaudal"
+  ],
+  "cs": true,
+  "d": "Craniocaudal: the top-to-bottom mammography view."
+ },
+ {
+  "t": "MLO",
+  "a": [
+   "mediolateral oblique"
+  ],
+  "cs": true,
+  "d": "Mediolateral oblique: the angled side mammography view."
+ },
+ {
+  "t": "Bragg peak",
+  "a": [],
+  "d": "The depth where protons dump most of their energy, with almost no exit dose beyond it. Why proton therapy spares tissue."
+ },
+ {
+  "t": "proton therapy",
+  "a": [],
+  "d": "Radiation therapy with protons, which stop at a set depth (Bragg peak). Used for children and tumors near critical structures."
+ },
+ {
+  "t": "linear accelerator",
+  "a": [
+   "linac"
+  ],
+  "d": "The machine that produces high-energy x-rays for external beam radiation therapy."
+ },
+ {
+  "t": "external beam",
+  "a": [
+   "external beam radiation therapy"
+  ],
+  "d": "Radiation therapy aimed at the body from a machine outside it. The patient doesn't become radioactive."
+ },
+ {
+  "t": "radiopharmaceutical",
+  "a": [
+   "radiopharmaceuticals",
+   "tracer"
+  ],
+  "d": "A radioactive drug given for nuclear medicine imaging; a gamma camera images where it goes."
+ },
+ {
+  "t": "PET",
+  "a": [
+   "PET/CT",
+   "PET/MRI"
+  ],
+  "cs": true,
+  "d": "Positron emission tomography: shows function (e.g., glucose use). Combined with CT or MRI to show where that activity is in the anatomy."
+ },
+ {
+  "t": "FDG",
+  "a": [],
+  "cs": true,
+  "d": "Fluorodeoxyglucose: a radioactive glucose analog taken up by active tissue, including many cancers. The usual PET tracer."
+ },
+ {
+  "t": "SPECT",
+  "a": [
+   "SPECT/CT"
+  ],
+  "cs": true,
+  "d": "Single-photon emission CT: 3D nuclear medicine imaging with a gamma camera."
+ },
+ {
+  "t": "HIDA",
+  "a": [
+   "hepatobiliary"
+  ],
+  "cs": false,
+  "d": "A nuclear medicine scan of liver bile flow; looks for cholecystitis and bile leaks."
+ },
+ {
+  "t": "V/Q scan",
+  "a": [
+   "V/Q"
+  ],
+  "d": "Ventilation/perfusion lung scan (inhaled + IV tracer) to look for pulmonary embolism."
+ },
+ {
+  "t": "hot spot",
+  "a": [
+   "hot spots"
+  ],
+  "d": "An area of INCREASED tracer uptake on a nuclear medicine image. (Cold spot = decreased.)"
+ },
+ {
+  "t": "cholecystitis",
+  "a": [],
+  "d": "Inflammation of the gallbladder."
+ },
+ {
+  "t": "metastases",
+  "a": [
+   "metastasis",
+   "metastatic"
+  ],
+  "d": "Cancer that has spread from where it started to other parts of the body."
+ },
+ {
+  "t": "myelography",
+  "a": [
+   "myelogram"
+  ],
+  "d": "Contrast injected into the subarachnoid space (usually by lumbar puncture), then x-rays and CT of the spinal canal."
+ },
+ {
+  "t": "subarachnoid space",
+  "a": [
+   "subarachnoid"
+  ],
+  "d": "The space around the spinal cord and brain that holds cerebrospinal fluid."
+ },
+ {
+  "t": "lumbar puncture",
+  "a": [
+   "spinal tap"
+  ],
+  "d": "A needle into the spinal canal in the lower back to sample fluid or inject contrast."
+ },
+ {
+  "t": "arthrography",
+  "a": [
+   "arthrogram"
+  ],
+  "d": "Contrast injected into a joint, then imaged."
+ },
+ {
+  "t": "Seldinger technique",
+  "a": [
+   "Seldinger"
+  ],
+  "d": "Vascular access method: needle into the vessel, guidewire through the needle, needle out, catheter over the wire."
+ },
+ {
+  "t": "guidewire",
+  "a": [],
+  "d": "A thin flexible wire used to guide a catheter into a vessel."
+ },
+ {
+  "t": "angioplasty",
+  "a": [],
+  "d": "Opening a narrowed artery with a balloon, usually followed by a stent."
+ },
+ {
+  "t": "restenosis",
+  "a": [],
+  "d": "An artery narrowing again after angioplasty or stenting."
+ },
+ {
+  "t": "embolization",
+  "a": [],
+  "d": "Deliberately blocking a blood vessel through a catheter (e.g., to stop bleeding or feed to a tumor)."
+ },
+ {
+  "t": "USPSTF",
+  "a": [],
+  "cs": true,
+  "d": "U.S. Preventive Services Task Force: an expert panel that issues screening recommendations."
+ },
+ {
+  "t": "ACR",
+  "a": [],
+  "cs": true,
+  "d": "American College of Radiology: publishes the Manual on Contrast Media, MR safety guidance and accreditation standards."
+ },
+ {
+  "t": "INS",
+  "a": [],
+  "cs": true,
+  "d": "Infusion Nurses Society: sets IV practice standards (e.g., the infiltration vs extravasation definitions, 2-attempt limit)."
+ },
+ {
+  "t": "ISMP",
+  "a": [],
+  "cs": true,
+  "d": "Institute for Safe Medication Practices: publishes the list of error-prone abbreviations and dose designations."
+ },
+ {
+  "t": "CDC",
+  "a": [],
+  "cs": true,
+  "d": "Centers for Disease Control and Prevention: federal infection control guidance."
+ },
+ {
+  "t": "FDA",
+  "a": [],
+  "cs": true,
+  "d": "Food and Drug Administration: approves drugs and devices, regulates labeling."
+ },
+ {
+  "t": "DEA",
+  "a": [],
+  "cs": true,
+  "d": "Drug Enforcement Administration: regulates controlled substances and their schedules."
+ },
+ {
+  "t": "PRN",
+  "a": [],
+  "cs": true,
+  "d": "Pro re nata: as needed."
+ },
+ {
+  "t": "STAT",
+  "a": [],
+  "cs": true,
+  "d": "Immediately."
+ },
+ {
+  "t": "NPO",
+  "a": [],
+  "cs": true,
+  "d": "Nil per os: nothing by mouth."
+ },
+ {
+  "t": "MAR",
+  "a": [
+   "medication administration record"
+  ],
+  "cs": true,
+  "d": "Medication administration record: where every drug given is charted, right after it's given."
+ },
+ {
+  "t": "trailing zero",
+  "a": [
+   "trailing zeros"
+  ],
+  "d": "A zero after the decimal point (5.0 mg). Never write it: it can be misread as 50."
+ },
+ {
+  "t": "leading zero",
+  "a": [],
+  "d": "A zero before the decimal point (0.5 mg). Always write it: .5 can be misread as 5."
+ },
+ {
+  "t": "verbal order",
+  "a": [
+   "verbal orders",
+   "VO"
+  ],
+  "d": "An order spoken rather than written. Write it down, read it back, get confirmation."
+ },
+ {
+  "t": "incident report",
+  "a": [
+   "safety event report"
+  ],
+  "d": "The facility's internal report of an error or near miss. Never mentioned in or filed with the patient's chart."
+ },
+ {
+  "t": "MR Safe",
+  "a": [],
+  "d": "An item with no known hazards in any MR environment (ASTM green square icon)."
+ },
+ {
+  "t": "MR Conditional",
+  "a": [],
+  "d": "Safe only under specific conditions (field strength, SAR, etc.) listed in its labeling (yellow triangle icon)."
+ },
+ {
+  "t": "MR Unsafe",
+  "a": [],
+  "d": "Known to pose a hazard in all MR environments; never enters Zone III or IV (red icon)."
+ },
+ {
+  "t": "ASTM",
+  "a": [],
+  "cs": true,
+  "d": "American Society for Testing and Materials: wrote the MR Safe / Conditional / Unsafe labeling terms."
+ },
+ {
+  "t": "ferromagnetic",
+  "a": [],
+  "d": "Strongly attracted to a magnet (iron, steel). Can become a projectile near the MRI."
+ },
+ {
+  "t": "projectile effect",
+  "a": [
+   "missile effect",
+   "projectile",
+   "projectiles"
+  ],
+  "d": "A ferromagnetic object pulled into the magnet at high speed."
+ },
+ {
+  "t": "quench",
+  "a": [],
+  "d": "Rapid boil-off of the liquid helium that shuts down the superconducting magnet's field."
+ },
+ {
+  "t": "SAR",
+  "a": [
+   "specific absorption rate"
+  ],
+  "cs": true,
+  "d": "Specific absorption rate: RF energy deposited in the body (W/kg), the cause of heating."
+ },
+ {
+  "t": "magnetophosphenes",
+  "a": [],
+  "d": "Flashes of light seen when moving the head quickly in a strong magnetic field."
+ },
+ {
+  "t": "Zone III",
+  "a": [],
+  "cs": true,
+  "d": "ACR MRI Zone III: restricted area next to the magnet room; only screened people, supervised by MR personnel."
+ },
+ {
+  "t": "Zone IV",
+  "a": [],
+  "cs": true,
+  "d": "ACR MRI Zone IV: the magnet room itself. The cart and defibrillator never enter it."
+ },
+ {
+  "t": "B0",
+  "a": [
+   "static magnetic field",
+   "static field"
+  ],
+  "cs": false,
+  "d": "The main static magnetic field of the scanner. Always on, 24/7."
+ },
+ {
+  "t": "gradient",
+  "a": [
+   "gradients",
+   "gradient field"
+  ],
+  "d": "A magnetic field that changes across space, used for spatial encoding. Switching causes the noise and can stimulate nerves (PNS).",
+  "courses": [
+   "Physics",
+   "MRI Safety",
+   "Procedures"
+  ]
+ },
+ {
+  "t": "RF",
+  "a": [
+   "radiofrequency"
+  ],
+  "cs": true,
+  "d": "Radiofrequency: the energy pulses that excite protons; they can heat tissue (SAR)."
+ },
+ {
+  "t": "PNS",
+  "a": [
+   "peripheral nerve stimulation"
+  ],
+  "cs": true,
+  "d": "Peripheral nerve stimulation: twitching or tingling from rapidly switching gradients."
+ },
+ {
+  "t": "Larmor frequency",
+  "a": [
+   "Larmor",
+   "Larmor equation"
+  ],
+  "d": "The frequency protons precess at: field strength × gyromagnetic ratio (42.58 MHz/T for hydrogen). 63.9 MHz at 1.5 T."
+ },
+ {
+  "t": "precession",
+  "a": [
+   "precess"
+  ],
+  "d": "The wobbling spin of a proton around the magnetic field direction."
+ },
+ {
+  "t": "T1 relaxation",
+  "a": [
+   "spin-lattice",
+   "T1 recovery"
+  ],
+  "d": "Spin-lattice relaxation: recovery of longitudinal magnetization after the RF pulse."
+ },
+ {
+  "t": "T2 relaxation",
+  "a": [
+   "spin-spin",
+   "T2 decay"
+  ],
+  "d": "Spin-spin relaxation: loss of transverse magnetization as protons dephase."
+ },
+ {
+  "t": "TR",
+  "a": [
+   "repetition time"
+  ],
+  "cs": true,
+  "d": "Repetition time: time between successive excitation pulses. Short TR → T1 weighting."
+ },
+ {
+  "t": "TE",
+  "a": [
+   "echo time"
+  ],
+  "cs": true,
+  "d": "Echo time: time from excitation to the echo. Long TE → T2 weighting."
+ },
+ {
+  "t": "TI",
+  "a": [
+   "inversion time"
+  ],
+  "cs": true,
+  "d": "Inversion time: delay after an inversion pulse, chosen to null a tissue (fat in STIR, fluid in FLAIR)."
+ },
+ {
+  "t": "proton density",
+  "a": [
+   "PD"
+  ],
+  "d": "Image contrast based on how many hydrogen protons a tissue has (long TR, short TE)."
+ },
+ {
+  "t": "SNR",
+  "a": [
+   "signal-to-noise ratio"
+  ],
+  "cs": true,
+  "d": "Signal-to-noise ratio: how much signal compared with background noise. Thinner slices or smaller voxels lower it."
+ },
+ {
+  "t": "NEX",
+  "a": [
+   "NSA"
+  ],
+  "cs": true,
+  "d": "Number of excitations (signal averages). Doubling NEX doubles scan time and raises SNR by about 41% (√2)."
+ },
+ {
+  "t": "FOV",
+  "a": [
+   "field of view"
+  ],
+  "cs": true,
+  "d": "Field of view: the size of the area imaged."
+ },
+ {
+  "t": "voxel",
+  "a": [
+   "voxels"
+  ],
+  "d": "A 3D pixel: the volume of tissue each image point represents."
+ },
+ {
+  "t": "STIR",
+  "a": [],
+  "cs": true,
+  "d": "Short tau inversion recovery: an inversion recovery sequence that nulls fat. Good for edema and marrow (e.g., osteomyelitis)."
+ },
+ {
+  "t": "FLAIR",
+  "a": [],
+  "cs": true,
+  "d": "Fluid-attenuated inversion recovery: a long-TI inversion recovery that nulls fluid (CSF)."
+ },
+ {
+  "t": "GRE",
+  "a": [
+   "gradient echo"
+  ],
+  "cs": true,
+  "d": "Gradient echo: a sequence with a flip angle under 90° and no 180° refocusing pulse; sensitive to blood products and metal (T2*)."
+ },
+ {
+  "t": "susceptibility artifact",
+  "a": [
+   "susceptibility"
+  ],
+  "d": "Signal loss and distortion near metal or air, from local magnetic field differences.",
+  "courses": [
+   "Physics",
+   "MRI Safety",
+   "Procedures"
+  ]
+ },
+ {
+  "t": "chemical shift",
+  "a": [
+   "chemical shift artifact"
+  ],
+  "d": "Artifact at fat–water boundaries because fat and water precess at slightly different frequencies."
+ },
+ {
+  "t": "Gibbs artifact",
+  "a": [
+   "truncation artifact",
+   "Gibbs",
+   "truncation"
+  ],
+  "d": "Thin parallel lines near sharp edges from too little sampling; can mimic a syrinx. Fix by increasing the matrix."
+ },
+ {
+  "t": "aliasing",
+  "a": [
+   "wraparound",
+   "wrap-around"
+  ],
+  "d": "Anatomy outside the field of view folding into the image in the phase direction.",
+  "courses": [
+   "Physics",
+   "MRI Safety",
+   "Procedures"
+  ]
+ },
+ {
+  "t": "phase direction",
+  "a": [
+   "phase encoding"
+  ],
+  "d": "The image direction encoded by phase; motion artifact and aliasing show up along it.",
+  "courses": [
+   "Physics",
+   "MRI Safety",
+   "Procedures"
+  ]
+ },
+ {
+  "t": "receiver bandwidth",
+  "a": [
+   "bandwidth"
+  ],
+  "d": "The range of frequencies sampled. Wider bandwidth reduces metal and chemical shift artifact but lowers SNR.",
+  "courses": [
+   "Physics",
+   "MRI Safety",
+   "Procedures"
+  ]
+ },
+ {
+  "t": "fat saturation",
+  "a": [
+   "fat sat",
+   "FATSAT",
+   "chemical fat saturation"
+  ],
+  "d": "A pulse that suppresses fat signal by its frequency. Fails near metal, so avoid it with hardware."
+ },
+ {
+  "t": "saturation band",
+  "a": [
+   "spatial saturation band",
+   "sat band"
+  ],
+  "d": "A band that nulls signal from tissue outside the area of interest (e.g., over the throat to cut swallowing artifact)."
+ },
+ {
+  "t": "syrinx",
+  "a": [],
+  "d": "A fluid-filled cavity inside the spinal cord."
+ },
+ {
+  "t": "osteomyelitis",
+  "a": [],
+  "d": "Infection of bone."
+ },
+ {
+  "t": "CSF",
+  "a": [
+   "cerebrospinal fluid"
+  ],
+  "cs": true,
+  "d": "Cerebrospinal fluid: the clear fluid around the brain and spinal cord."
+ },
+ {
+  "t": "reflecting",
+  "a": [
+   "reflection"
+  ],
+  "d": "A therapeutic technique: sending the patient’s idea or feeling back to them so they explore it and reach their own decision."
+ },
+ {
+  "t": "validating",
+  "a": [
+   "validation"
+  ],
+  "d": "A therapeutic technique: checking that you understood what the patient reported, e.g. “You’re saying the pain is worse when you lie flat?”"
+ },
+ {
+  "t": "making observations",
+  "a": [],
+  "d": "A therapeutic technique: saying out loud the feeling you notice, e.g. “You seem tense.”"
+ },
+ {
+  "t": "false reassurance",
+  "a": [],
+  "d": "A block to communication: “Don’t worry, everything will be fine.” It dismisses the patient’s feelings."
+ },
+ {
+  "t": "closed question",
+  "a": [
+   "closed questions",
+   "closed-ended"
+  ],
+  "d": "A question answered with yes, no or one word. Fine for facts, poor for feelings."
+ },
+ {
+  "t": "strike-through",
+  "a": [],
+  "d": "Moisture wicking organisms through a sterile wrapper. A damp or wet pack is unsterile."
+ },
+ {
+  "t": "pyrexia",
+  "a": [
+   "febrile"
+  ],
+  "d": "Fever: a temperature of 100.4 °F (38.0 °C) or higher."
+ },
+ {
+  "t": "hypothermia",
+  "a": [],
+  "d": "Body temperature below 95.0 °F (35.0 °C)."
+ },
+ {
+  "t": "base of support",
+  "a": [],
+  "d": "The area under you between your feet. Feet about shoulder-width apart, knees slightly bent, gives a stable base for lifting."
+ },
+ {
+  "t": "body mechanics",
+  "a": [],
+  "d": "Moving and lifting safely: wide base, lift with the legs, keep the load close, turn with your feet instead of twisting."
+ },
+ {
+  "t": "Class C fire",
+  "a": [
+   "class C"
+  ],
+  "d": "An electrical fire (energized equipment). Use CO2 or ABC dry chemical, never water."
+ },
+ {
+  "t": "two identifiers",
+  "a": [
+   "2 identifiers"
+  ],
+  "d": "Two patient-specific details (usually full name and date of birth), checked against the wristband and the order. Never a room number."
+ },
+ {
+  "t": "epistaxis",
+  "a": [
+   "nosebleed"
+  ],
+  "d": "A nosebleed. Pinch the soft part of the nose and lean forward; never tilt the head back."
+ },
+ {
+  "t": "amniotic fluid",
+  "a": [],
+  "d": "The fluid surrounding the fetus in the uterus; it helps keep the fetus cool during MRI."
+ },
+ {
+  "t": "metric ladder",
+  "a": [],
+  "d": "1 L = 1,000 mL; 1 kg = 1,000 g = 2.2 lb; 1 g = 1,000 mg; 1 mg = 1,000 mcg."
+ },
+ {
+  "t": "ADME",
+  "a": [],
+  "cs": true,
+  "d": "Absorption, Distribution, Metabolism, Excretion: the four steps of pharmacokinetics."
+ },
+ {
+  "t": "tuberculosis",
+  "a": [
+   "TB"
+  ],
+  "d": "A bacterial lung infection spread through the air. Airborne precautions: negative-pressure room and N95."
+ },
+ {
+  "t": "MTV",
+  "a": [],
+  "cs": true,
+  "d": "Memory aid for AIRBORNE precautions: Measles, TB, Varicella (chickenpox)."
+ },
+ {
+  "t": "meningitis",
+  "a": [],
+  "d": "Inflammation/infection of the membranes around the brain and spinal cord. Bacterial (meningococcal) meningitis is droplet."
+ },
+ {
+  "t": "pharyngitis",
+  "a": [],
+  "d": "Sore, inflamed throat; streptococcal pharyngitis is a droplet-precaution infection."
+ },
+ {
+  "t": "The Joint Commission",
+  "a": [
+   "TJC",
+   "Joint Commission"
+  ],
+  "d": "The organization that accredits hospitals and sets safety standards (e.g., restraints, time-outs, drills)."
+ },
+ {
+  "t": "respiratory therapist",
+  "a": [
+   "RT"
+  ],
+  "cs": false,
+  "d": "The clinician who manages ventilators, oxygen therapy and airway suctioning."
+ },
+ {
+  "t": "MDP",
+  "a": [
+   "Tc-99m MDP"
+  ],
+  "d": "Methylene diphosphonate: the technetium-99m tracer used for bone scans."
+ },
+ {
+  "t": "dialysis",
+  "a": [],
+  "d": "Filtering the blood by machine (or through the abdomen) when the kidneys have failed."
+ },
+ {
+  "t": "CQR",
+  "a": [
+   "Continuing Qualification Requirements"
+  ],
+  "cs": true,
+  "d": "ARRT Continuing Qualification Requirements: a self-assessment every 10 years for credentials earned since 2011."
+ },
+ {
+  "t": "SOB",
+  "a": [],
+  "cs": true,
+  "d": "Shortness of breath."
+ },
+ {
+  "t": "IU",
+  "a": [
+   "International Unit"
+  ],
+  "cs": true,
+  "d": "International unit. An error-prone abbreviation (can be read as IV); write “units” or “international units.”"
+ },
+ {
+  "t": "MSO4",
+  "a": [
+   "MS",
+   "MgSO4"
+  ],
+  "cs": true,
+  "d": "Error-prone abbreviations: MS/MSO4 (morphine sulfate) and MgSO4 (magnesium sulfate) get confused. Write the full drug name."
+ },
+ {
+  "t": "PO",
+  "a": [
+   "per os"
+  ],
+  "cs": true,
+  "d": "Per os: by mouth."
+ },
+ {
+  "t": "LMP",
+  "a": [
+   "last menstrual period"
+  ],
+  "cs": true,
+  "d": "Last menstrual period: asked privately when screening for pregnancy."
+ },
+ {
+  "t": "internal jugular",
+  "a": [
+   "IJ"
+  ],
+  "d": "A large neck vein, a common site for nontunneled central lines."
+ },
+ {
+  "t": "intercostal space",
+  "a": [
+   "ICS"
+  ],
+  "d": "The space between two ribs (e.g., 4th ICS for the V1 ECG lead or a chest tube at the 4th–5th ICS)."
+ },
+ {
+  "t": "menadione",
+  "a": [
+   "vitamin K3",
+   "K3"
+  ],
+  "d": "Vitamin K3. Not the warfarin reversal agent (that’s vitamin K1, phytonadione)."
+ },
+ {
+  "t": "ACR Group I",
+  "a": [
+   "Omniscan",
+   "Magnevist",
+   "OptiMARK",
+   "gadodiamide",
+   "gadopentetate",
+   "gadoversetamide"
+  ],
+  "d": "Gadolinium agents with the most NSF cases (Omniscan, Magnevist, OptiMARK). Contraindicated with AKI or eGFR below 30."
+ },
+ {
+  "t": "ACR Group II",
+  "a": [
+   "Gadavist",
+   "Dotarem",
+   "Clariscan",
+   "ProHance",
+   "MultiHance",
+   "Eovist",
+   "gadobutrol",
+   "gadoterate",
+   "gadoteridol",
+   "gadobenate",
+   "gadoxetate"
+  ],
+  "d": "Gadolinium agents with few, if any, unconfounded NSF cases. Kidney screening optional at standard doses."
+ },
+ {
+  "t": "capnography",
+  "a": [
+   "capnometry",
+   "exhaled CO2"
+  ],
+  "d": "Monitoring of exhaled carbon dioxide; shows breathing during sedation and confirms an ET tube is in the trachea."
+ },
+ {
+  "t": "OTC",
+  "a": [
+   "over-the-counter"
+  ],
+  "cs": true,
+  "d": "Over the counter: sold without a prescription."
+ },
+ {
+  "t": "AAAAI",
+  "a": [],
+  "cs": true,
+  "d": "American Academy of Allergy, Asthma & Immunology; co-wrote the 2025 contrast premedication consensus with the ACR."
+ },
+ {
+  "t": "ACS",
+  "a": [
+   "American Cancer Society"
+  ],
+  "cs": true,
+  "d": "American Cancer Society: publishes its own cancer screening schedules."
+ },
+ {
+  "t": "hyperemia",
+  "a": [],
+  "d": "Redness from increased blood flow. Blanchable redness over a pressure point is the first warning of a pressure injury."
+ },
+ {
+  "t": "necrosis",
+  "a": [
+   "necrotic"
+  ],
+  "d": "Death of tissue."
+ },
+ {
+  "t": "ADA",
+  "a": [
+   "Americans with Disabilities Act"
+  ],
+  "cs": true,
+  "d": "Americans with Disabilities Act: requires effective communication (e.g., sign-language interpreters) for deaf patients."
+ },
+ {
+  "t": "level of consciousness",
+  "a": [
+   "LOC"
+  ],
+  "d": "How awake and responsive a patient is. A change is often the earliest sign of trouble."
+ },
+ {
+  "t": "Glasgow Coma Scale",
+  "a": [
+   "GCS"
+  ],
+  "d": "A 3–15 score of eye, verbal and motor response used to track level of consciousness."
+ },
+ {
+  "t": "intracranial pressure",
+  "a": [
+   "ICP"
+  ],
+  "d": "Pressure inside the skull. Rising ICP first shows as a change in level of consciousness."
+ },
+ {
+  "t": "VRSA",
+  "a": [],
+  "cs": true,
+  "d": "Vancomycin-resistant Staphylococcus aureus."
+ },
+ {
+  "t": "B1",
+  "a": [
+   "B1 field"
+  ],
+  "cs": true,
+  "d": "The RF magnetic field transmitted to excite protons; the source of SAR heating."
+ },
+ {
+  "t": "RMS",
+  "a": [
+   "root-mean-square"
+  ],
+  "cs": true,
+  "d": "Root-mean-square: an average of a varying signal, used for B1 exposure limits (B1+RMS)."
+ },
+ {
+  "t": "ASTM F2503",
+  "a": [
+   "F2503"
+  ],
+  "cs": true,
+  "d": "The ASTM standard defining the MR Safe / Conditional / Unsafe labels and icons."
+ },
+ {
+  "t": "T1-weighted",
+  "a": [
+   "T1W",
+   "T1 weighted"
+  ],
+  "d": "Image contrast driven by T1 (short TR, short TE): fat bright, fluid dark."
+ },
+ {
+  "t": "T2-weighted",
+  "a": [
+   "T2W",
+   "T2 weighted"
+  ],
+  "d": "Image contrast driven by T2 (long TR, long TE): fluid bright."
+ },
+ {
+  "t": "FSE",
+  "a": [
+   "fast spin echo",
+   "TSE",
+   "turbo spin echo"
+  ],
+  "cs": true,
+  "d": "Fast (turbo) spin echo: several echoes per TR to shorten scan time."
+ },
+ {
+  "t": "hemosiderin",
+  "a": [],
+  "d": "An iron-storage breakdown product of old blood; shows as dark blooming on GRE images."
+ },
+ {
+  "t": "scoliosis",
+  "a": [],
+  "d": "A side-to-side curve of the spine; best shown in the coronal plane."
+ },
+ {
+  "t": "kyphosis",
+  "a": [],
+  "d": "A forward (outward) rounding curve of the spine, normal in the thoracic region."
+ },
+ {
+  "t": "lordosis",
+  "a": [],
+  "d": "An inward curve of the spine, normal in the cervical and lumbar regions."
+ },
+ {
+  "t": "date of birth",
+  "a": [
+   "DOB"
+  ],
+  "cs": false,
+  "d": "Date of birth; one of the two patient identifiers (with full name)."
+ }
+]

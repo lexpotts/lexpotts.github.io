@@ -1,0 +1,783 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Mer's MRI Quiz</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&family=Space+Grotesk:wght@500;700&family=JetBrains+Mono:wght@500&display=swap">
+<style>
+.qimg{display:block;width:100%;max-height:62vh;object-fit:contain;background:#000;border-radius:10px;margin:10px 0;cursor:zoom-in}
+.qimg.zoom{max-height:none;cursor:zoom-out}
+/* Layout: one centered column (max 720px), a slim sticky header, cards only for the question and the feedback. */
+:root{
+  --bg:#f3f6f8; --surface:#ffffff; --ink:#14212b; --muted:#5b6b78; --line:#d6e0e7;
+  --accent:#0f6f8c; --accent-ink:#ffffff; --accent-soft:#e1f0f5;
+  --good:#1f7a4d; --good-soft:#e2f4ea; --bad:#b4372f; --bad-soft:#fbe7e5; --warn:#9a6a00;
+  --font-display:"Space Grotesk",system-ui,sans-serif;
+  --font-body:"Atkinson Hyperlegible",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --font-mono:"JetBrains Mono",ui-monospace,Consolas,monospace;
+  --r:12px;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#0d151b; --surface:#15212a; --ink:#e6eef3; --muted:#93a5b2; --line:#26353f;
+  --accent:#5cc0dd; --accent-ink:#06222c; --accent-soft:#163543;
+  --good:#5fd39a; --good-soft:#123326; --bad:#ff8a80; --bad-soft:#3a1a18; --warn:#e7b84b; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#0d151b; --surface:#15212a; --ink:#e6eef3; --muted:#93a5b2; --line:#26353f;
+  --accent:#5cc0dd; --accent-ink:#06222c; --accent-soft:#163543;
+  --good:#5fd39a; --good-soft:#123326; --bad:#ff8a80; --bad-soft:#3a1a18; --warn:#e7b84b; color-scheme:dark}
+*{box-sizing:border-box}
+[hidden]{display:none!important}
+html,body{margin:0}
+body{background:var(--bg);color:var(--ink);font:17px/1.55 var(--font-body);
+  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:0 48px}
+.wrap{max-width:720px;margin:0 auto;display:flex;flex-direction:column;gap:20px}
+header{position:sticky;top:0;z-index:5;background:var(--bg);padding-block:14px 10px;border-bottom:1px solid var(--line);
+  display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap}
+h1,h2,h3{font-family:var(--font-display);text-wrap:balance;margin:0;line-height:1.2}
+h1{font-size:1.25rem;letter-spacing:-.01em}
+h1 small{font:500 .75rem var(--font-mono);color:var(--muted);margin-left:8px;letter-spacing:.04em}
+.sync{flex-basis:100%;font:500 .8rem var(--font-mono);color:var(--warn);letter-spacing:.02em}
+h2{font-size:1.15rem}
+.who{display:flex;align-items:center;gap:8px;font-size:.9rem;color:var(--muted)}
+.who input{width:8em;font:inherit;color:var(--ink);background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:4px 8px}
+.label{font:500 .72rem var(--font-mono);text-transform:uppercase;letter-spacing:.08em;color:var(--muted)}
+.row{display:flex;flex-wrap:wrap;gap:8px}
+.chip{font:inherit;font-size:.92rem;border:1px solid var(--line);background:var(--surface);color:var(--ink);border-radius:999px;padding:6px 14px;cursor:pointer}
+.chip[aria-pressed="true"]{background:var(--accent);border-color:var(--accent);color:var(--accent-ink)}
+.chip:focus-visible,.btn:focus-visible,.opt:focus-visible,input:focus-visible{outline:3px solid var(--accent);outline-offset:2px}
+.btn{font:700 1rem var(--font-body);border:0;border-radius:10px;padding:12px 22px;cursor:pointer;background:var(--accent);color:var(--accent-ink)}
+.btn.ghost{background:transparent;color:var(--accent);border:1px solid var(--line)}
+.btn:disabled{opacity:.45;cursor:not-allowed}
+section{display:flex;flex-direction:column;gap:12px}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:20px;display:flex;flex-direction:column;gap:14px}
+/* topic accuracy table */
+.topics{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:6px 14px;align-items:center}
+.bar{grid-column:1/-1;height:6px;border-radius:3px;background:var(--line);overflow:hidden;margin-bottom:6px}
+.bar i{display:block;height:100%;background:var(--accent)}
+.bar i.lo{background:var(--bad)} .bar i.mid{background:var(--warn)} .bar i.hi{background:var(--good)}
+.num{font:500 .85rem var(--font-mono);color:var(--muted);font-variant-numeric:tabular-nums;white-space:nowrap}
+/* question */
+.meta{display:flex;justify-content:space-between;gap:8px;flex-wrap:wrap}
+.stem{font-size:1.12rem;font-weight:700}
+.hint{font-size:.88rem;color:var(--muted)}
+.opts{display:flex;flex-direction:column;gap:10px}
+.opt{display:flex;gap:12px;align-items:flex-start;text-align:left;width:100%;font:inherit;color:var(--ink);background:var(--bg);
+  border:2px solid var(--line);border-radius:10px;padding:12px 14px;cursor:pointer}
+.opt{flex-wrap:wrap}
+.opt .txt{flex:1 1 12em;min-width:0}
+.opt .key{font:500 .8rem var(--font-mono);border:1px solid var(--line);border-radius:6px;min-width:1.8em;text-align:center;padding:1px 4px;color:var(--muted);margin-top:2px}
+.opt[aria-checked="true"]{border-color:var(--accent);background:var(--accent-soft)}
+.opt.right{border-color:var(--good);background:var(--good-soft)}
+.opt.wrong{border-color:var(--bad);background:var(--bad-soft)}
+.opt.missed{border-color:var(--good);border-style:dashed}
+.opt .tag{margin-left:auto;font:500 .72rem var(--font-mono);text-transform:uppercase;letter-spacing:.06em;white-space:nowrap;padding-top:3px}
+.opt.right .tag{color:var(--good)} .opt.wrong .tag{color:var(--bad)} .opt.missed .tag{color:var(--good)}
+.opt[disabled]{cursor:default}
+#fill{font:1.05rem var(--font-body);color:var(--ink);background:var(--bg);border:2px solid var(--line);border-radius:10px;padding:12px 14px;width:100%}
+.verdict{font-family:var(--font-display);font-size:1.2rem;font-weight:700}
+.verdict.good{color:var(--good)} .verdict.bad{color:var(--bad)}
+.explain{border-left:4px solid var(--accent);padding:4px 0 4px 14px}
+.explain p{margin:0}
+.src{font:500 .78rem var(--font-mono);color:var(--muted)}
+/* vocabulary terms in the feedback: dotted underline, definition on hover / focus / tap */
+.term{text-decoration:underline dotted var(--accent);text-decoration-thickness:2px;text-underline-offset:3px;cursor:help;border-radius:3px}
+.term:hover,.term:focus-visible{background:var(--accent-soft);outline:none}
+.tip{position:absolute;z-index:20;background:var(--ink);color:var(--bg);font:400 .9rem/1.45 var(--font-body);
+  padding:10px 12px;border-radius:10px;box-shadow:0 6px 24px rgb(0 0 0 / .25);pointer-events:auto}
+.tip strong{font-family:var(--font-display);margin-right:2px}
+.refs{display:flex;flex-direction:column;gap:8px;background:var(--bg);border:1px solid var(--line);border-radius:10px;padding:10px 14px}
+.ref-where{font:500 .85rem var(--font-mono);color:var(--ink);overflow-wrap:anywhere}
+.ref-where a{color:var(--accent)}
+.ref blockquote{margin:4px 0 0;padding-left:10px;border-left:3px solid var(--line);font-size:.92rem;color:var(--muted);font-style:italic;overflow-wrap:anywhere}
+.progress{height:4px;background:var(--line);border-radius:2px;overflow:hidden}
+.progress i{display:block;height:100%;background:var(--accent);transition:width .25s}
+.actions{display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap}
+.missed-list{margin:0;padding-left:1.2em;display:flex;flex-direction:column;gap:8px}
+.big{font:700 2.4rem var(--font-display);font-variant-numeric:tabular-nums}
+.note{font-size:.9rem;color:var(--muted)}
+.err{color:var(--bad)}
+.btn.small{font-size:.88rem;padding:8px 14px}
+.fix{display:flex;flex-wrap:wrap;gap:8px}
+.flag-form{display:flex;flex-direction:column;gap:8px}
+#flag-note{font:1rem var(--font-body);color:var(--ink);background:var(--bg);border:2px solid var(--line);border-radius:10px;padding:10px 12px;width:100%;resize:vertical}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1><span id="app-title">Mer's MRI Quiz</span><small id="bank-count"></small></h1>
+    <label class="who" for="who">Quizzing <input id="who" autocomplete="off"></label>
+    <p class="sync" id="sync" role="status" hidden></p>
+  </header>
+
+  <!-- START SCREEN -->
+  <section id="start">
+    <div class="card">
+      <h2>Start a round</h2>
+      <div class="label">Course</div>
+      <div class="row" id="courses"></div>
+      <div class="label">Topics</div>
+      <div class="row" id="topics"></div>
+      <div class="label">Which questions</div>
+      <div class="row" id="modes">
+        <button class="chip" data-mode="smart" aria-pressed="true">Smart mix (missed &amp; new first)</button>
+        <button class="chip" data-mode="new" aria-pressed="false">Only new (never answered)</button>
+        <button class="chip" data-mode="missed" aria-pressed="false">Only ones I've missed</button>
+        <button class="chip" data-mode="all" aria-pressed="false">Everything, shuffled</button>
+      </div>
+      <div class="label">How many</div>
+      <div class="row" id="counts">
+        <button class="chip" data-n="10" aria-pressed="true">10</button>
+        <button class="chip" data-n="20" aria-pressed="false">20</button>
+        <button class="chip" data-n="40" aria-pressed="false">40</button>
+        <button class="chip" data-n="0" aria-pressed="false">All</button>
+      </div>
+      <div class="actions"><span class="note" id="pool-note"></span><button class="btn" id="go">Start</button></div>
+      <p class="err" id="load-err" hidden></p>
+    </div>
+    <div class="card">
+      <h2>How you're doing</h2>
+      <p class="note">Based on your most recent answer to each question.</p>
+      <div class="topics" id="stats"></div>
+    </div>
+    <!-- Static hosting only: answers live in this browser, so offer a file backup and transfer. -->
+    <div class="card" id="progress-card" hidden>
+      <h2>Your progress</h2>
+      <p class="note" id="progress-note"></p>
+      <div class="row">
+        <button class="btn ghost small" id="export">Save progress to a file</button>
+        <button class="btn ghost small" id="import">Load progress from a file</button>
+        <input type="file" id="import-file" accept="application/json,.json" hidden>
+      </div>
+      <p class="note" id="progress-msg" role="status" hidden></p>
+    </div>
+  </section>
+
+  <!-- QUESTION SCREEN -->
+  <section id="quiz" hidden>
+    <div class="progress"><i id="prog" style="width:0"></i></div>
+    <div class="card">
+      <div class="meta"><span class="label" id="q-topic"></span><span class="num" id="q-count"></span></div>
+      <div class="stem" id="q-stem"></div>
+      <img id="q-img" class="qimg" alt="Scan for this question" hidden>
+      <div class="hint" id="q-hint"></div>
+      <div class="opts" id="q-opts" role="group"></div>
+      <input id="fill" hidden autocomplete="off" placeholder="Type the value and the unit">
+      <div class="actions">
+        <button class="btn ghost" id="quit">End round</button>
+        <button class="btn" id="submit" disabled>Check answer</button>
+      </div>
+    </div>
+    <div class="card" id="feedback" hidden>
+      <div class="verdict" id="verdict"></div>
+      <div id="fill-answer" hidden></div>
+      <div class="explain"><p id="explain"></p></div>
+      <div class="src" id="src"></div>
+      <div class="refs" id="refs" hidden></div>
+      <div class="fix" id="fix">
+        <button class="btn ghost small" id="override" hidden>My answer was right. Count it.</button>
+        <button class="btn ghost small" id="flag">Report a problem with this question</button>
+      </div>
+      <div class="flag-form" id="flag-form" hidden>
+        <label class="label" for="flag-note">What's wrong?</label>
+        <textarea id="flag-note" rows="3" placeholder="e.g. the answer key is wrong, or the question is confusing"></textarea>
+        <div class="row"><button class="btn small" id="flag-send">Send report</button><button class="btn ghost small" id="flag-cancel">Cancel</button></div>
+      </div>
+      <div class="note" id="fix-msg" hidden></div>
+      <div class="actions"><span></span><button class="btn" id="next">Next question</button></div>
+    </div>
+  </section>
+
+  <!-- RESULTS SCREEN -->
+  <section id="done" hidden>
+    <div class="card">
+      <div class="label">Round finished</div>
+      <div class="big" id="score"></div>
+      <div class="topics" id="round-topics"></div>
+      <div id="missed-wrap">
+        <h3>Review these</h3>
+        <ol class="missed-list" id="missed"></ol>
+      </div>
+      <div class="actions"><button class="btn ghost" id="home">Back to start</button><button class="btn" id="again">Retry the ones I missed</button></div>
+    </div>
+  </section>
+</div>
+
+<script src="grade.js"></script>
+<script>
+const $ = s => document.querySelector(s);
+const store = { get(k,d){try{return localStorage.getItem(k)??d}catch{return d}}, set(k,v){try{localStorage.setItem(k,v)}catch{}} };
+let BANK = [], HISTORY = [];
+let sel = { course: 'all', topics: new Set(), mode: 'smart', n: 10 };
+let round = null;
+
+const whoEl = $('#who');
+whoEl.value = store.get('quiz-who', 'Mer');
+whoEl.addEventListener('change', () => { store.set('quiz-who', whoEl.value.trim() || 'Mer'); renderStats(); });
+const who = () => whoEl.value.trim() || 'Mer';
+
+function shuffle(a){ a=[...a]; for(let i=a.length-1;i>0;i--){const j=Math.random()*(i+1)|0;[a[i],a[j]]=[a[j],a[i]]} return a }
+
+// latest answer per question for the current person
+function latest(){ const m = {}; for (const h of HISTORY) if (h.who === who()) m[h.qid] = h; return m }
+
+// ---------- offline outbox ----------
+// Every answer and report goes into an IndexedDB outbox first, then is sent. If the server is down,
+// it stays there and is retried (every 20 s, when the tab comes back, and on reload) until the server
+// accepts it. Each item carries a uid so a resend after a lost response is never counted twice.
+// The last questions/answers fetched are cached too, so new rounds can start while the server is down.
+const newId = () => Date.now().toString(36) + '-' + Math.random().toString(36).slice(2, 10);
+
+// ---------- two ways to run ----------
+// SERVER mode (Alex's LAN server, server.js): answers go to the server; the outbox below covers outages.
+// STATIC mode (a plain static host such as GitHub Pages): there is no server. Every answer is kept
+// permanently in this browser (IndexedDB store "answers"). The static build writes quiz-config.json,
+// which is how the page knows; the LAN server has no such file.
+let STATIC = false, CONFIG = {};
+
+// ---------- browser storage: backwards-compatibility contract ----------
+// Visitors' progress lives only in their browser, and we can't touch it once a new version ships. So:
+//  * The database is only ever UPGRADED, one step at a time (oldVersion checks below). Never delete or
+//    rename an object store, never change a keyPath; add new stores in a new version step.
+//  * Answer records keep every field they were written with. New fields must be optional, and readers
+//    must handle records that lack them (see migrateAnswer). `v` is the record format version.
+//  * Questions are matched to answers by `id` and by option POSITION, so question ids are never reused
+//    or renamed, and options are never reordered or removed (only reworded or appended).
+//  * Correctness is re-graded against the current answer key on every load, so fixing a key fixes
+//    everyone's history; the stored `correct` is only a fallback for deleted questions.
+const DB_NAME = 'mer-quiz', DB_VERSION = 2, ANSWER_FORMAT = 1;
+const memStore = { outbox: new Map(), cache: new Map(), answers: new Map(), flags: new Map() };   // fallback if IndexedDB is unavailable
+let dbp = null;
+function openDB(){
+  return dbp ||= new Promise((res, rej) => {
+    const r = indexedDB.open(DB_NAME, DB_VERSION);
+    r.onupgradeneeded = e => {
+      const db = r.result, old = e.oldVersion;
+      if (old < 1) { db.createObjectStore('outbox', { keyPath: 'uid' }); db.createObjectStore('cache') }
+      if (old < 2) { db.createObjectStore('answers', { keyPath: 'uid' }); db.createObjectStore('flags', { keyPath: 'uid' }) }
+      // future: if (old < 3) { ...add stores only... }
+    };
+    r.onsuccess = () => { const db = r.result; db.onversionchange = () => db.close(); res(db) };   // let a newer tab upgrade
+    r.onblocked = () => { const el = $('#sync'); el.hidden = false; el.textContent = 'Another tab has an older version of this quiz open. Close it to finish updating.' };
+    r.onerror = () => rej(r.error);
+  }).catch(() => null);
+}
+// If IndexedDB is unavailable (some private windows), keep answers in localStorage instead of losing them on reload.
+const LS_KEY = 'mer-quiz-answers-fallback';
+function lsLoad(){ try { for (const a of JSON.parse(localStorage.getItem(LS_KEY) || '[]')) memStore.answers.set(a.uid, a) } catch {} }
+function lsSave(){ try { localStorage.setItem(LS_KEY, JSON.stringify([...memStore.answers.values()])) } catch {} }
+async function idb(store, mode, op){
+  const db = await openDB();
+  if (!db){ const r = op(null); return r && typeof r === 'object' && 'result' in r ? r.result : r }
+  return new Promise((res, rej) => {
+    const tx = db.transaction(store, mode), req = op(tx.objectStore(store));
+    tx.oncomplete = () => res(req && req.result); tx.onerror = tx.onabort = () => rej(tx.error);
+  });
+}
+const outboxAll = () => idb('outbox', 'readonly', s => s ? s.getAll() : { result: [...memStore.outbox.values()] }).catch(() => [...memStore.outbox.values()]);
+const outboxPut = it => idb('outbox', 'readwrite', s => s ? s.put(it) : memStore.outbox.set(it.uid, it)).catch(() => memStore.outbox.set(it.uid, it));
+const outboxDel = uid => idb('outbox', 'readwrite', s => s ? s.delete(uid) : memStore.outbox.delete(uid)).catch(() => memStore.outbox.delete(uid));
+const cacheGet = k => idb('cache', 'readonly', s => s ? s.get(k) : { result: memStore.cache.get(k) }).catch(() => memStore.cache.get(k));
+const cacheSet = (k, v) => idb('cache', 'readwrite', s => s ? s.put(v, k) : memStore.cache.set(k, v)).catch(() => memStore.cache.set(k, v));
+// Static mode: the permanent answer and report stores.
+const answersAll = () => idb('answers', 'readonly', s => s ? s.getAll() : { result: [...memStore.answers.values()] }).catch(() => [...memStore.answers.values()]);
+const answersPut = a => idb('answers', 'readwrite', s => s ? s.put(a) : (memStore.answers.set(a.uid, a), lsSave())).catch(() => { memStore.answers.set(a.uid, a); lsSave() });
+const flagsAll = () => idb('flags', 'readonly', s => s ? s.getAll() : { result: [...memStore.flags.values()] }).catch(() => [...memStore.flags.values()]);
+const flagsPut = f => idb('flags', 'readwrite', s => s ? s.put(f) : memStore.flags.set(f.uid, f)).catch(() => memStore.flags.set(f.uid, f));
+// Bring an answer record of any past format up to the current shape (records are never rewritten on disk).
+function migrateAnswer(a){
+  const r = { ...a };
+  r.v ??= 1;                                   // records before the format number existed are format 1
+  r.answeredAt ??= r.ts || null;
+  r.who ??= '';
+  return r;
+}
+// Re-grade against the current answer key, the same way server.js does.
+function regrade(a, byId){
+  const q = byId[a.qid]; if (!q) return a;
+  if (q.type === 'fill') { if (!a.override && typeof a.response === 'string') a.correct = Grade.gradeFill(q, a.response) }
+  else if (Array.isArray(a.response) && Array.isArray(q.answer)) a.correct = a.response.length === q.answer.length && a.response.every(i => q.answer.includes(i));
+  return a;
+}
+
+// fetch with a timeout, so a powered-off server fails in seconds instead of hanging
+function fetchT(url, opts = {}, ms = 8000){
+  const ac = new AbortController(), t = setTimeout(() => ac.abort(), ms);
+  return fetch(url, { ...opts, signal: ac.signal }).finally(() => clearTimeout(t));
+}
+const getJSON = url => fetchT(url).then(r => { if (!r.ok) throw new Error(r.status); return r.json() });
+
+let flushing = null, serverUp = true;
+function flush(){
+  if (STATIC) return Promise.resolve();
+  return flushing ||= (async () => {
+    try {
+      const items = (await outboxAll()).sort((a, b) => a.queued - b.queued);
+      for (const it of items){
+        let r;
+        try { r = await fetchT(it.url, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(it.body) }) }
+        catch { serverUp = false; return }                         // unreachable: keep everything, try later
+        serverUp = true;
+        if (r.ok || r.status === 400) await outboxDel(it.uid);      // 400 = malformed; retrying would never succeed
+        else return;                                                // server error: try later
+      }
+    } finally { flushing = null; showSync() }
+  })();
+}
+// Queue first, then try to send. Resolves true if it reached the server now, false if it is waiting.
+async function send(url, body){
+  body.uid ||= newId();
+  if (STATIC) {   // no server: answers and reports are kept in this browser for good
+    const rec = { ...body, v: ANSWER_FORMAT, savedAt: new Date().toISOString() };
+    if (url === '/api/answers') await answersPut(rec); else await flagsPut(rec);
+    requestPersist();
+    return true;
+  }
+  await outboxPut({ uid: body.uid, url, body, queued: Date.now() });
+  await flush();
+  return !(await outboxAll()).some(i => i.uid === body.uid);
+}
+async function showSync(){
+  if (STATIC) return;
+  const n = (await outboxAll()).length, el = $('#sync');
+  el.hidden = !n && serverUp;
+  el.textContent = n
+    ? `Server offline. ${n} ${n === 1 ? 'answer is' : 'answers are'} saved on this device and will sync when it is back.`
+    : 'Server offline. Answers will be saved on this device until it is back.';
+}
+setInterval(flush, 20000);
+document.addEventListener('visibilitychange', () => { if (!document.hidden) flush() });
+window.addEventListener('online', flush);
+
+async function loadStatic(){
+  let q;
+  try { q = await getJSON('bank.json?v=' + encodeURIComponent(CONFIG.version || '')); cacheSet('bank', q) } catch { q = await cacheGet('bank') }
+  if (!q){ const el=$('#load-err'); el.hidden=false; el.textContent='Could not load the questions. Check your internet connection, then reload.'; return }
+  const byId = Object.fromEntries(q.map(x => [x.id, x]));
+  const a = (await answersAll()).map(migrateAnswer).map(r => regrade(r, byId))
+    .sort((x, y) => String(x.answeredAt).localeCompare(String(y.answeredAt)));
+  BANK = q; HISTORY = a.map(r => ({ ...r, ts: r.answeredAt }));
+  loadGlossary();
+  $('#bank-count').textContent = BANK.length + ' questions';
+  renderPicker(); renderStats(); renderProgressCard();
+}
+async function load(){
+  if (STATIC) return loadStatic();
+  let q, a, offline = false;
+  try {
+    [q, a] = await Promise.all([getJSON('/api/questions'), getJSON('/api/answers')]);
+    cacheSet('bank', q); cacheSet('history', a);
+  } catch {
+    offline = true; serverUp = false;
+    q = await cacheGet('bank'); a = (await cacheGet('history')) || [];
+  }
+  if (!q){ const el=$('#load-err'); el.hidden=false; el.textContent='Could not reach the quiz server. Make sure it is running on Alex\'s computer, then reload.'; showSync(); return }
+  // answers still waiting in the outbox count toward progress and the smart mix
+  const have = new Set(a.map(x => x.uid).filter(Boolean));
+  const pending = (await outboxAll()).filter(i => i.url === '/api/answers' && !have.has(i.uid)).map(i => ({ ...i.body, ts: i.body.answeredAt }));
+  BANK = q; HISTORY = [...a, ...pending];
+  loadGlossary();
+  $('#bank-count').textContent = BANK.length + ' questions';
+  renderPicker(); renderStats();
+  if (offline) showSync(); else flush();
+}
+
+function renderPicker(){
+  const courses = ['all', ...new Set(BANK.map(q=>q.course))];
+  const c = $('#courses'); c.innerHTML='';
+  for (const name of courses){
+    const b = document.createElement('button'); b.className='chip'; b.textContent = name==='all'?'All courses':name;
+    b.setAttribute('aria-pressed', String(sel.course===name));
+    b.onclick = () => { sel.course=name; sel.topics.clear(); renderPicker(); };
+    c.append(b);
+  }
+  const topics = [...new Set(BANK.filter(q=>sel.course==='all'||q.course===sel.course).map(q=>q.topic))];
+  const t = $('#topics'); t.innerHTML='';
+  for (const name of topics){
+    const b = document.createElement('button'); b.className='chip'; b.textContent=name;
+    b.setAttribute('aria-pressed', String(sel.topics.has(name)));
+    b.onclick = () => { sel.topics.has(name)?sel.topics.delete(name):sel.topics.add(name); renderPicker(); };
+    t.append(b);
+  }
+  const n = pool().length;
+  $('#pool-note').textContent = sel.mode==='new'
+    ? (n ? `${n} new ${n===1?'question':'questions'} you haven't answered yet` : 'No new questions here. You\'ve answered them all.')
+    : `${n} questions match`;
+  if (!sel.topics.size && n) $('#pool-note').textContent += ' (all topics)';
+}
+for (const b of document.querySelectorAll('#modes .chip')) b.onclick = () => { sel.mode=b.dataset.mode; document.querySelectorAll('#modes .chip').forEach(x=>x.setAttribute('aria-pressed',String(x===b))); renderPicker(); };
+for (const b of document.querySelectorAll('#counts .chip')) b.onclick = () => { sel.n=+b.dataset.n; document.querySelectorAll('#counts .chip').forEach(x=>x.setAttribute('aria-pressed',String(x===b))); };
+
+function pool(){
+  const last = latest();
+  let p = BANK.filter(q => (sel.course==='all'||q.course===sel.course) && (!sel.topics.size||sel.topics.has(q.topic)));
+  if (sel.mode==='missed') p = p.filter(q => last[q.id] && !last[q.id].correct);
+  if (sel.mode==='new') p = p.filter(q => !last[q.id]);   // never answered by this person, right or wrong
+  return p;
+}
+
+function pickRound(p){
+  if (sel.mode==='smart'){
+    const last = latest();
+    const counts = {}; for (const h of HISTORY) if (h.who===who() && h.correct) counts[h.qid]=(counts[h.qid]||0)+1;
+    const pri = q => { const l=last[q.id]; if(!l) return 3; if(!l.correct) return 4; return counts[q.id]>1?0:1 };
+    p = shuffle(p).sort((a,b)=>pri(b)-pri(a));
+  } else p = shuffle(p);
+  return sel.n ? p.slice(0, sel.n) : p;
+}
+
+function renderStats(target='#stats', subset=null){
+  const last = latest(); const el=$(target); el.innerHTML='';
+  const by = {};
+  for (const q of BANK){ const k=q.course+' · '+q.topic; (by[k] ||= {total:0,seen:0,right:0}).total++;
+    const l=last[q.id]; if(l){by[k].seen++; if(l.correct) by[k].right++} }
+  const rows = subset || Object.entries(by).map(([k,v])=>({k,...v}));
+  if (!rows.length || rows.every(r=>!r.seen)) { el.innerHTML='<span class="note">No answers yet. Finish a round and your results by topic will show here.</span>'; return }
+  rows.sort((a,b)=>(a.seen?a.right/a.seen:2)-(b.seen?b.right/b.seen:2));
+  for (const r of rows){
+    const pct = r.seen? Math.round(100*r.right/r.seen) : null;
+    const name=document.createElement('span'); name.textContent=r.k;
+    const num=document.createElement('span'); num.className='num'; num.textContent = pct===null?`not tried (${r.total})`:`${pct}%  ${r.right}/${r.seen}` + (r.total?` · ${r.total} in bank`:'');
+    const bar=document.createElement('div'); bar.className='bar'; const i=document.createElement('i');
+    i.style.width=(pct??0)+'%'; i.className = pct===null?'':pct<70?'lo':pct<85?'mid':'hi'; bar.append(i);
+    el.append(name,num,bar);
+  }
+}
+
+// ---------- quiz flow ----------
+function show(id){ for (const s of ['start','quiz','done']) $('#'+s).hidden = s!==id; window.scrollTo(0,0) }
+
+function startRound(qs){
+  if (!qs.length) return;
+  round = { qs, i:0, results:[], session: Date.now().toString(36) };
+  show('quiz'); renderQ();
+}
+$('#go').onclick = () => { const p = pickRound(pool()); if(!p.length){ $('#pool-note').textContent='Nothing to quiz with these settings.'; return } startRound(p) };
+
+$('#q-img').addEventListener('click', e => e.currentTarget.classList.toggle('zoom'));
+let picked = new Set(), order = [], t0 = 0, answered = false;
+function renderQ(){
+  const q = round.qs[round.i]; answered=false; picked=new Set(); t0=performance.now();
+  $('#prog').style.width = (100*round.i/round.qs.length)+'%';
+  $('#q-topic').textContent = q.course+' · '+q.topic;
+  $('#q-count').textContent = `${round.i+1} / ${round.qs.length}`;
+  $('#q-stem').textContent = q.q;
+  const qi = $('#q-img'); qi.classList.remove('zoom');
+  // Hide until the new scan has loaded, so the previous question's image never shows with these options.
+  qi.hidden = true; qi.removeAttribute('src');
+  if (q.image){ qi.onload = () => { qi.hidden = false }; qi.src = 'img/'+q.image }
+  $('#feedback').hidden = true; $('#submit').hidden=false; $('#submit').disabled = true;
+  const opts = $('#q-opts'); opts.innerHTML='';
+  const fill = $('#fill');
+  if (q.type==='fill'){
+    $('#q-hint').textContent = q.strict
+      ? 'Safe dose notation, graded exactly: number, a space, then the unit. Zeros and abbreviations count.'
+      : 'Type the value AND the unit (if it has one).';
+    fill.hidden=false; fill.disabled=false; fill.value=''; fill.focus();
+    fill.oninput = () => { $('#submit').disabled = !fill.value.trim() };
+  } else {
+    fill.hidden=true;
+    const k = q.answer.length;
+    $('#q-hint').textContent = q.type==='multi' ? `Select ${k}. All correct choices and no wrong ones are needed for credit.` : 'Pick one.';
+    order = shuffle(q.options.map((_,i)=>i));
+    order.forEach((orig, pos) => {
+      const b=document.createElement('button'); b.className='opt'; b.dataset.i=orig;
+      b.setAttribute('role', q.type==='multi'?'checkbox':'radio'); b.setAttribute('aria-checked','false');
+      const key=document.createElement('span'); key.className='key'; key.textContent=pos+1;
+      const txt=document.createElement('span'); txt.className='txt'; txt.textContent=q.options[orig];
+      b.append(key,txt);
+      b.onclick = () => toggle(orig);
+      opts.append(b);
+    });
+  }
+}
+function toggle(i){
+  if (answered) return; const q=round.qs[round.i];
+  if (q.type==='single'){ picked = new Set([i]) } else { picked.has(i)?picked.delete(i):picked.add(i) }
+  for (const b of $('#q-opts').children) b.setAttribute('aria-checked', String(picked.has(+b.dataset.i)));
+  $('#submit').disabled = q.type==='multi' ? picked.size!==q.answer.length : picked.size!==1;
+}
+
+$('#submit').onclick = check;
+// ---- Vocabulary: after answering, terms in the feedback get a dotted underline; hover, focus or tap shows the definition.
+let GLOSS = null;   // { re, reCS, map: lowercased/exact term -> entry }
+async function loadGlossary(){
+  let g;
+  try { g = await getJSON('glossary.json' + (STATIC ? '?v=' + encodeURIComponent(CONFIG.version || '') : '')); cacheSet('glossary', g) } catch { g = await cacheGet('glossary') }
+  if (!Array.isArray(g)) return;
+  const esc = s => s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+  const ci = [], cs = [], map = new Map();
+  for (const e of g) for (const k of [e.t, ...(e.a || [])]) {
+    // All-caps abbreviations (IM, PE, TR) only match in capitals, so ordinary words never light up.
+    const exact = e.cs || /^[A-Z0-9][A-Z0-9/\-]+$/.test(k);
+    (exact ? cs : ci).push(k);
+    map.set(exact ? 'cs:' + k : k.toLowerCase(), e);
+  }
+  const alt = list => list.sort((a, b) => b.length - a.length).map(esc).join('|');
+  // Words may take a plural ending; abbreviations match exactly.
+  GLOSS = { map,
+    re: ci.length ? new RegExp(`(?<![\\w-])(${alt(ci)})(?:s|es)?(?![\\w-])`, 'gi') : null,
+    reCS: cs.length ? new RegExp(`(?<![\\w-])(${alt(cs)})(?![\\w-])`, 'g') : null };
+}
+function glossaryFor(text, course){
+  // All matches in one pass, longest first wins, no overlaps.
+  const hits = [];
+  for (const [re, exact] of [[GLOSS.reCS, true], [GLOSS.re, false]]) {
+    if (!re) continue; re.lastIndex = 0; let m;
+    while ((m = re.exec(text))) {
+      const e = GLOSS.map.get(exact ? 'cs:' + m[1] : m[1].toLowerCase());
+      if (e && (!e.courses || e.courses.includes(course))) hits.push({ s: m.index, end: m.index + m[0].length, e });
+    }
+  }
+  hits.sort((a, b) => a.s - b.s || (b.end - b.s) - (a.end - a.s));
+  const out = []; let last = 0;
+  for (const h of hits) if (h.s >= last) { out.push(h); last = h.end }
+  return out;
+}
+// Underline the first use of each term inside the given elements (text nodes only, so nothing else changes).
+function markTerms(els, course){
+  if (!GLOSS) return;
+  const seen = new Set();
+  for (const el of els) {
+    if (!el) continue;
+    const walker = document.createTreeWalker(el, NodeFilter.SHOW_TEXT, { acceptNode: n => n.parentElement.closest('.term,a,button') ? NodeFilter.FILTER_REJECT : NodeFilter.FILTER_ACCEPT });
+    const nodes = []; while (walker.nextNode()) nodes.push(walker.currentNode);
+    for (const node of nodes) {
+      const text = node.nodeValue, hits = glossaryFor(text, course).filter(h => !seen.has(h.e.t));
+      if (!hits.length) continue;
+      const frag = document.createDocumentFragment(); let pos = 0;
+      for (const h of hits) {
+        if (seen.has(h.e.t)) continue; seen.add(h.e.t);
+        frag.append(text.slice(pos, h.s));
+        const span = document.createElement('span');
+        span.className = 'term'; span.tabIndex = 0; span.setAttribute('role', 'button');
+        span.setAttribute('aria-label', `${text.slice(h.s, h.end)}: definition`);
+        span.dataset.term = h.e.t; span.dataset.def = h.e.d; span.textContent = text.slice(h.s, h.end);
+        frag.append(span); pos = h.end;
+      }
+      frag.append(text.slice(pos)); node.replaceWith(frag);
+    }
+  }
+}
+// One shared tooltip, placed under (or above) the term and kept on screen.
+const tip = document.createElement('div'); tip.className = 'tip'; tip.id = 'term-tip'; tip.setAttribute('role', 'tooltip'); tip.hidden = true;
+document.body.append(tip);
+let tipFor = null, tipPinned = false;
+function showTip(el, pin){
+  tipFor = el; tipPinned = !!pin;
+  tip.replaceChildren(Object.assign(document.createElement('strong'), { textContent: el.dataset.term }), document.createTextNode(' ' + el.dataset.def));
+  tip.hidden = false; el.setAttribute('aria-describedby', 'term-tip');
+  const r = el.getBoundingClientRect(), w = Math.min(320, window.innerWidth - 24);
+  tip.style.width = w + 'px';
+  const left = Math.max(12, Math.min(r.left + r.width / 2 - w / 2, window.innerWidth - w - 12));
+  tip.style.left = left + window.scrollX + 'px';
+  const h = tip.offsetHeight, below = r.bottom + 8, above = r.top - h - 8;
+  tip.style.top = (below + h > window.innerHeight - 8 && above > 8 ? above : below) + window.scrollY + 'px';
+}
+function hideTip(){ if (tipFor) tipFor.removeAttribute('aria-describedby'); tip.hidden = true; tipFor = null; tipPinned = false }
+document.addEventListener('mouseover', e => { const t = e.target.closest?.('.term'); if (t && !tipPinned) showTip(t) });
+document.addEventListener('mouseout', e => { const t = e.target.closest?.('.term'); if (t && !tipPinned && !t.contains(e.relatedTarget)) hideTip() });
+document.addEventListener('focusin', e => { const t = e.target.closest?.('.term'); if (t) showTip(t) });
+document.addEventListener('focusout', e => { if (e.target.closest?.('.term') && !tipPinned) hideTip() });
+// Tap (phones) or click pins it open; tapping elsewhere or Esc closes it.
+document.addEventListener('click', e => {
+  const t = e.target.closest?.('.term');
+  if (t) { e.preventDefault(); if (tipFor === t && tipPinned) hideTip(); else showTip(t, true); return }
+  if (!e.target.closest?.('.tip')) hideTip();
+});
+document.addEventListener('keydown', e => {
+  if (e.key === 'Escape') hideTip();
+  const t = e.target.closest?.('.term'); if (t && (e.key === 'Enter' || e.key === ' ')) { e.preventDefault(); showTip(t, true) }
+});
+window.addEventListener('scroll', () => { if (tipFor && !tipPinned) hideTip() }, { passive: true });
+
+// "Where this is in your slides": deck, slide or page, and the line that states the answer.
+// PDF decks link straight to the page (the server serves course PDFs read-only).
+function renderRefs(q){
+  const box = $('#refs'); box.replaceChildren();
+  const refs = Array.isArray(q.refs) ? q.refs : [];
+  box.hidden = !refs.length;
+  if (!refs.length) return;
+  const head = document.createElement('div'); head.className = 'label'; head.textContent = 'In your course materials';
+  box.append(head);
+  for (const r of refs) {
+    const item = document.createElement('div'); item.className = 'ref';
+    const where = document.createElement('div'); where.className = 'ref-where';
+    const pg = /^p\. (\d+)$/.exec(r.loc || '');
+    if (!STATIC && /\.pdf$/i.test(r.file || '') && pg) {   // course PDFs are only served by the LAN server
+      const a = document.createElement('a');
+      a.href = '/materials/' + r.file.split('/').map(encodeURIComponent).join('/') + '#page=' + pg[1];
+      a.target = '_blank'; a.rel = 'noopener'; a.textContent = `${r.doc} · ${r.loc}`;
+      where.append(a);
+    } else where.textContent = `${r.doc} · ${r.loc}`;
+    item.append(where);
+    if (r.quote) { const qt = document.createElement('blockquote'); qt.textContent = r.quote; item.append(qt); }
+    box.append(item);
+  }
+}
+function check(){
+  if (answered) return; const q=round.qs[round.i]; answered=true;
+  let correct, response;
+  if (q.type==='fill'){
+    response = $('#fill').value.trim(); $('#fill').disabled=true;
+    correct = Grade.gradeFill(q, response);
+    const fa=$('#fill-answer'); fa.hidden=false; fa.innerHTML='';
+    const you=document.createElement('div'); you.innerHTML='<span class="label">You wrote</span> '; you.append(document.createTextNode(response));
+    const ans=document.createElement('div'); ans.innerHTML='<span class="label">Answer</span> '; ans.append(document.createTextNode(q.answerText));
+    fa.append(you, ans);
+  } else {
+    response = [...picked].sort();
+    const right = new Set(q.answer);
+    correct = response.length===right.size && response.every(i=>right.has(i));
+    for (const b of $('#q-opts').children){
+      const i=+b.dataset.i; b.disabled=true; const tag=document.createElement('span'); tag.className='tag';
+      if (right.has(i) && picked.has(i)) { b.classList.add('right'); tag.textContent='✓ correct' }
+      else if (right.has(i)) { b.classList.add('missed'); tag.textContent= q.type==='multi' ? '✓ you missed this' : '✓ correct answer' }
+      else if (picked.has(i)) { b.classList.add('wrong'); tag.textContent='✗ your pick' }
+      if (tag.textContent) b.append(tag);
+    }
+    $('#fill-answer').hidden=true;
+  }
+  const v=$('#verdict'); v.textContent = correct?'Correct':'Not quite'; v.className='verdict '+(correct?'good':'bad');
+  $('#explain').textContent = q.explain; $('#src').textContent = q.source ? 'From: '+q.source : '';
+  renderRefs(q);
+  hideTip();
+  markTerms([$('#explain'), $('#fill-answer'), ...document.querySelectorAll('#refs blockquote')], q.course);
+  $('#feedback').hidden=false; $('#submit').hidden=true;
+  $('#next').textContent = round.i+1<round.qs.length ? 'Next question' : 'See results';
+  $('#next').focus({preventScroll:true}); $('#feedback').scrollIntoView({behavior:'smooth',block:'nearest'});
+  const now = new Date().toISOString();
+  const rec = { who: who(), qid:q.id, correct, response, ms: Math.round(performance.now()-t0), session: round.session, answeredAt: now, uid: newId() };
+  round.results.push({q, correct});
+  HISTORY.push({...rec, ts:now});
+  lastRec = rec;
+  $('#override').hidden = correct || q.type!=='fill';
+  $('#fix').hidden=false; $('#flag-form').hidden=true; $('#fix-msg').hidden=true;
+  send('/api/answers', {...rec});   // saved on this device first; the header shows if it is waiting to sync
+}
+let lastRec = null;
+function fixMsg(t){ const m=$('#fix-msg'); m.textContent=t; m.hidden=false }
+const waitNote = ' The server is offline, so it is saved on this device and will sync when the server is back.';
+
+// Grader said wrong, but she typed a correct answer in a form the grader didn't expect.
+$('#override').onclick = async () => {
+  const now = new Date().toISOString();
+  const rec = {...lastRec, correct:true, override:true, answeredAt: now, uid: newId()};
+  HISTORY.push({...rec, ts:now});
+  round.results[round.results.length-1].correct = true;
+  const v=$('#verdict'); v.textContent='Counted as correct'; v.className='verdict good';
+  $('#override').hidden=true;
+  const sent = await send('/api/answers', rec);
+  // also tell Claude, so the grader learns this way of writing it
+  send('/api/flags', {who:who(), qid:lastRec.qid, response:lastRec.response, note:'Marked correct by hand: grader missed this form of the answer.'});
+  fixMsg(STATIC ? 'Counted as correct.' : 'Counted as correct. This way of writing it has been reported so the grader can accept it next time.' + (sent ? '' : waitNote));
+};
+$('#flag').onclick = () => { $('#flag-form').hidden=false; $('#flag-note').focus() };
+$('#flag-cancel').onclick = () => { $('#flag-form').hidden=true };
+$('#flag-send').onclick = async () => {
+  const note = $('#flag-note').value.trim(); if(!note){ $('#flag-note').focus(); return }
+  $('#flag-note').value=''; $('#flag-form').hidden=true;
+  const sent = await send('/api/flags', {who:who(), qid:lastRec.qid, response:lastRec.response, note});
+  fixMsg(STATIC ? 'Thanks. Your note is saved in this browser.' : 'Thanks. The report was saved for review.' + (sent ? '' : waitNote));
+};
+$('#next').onclick = () => { round.i++; round.i<round.qs.length ? renderQ() : finish() };
+$('#quit').onclick = () => round.results.length ? finish() : (show('start'), renderStats());
+$('#fill').addEventListener('keydown', e => { if (e.key==='Enter' && !$('#submit').disabled && !answered) { e.preventDefault(); check() } });
+document.addEventListener('keydown', e => {
+  if ($('#quiz').hidden || e.target.tagName==='INPUT') return;
+  if (/^[1-9]$/.test(e.key) && !answered){ const b=$('#q-opts').children[+e.key-1]; if(b) toggle(+b.dataset.i) }
+  if (e.key==='Enter'){ e.preventDefault(); if(!answered && !$('#submit').disabled) check(); else if(answered) $('#next').click() }
+});
+
+function finish(){
+  const r = round.results, right = r.filter(x=>x.correct).length;
+  $('#score').textContent = `${right} / ${r.length}  ·  ${Math.round(100*right/r.length)}%`;
+  const by = {}; for (const x of r){ const k=x.q.topic; (by[k] ||= {k,total:0,seen:0,right:0}); by[k].seen++; if(x.correct) by[k].right++ }
+  renderStats('#round-topics', Object.values(by));
+  const miss = r.filter(x=>!x.correct); const ol=$('#missed'); ol.innerHTML='';
+  $('#missed-wrap').hidden = !miss.length; $('#again').hidden = !miss.length;
+  for (const x of miss){ const li=document.createElement('li'); li.textContent = x.q.q; ol.append(li) }
+  round.missed = miss.map(x=>x.q);
+  show('done');
+}
+$('#home').onclick = () => { show('start'); renderPicker(); renderStats() };
+$('#again').onclick = () => startRound(shuffle(round.missed));
+
+// Self-update: when the app files change on the server, reload, but only while the start screen
+// is showing, so a round or its results are never interrupted. Answers are saved as they're given.
+let VERSION = null;
+async function serverVersion(){
+  try {
+    if (STATIC) return (await fetch('quiz-config.json?t=' + Date.now(), { cache: 'no-store' }).then(r => r.json())).version;
+    return (await fetch('/api/version').then(r=>r.json())).version;
+  } catch { return null }
+}
+async function maybeUpdate(){
+  const v = await serverVersion(); if (!v) return;
+  if (VERSION === null) { VERSION = v; return }
+  if (v !== VERSION && !$('#start').hidden) location.reload();   // only on the start screen
+}
+setInterval(maybeUpdate, 60000);
+document.addEventListener('visibilitychange', () => { if (!document.hidden) maybeUpdate() });
+$('#go').addEventListener('click', maybeUpdate);
+
+// ---------- static mode: progress card (save to / load from a file) ----------
+let persistAsked = false;
+function requestPersist(){
+  // Ask the browser not to clear this site's storage when space runs low (silently granted or not).
+  if (persistAsked || !navigator.storage?.persist) return; persistAsked = true;
+  navigator.storage.persist().then(renderProgressCard).catch(() => {});
+}
+async function renderProgressCard(){
+  if (!STATIC) return;
+  const card = $('#progress-card'); card.hidden = false;
+  const n = HISTORY.filter(h => h.who === who()).length, all = HISTORY.length;
+  let kept = '';
+  try { if (await navigator.storage?.persisted?.()) kept = ' Your browser has agreed to keep it.' } catch {}
+  $('#progress-note').textContent = `Your answers are saved only in this browser on this device (${n} answers as ${who()}${all !== n ? `, ${all} in total` : ''}).${kept} To move to another device or keep a backup, save your progress to a file.`;
+}
+const PROGRESS_APP = 'mri-quiz-progress', PROGRESS_FORMAT = 1;
+$('#export').onclick = async () => {
+  const data = { app: PROGRESS_APP, format: PROGRESS_FORMAT, answerFormat: ANSWER_FORMAT, exportedAt: new Date().toISOString(),
+    answers: await answersAll(), flags: await flagsAll() };
+  const url = URL.createObjectURL(new Blob([JSON.stringify(data)], { type: 'application/json' }));
+  const a = Object.assign(document.createElement('a'), { href: url, download: `mri-quiz-progress-${new Date().toISOString().slice(0, 10)}.json` });
+  document.body.append(a); a.click(); a.remove(); setTimeout(() => URL.revokeObjectURL(url), 5000);
+};
+$('#import').onclick = () => $('#import-file').click();
+$('#import-file').onchange = async e => {
+  const f = e.target.files[0]; e.target.value = ''; if (!f) return;
+  const msg = $('#progress-msg'); msg.hidden = false;
+  try {
+    const data = JSON.parse(await f.text());
+    if (data.app !== PROGRESS_APP || !Array.isArray(data.answers)) throw new Error('not a progress file');
+    // Merge: answers are keyed by uid, so loading the same file twice adds nothing.
+    const have = new Set((await answersAll()).map(a => a.uid));
+    let added = 0;
+    for (const a of data.answers) if (a && a.uid && a.qid && !have.has(a.uid)) { await answersPut(a); added++ }
+    for (const fl of data.flags || []) if (fl && fl.uid) await flagsPut(fl);
+    msg.textContent = added ? `Loaded ${added} answers from the file.` : 'Nothing new in that file: those answers are already here.';
+    await loadStatic();
+  } catch { msg.textContent = 'That file could not be read as quiz progress.' }
+};
+
+// ---------- start: decide the mode, then load ----------
+(async function boot(){
+  try { const c = await getJSON('quiz-config.json?t=' + Date.now()); if (c && c.mode === 'static') { STATIC = true; CONFIG = c } } catch {}
+  if (STATIC) {
+    lsLoad();
+    if (CONFIG.title) { document.title = CONFIG.title; $('#app-title').textContent = CONFIG.title }
+    if (!store.get('quiz-who', '')) whoEl.value = 'Me';
+    $('#flag').textContent = 'Make a note about this question';
+    $('#flag-send').textContent = 'Save note';
+  }
+  maybeUpdate();
+  load();
+})();
+whoEl.addEventListener('change', () => renderProgressCard());
+</script>
+</body>
+</html>
