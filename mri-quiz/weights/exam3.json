@@ -2,7 +2,7 @@
  "meta": {
   "exam": "Patient Care Exam 3",
   "date": "2026-11-24",
-  "built": "2026-11-22T23:33:37.681Z",
+  "built": "2026-11-22T23:42:14.552Z",
   "expectedItems": {
    "Ch10": 19.5,
    "Ch12": 21.4,
@@ -379,61 +379,61 @@
    ]
   },
   "pc-076": {
-   "w": 69,
+   "w": 67,
    "tier": "Medium",
    "section": "Ch11",
    "why": [
-    "Ch11: ~7.1 exam items expected, 30 bank questions",
+    "Ch11: ~7.1 exam items expected, 32 bank questions",
     "select-N format: 13 on the exam (×1.1)"
    ]
   },
   "pc-077": {
-   "w": 63,
+   "w": 61,
    "tier": "Medium",
    "section": "Ch11",
    "why": [
-    "Ch11: ~7.1 exam items expected, 30 bank questions"
+    "Ch11: ~7.1 exam items expected, 32 bank questions"
    ]
   },
   "pc-078": {
-   "w": 69,
+   "w": 67,
    "tier": "Medium",
    "section": "Ch11",
    "why": [
-    "Ch11: ~7.1 exam items expected, 30 bank questions",
+    "Ch11: ~7.1 exam items expected, 32 bank questions",
     "select-N format: 13 on the exam (×1.1)"
    ]
   },
   "pc-079": {
-   "w": 63,
+   "w": 61,
    "tier": "Medium",
    "section": "Ch11",
    "why": [
-    "Ch11: ~7.1 exam items expected, 30 bank questions"
+    "Ch11: ~7.1 exam items expected, 32 bank questions"
    ]
   },
   "pc-080": {
-   "w": 63,
+   "w": 61,
    "tier": "Medium",
    "section": "Ch11",
    "why": [
-    "Ch11: ~7.1 exam items expected, 30 bank questions"
+    "Ch11: ~7.1 exam items expected, 32 bank questions"
    ]
   },
   "pc-081": {
-   "w": 63,
+   "w": 61,
    "tier": "Medium",
    "section": "Ch11",
    "why": [
-    "Ch11: ~7.1 exam items expected, 30 bank questions"
+    "Ch11: ~7.1 exam items expected, 32 bank questions"
    ]
   },
   "pc-082": {
-   "w": 63,
+   "w": 61,
    "tier": "Medium",
    "section": "Ch11",
    "why": [
-    "Ch11: ~7.1 exam items expected, 30 bank questions"
+    "Ch11: ~7.1 exam items expected, 32 bank questions"
    ]
   },
   "pc-083": {
@@ -441,55 +441,55 @@
    "tier": "Low",
    "section": "Ch3",
    "why": [
-    "Ch3: ~4.7 exam items expected, 18 bank questions",
+    "Ch3: ~4.7 exam items expected, 19 bank questions",
     "topic not on the guide's Ch3 list (×0.5)",
     "select-N format: 13 on the exam (×1.1)"
    ]
   },
   "pc-084": {
-   "w": 35,
+   "w": 34,
    "tier": "Low",
    "section": "Ch3",
    "why": [
-    "Ch3: ~4.7 exam items expected, 18 bank questions",
+    "Ch3: ~4.7 exam items expected, 19 bank questions",
     "topic not on the guide's Ch3 list (×0.5)"
    ]
   },
   "pc-085": {
-   "w": 70,
+   "w": 69,
    "tier": "Medium",
    "section": "Ch3",
    "why": [
-    "Ch3: ~4.7 exam items expected, 18 bank questions"
+    "Ch3: ~4.7 exam items expected, 19 bank questions"
    ]
   },
   "pc-086": {
-   "w": 35,
+   "w": 34,
    "tier": "Low",
    "section": "Ch3",
    "why": [
-    "Ch3: ~4.7 exam items expected, 18 bank questions",
+    "Ch3: ~4.7 exam items expected, 19 bank questions",
     "topic not on the guide's Ch3 list (×0.5)"
    ]
   },
   "pc-087": {
-   "w": 70,
+   "w": 69,
    "tier": "Medium",
    "section": "Ch3",
    "why": [
-    "Ch3: ~4.7 exam items expected, 18 bank questions"
+    "Ch3: ~4.7 exam items expected, 19 bank questions"
    ]
   },
   "pc-088": {
-   "w": 70,
+   "w": 69,
    "tier": "Medium",
    "section": "Ch3",
    "why": [
-    "Ch3: ~4.7 exam items expected, 18 bank questions"
+    "Ch3: ~4.7 exam items expected, 19 bank questions"
    ]
   },
   "pc-089": {
-   "w": 33,
+   "w": 34,
    "tier": "Low",
    "section": "Ch5",
    "why": [
@@ -499,7 +499,7 @@
    ]
   },
   "pc-090": {
-   "w": 30,
+   "w": 31,
    "tier": "Low",
    "section": "Ch5",
    "why": [
@@ -508,7 +508,7 @@
    ]
   },
   "pc-091": {
-   "w": 60,
+   "w": 62,
    "tier": "Medium",
    "section": "Ch5",
    "why": [
@@ -516,7 +516,7 @@
    ]
   },
   "pc-092": {
-   "w": 60,
+   "w": 62,
    "tier": "Medium",
    "section": "Ch5",
    "why": [
@@ -524,7 +524,7 @@
    ]
   },
   "pc-093": {
-   "w": 30,
+   "w": 31,
    "tier": "Low",
    "section": "Ch5",
    "why": [
@@ -533,7 +533,7 @@
    ]
   },
   "pc-094": {
-   "w": 30,
+   "w": 31,
    "tier": "Low",
    "section": "Ch5",
    "why": [
@@ -542,7 +542,7 @@
    ]
   },
   "pc-095": {
-   "w": 60,
+   "w": 62,
    "tier": "Medium",
    "section": "Ch5",
    "why": [
@@ -550,116 +550,116 @@
    ]
   },
   "pc-096": {
-   "w": 76,
-   "tier": "High",
+   "w": 72,
+   "tier": "Medium",
    "section": "Ch12",
    "why": [
-    "Ch12: ~21.4 exam items expected, 94 bank questions",
+    "Ch12: ~21.4 exam items expected, 103 bank questions",
     "concept named in the study guide (×1.25)"
    ]
   },
   "pc-097": {
-   "w": 61,
+   "w": 57,
    "tier": "Medium",
    "section": "Ch12",
    "why": [
-    "Ch12: ~21.4 exam items expected, 94 bank questions"
+    "Ch12: ~21.4 exam items expected, 103 bank questions"
    ]
   },
   "pc-098": {
-   "w": 76,
-   "tier": "High",
+   "w": 72,
+   "tier": "Medium",
    "section": "Ch12",
    "why": [
-    "Ch12: ~21.4 exam items expected, 94 bank questions",
+    "Ch12: ~21.4 exam items expected, 103 bank questions",
     "concept named in the study guide (×1.25)"
    ]
   },
   "pc-099": {
-   "w": 61,
+   "w": 57,
    "tier": "Medium",
    "section": "Ch12",
    "why": [
-    "Ch12: ~21.4 exam items expected, 94 bank questions"
+    "Ch12: ~21.4 exam items expected, 103 bank questions"
    ]
   },
   "pc-100": {
-   "w": 61,
+   "w": 57,
    "tier": "Medium",
    "section": "Ch12",
    "why": [
-    "Ch12: ~21.4 exam items expected, 94 bank questions"
+    "Ch12: ~21.4 exam items expected, 103 bank questions"
    ]
   },
   "pc-101": {
-   "w": 76,
-   "tier": "High",
+   "w": 72,
+   "tier": "Medium",
    "section": "Ch12",
    "why": [
-    "Ch12: ~21.4 exam items expected, 94 bank questions",
+    "Ch12: ~21.4 exam items expected, 103 bank questions",
     "concept named in the study guide (×1.25)"
    ]
   },
   "pc-102": {
-   "w": 61,
+   "w": 57,
    "tier": "Medium",
    "section": "Ch12",
    "why": [
-    "Ch12: ~21.4 exam items expected, 94 bank questions"
+    "Ch12: ~21.4 exam items expected, 103 bank questions"
    ]
   },
   "pc-103": {
-   "w": 38,
+   "w": 36,
    "tier": "Low",
    "section": "Ch9",
    "why": [
-    "Ch9: ~8.3 exam items expected, 29 bank questions",
+    "Ch9: ~8.3 exam items expected, 32 bank questions",
     "topic not on the guide's Ch9 list (×0.5)"
    ]
   },
   "pc-104": {
-   "w": 76,
-   "tier": "High",
+   "w": 71,
+   "tier": "Medium",
    "section": "Ch9",
    "why": [
-    "Ch9: ~8.3 exam items expected, 29 bank questions"
+    "Ch9: ~8.3 exam items expected, 32 bank questions"
    ]
   },
   "pc-105": {
-   "w": 76,
-   "tier": "High",
+   "w": 71,
+   "tier": "Medium",
    "section": "Ch9",
    "why": [
-    "Ch9: ~8.3 exam items expected, 29 bank questions"
+    "Ch9: ~8.3 exam items expected, 32 bank questions"
    ]
   },
   "pc-106": {
-   "w": 76,
-   "tier": "High",
+   "w": 71,
+   "tier": "Medium",
    "section": "Ch9",
    "why": [
-    "Ch9: ~8.3 exam items expected, 29 bank questions"
+    "Ch9: ~8.3 exam items expected, 32 bank questions"
    ]
   },
   "pc-107": {
-   "w": 38,
+   "w": 36,
    "tier": "Low",
    "section": "Ch9",
    "why": [
-    "Ch9: ~8.3 exam items expected, 29 bank questions",
+    "Ch9: ~8.3 exam items expected, 32 bank questions",
     "topic not on the guide's Ch9 list (×0.5)"
    ]
   },
   "pc-108": {
-   "w": 76,
-   "tier": "High",
+   "w": 71,
+   "tier": "Medium",
    "section": "Ch9",
    "why": [
-    "Ch9: ~8.3 exam items expected, 29 bank questions"
+    "Ch9: ~8.3 exam items expected, 32 bank questions"
    ]
   },
   "pc-109": {
-   "w": 79,
+   "w": 82,
    "tier": "High",
    "section": "Ch1-2",
    "why": [
@@ -667,7 +667,7 @@
    ]
   },
   "pc-110": {
-   "w": 79,
+   "w": 82,
    "tier": "High",
    "section": "Ch1-2",
    "why": [
@@ -675,7 +675,7 @@
    ]
   },
   "pc-111": {
-   "w": 79,
+   "w": 82,
    "tier": "High",
    "section": "Ch1-2",
    "why": [
@@ -683,7 +683,7 @@
    ]
   },
   "pc-112": {
-   "w": 79,
+   "w": 82,
    "tier": "High",
    "section": "Ch1-2",
    "why": [
@@ -691,20 +691,20 @@
    ]
   },
   "pc-113": {
-   "w": 69,
+   "w": 67,
    "tier": "Medium",
    "section": "Ch11",
    "why": [
-    "Ch11: ~7.1 exam items expected, 30 bank questions",
+    "Ch11: ~7.1 exam items expected, 32 bank questions",
     "select-N format: 13 on the exam (×1.1)"
    ]
   },
   "pc-114": {
-   "w": 63,
+   "w": 61,
    "tier": "Medium",
    "section": "Ch11",
    "why": [
-    "Ch11: ~7.1 exam items expected, 30 bank questions"
+    "Ch11: ~7.1 exam items expected, 32 bank questions"
    ]
   },
   "pc-115": {
@@ -712,76 +712,76 @@
    "tier": "Low",
    "section": "Ch11",
    "why": [
-    "Ch11: ~7.1 exam items expected, 30 bank questions",
+    "Ch11: ~7.1 exam items expected, 32 bank questions",
     "topic not on the guide's Ch11 list (×0.5)"
    ]
   },
   "pc-116": {
-   "w": 69,
+   "w": 66,
    "tier": "Medium",
    "section": "Ch10",
    "why": [
-    "Ch10: ~19.5 exam items expected, 76 bank questions"
+    "Ch10: ~19.5 exam items expected, 82 bank questions"
    ]
   },
   "pc-117": {
-   "w": 69,
+   "w": 66,
    "tier": "Medium",
    "section": "Ch10",
    "why": [
-    "Ch10: ~19.5 exam items expected, 76 bank questions"
+    "Ch10: ~19.5 exam items expected, 82 bank questions"
    ]
   },
   "pc-118": {
-   "w": 75,
-   "tier": "High",
+   "w": 72,
+   "tier": "Medium",
    "section": "Ch10",
    "why": [
-    "Ch10: ~19.5 exam items expected, 76 bank questions",
+    "Ch10: ~19.5 exam items expected, 82 bank questions",
     "select-N format: 13 on the exam (×1.1)"
    ]
   },
   "pc-119": {
-   "w": 69,
+   "w": 66,
    "tier": "Medium",
    "section": "Ch10",
    "why": [
-    "Ch10: ~19.5 exam items expected, 76 bank questions"
+    "Ch10: ~19.5 exam items expected, 82 bank questions"
    ]
   },
   "pc-120": {
-   "w": 86,
+   "w": 82,
    "tier": "High",
    "section": "Ch10",
    "why": [
-    "Ch10: ~19.5 exam items expected, 76 bank questions",
+    "Ch10: ~19.5 exam items expected, 82 bank questions",
     "concept named in the study guide (×1.25)"
    ]
   },
   "pc-121": {
-   "w": 86,
+   "w": 82,
    "tier": "High",
    "section": "Ch10",
    "why": [
-    "Ch10: ~19.5 exam items expected, 76 bank questions",
+    "Ch10: ~19.5 exam items expected, 82 bank questions",
     "concept named in the study guide (×1.25)"
    ]
   },
   "pc-122": {
-   "w": 86,
+   "w": 82,
    "tier": "High",
    "section": "Ch10",
    "why": [
-    "Ch10: ~19.5 exam items expected, 76 bank questions",
+    "Ch10: ~19.5 exam items expected, 82 bank questions",
     "concept named in the study guide (×1.25)"
    ]
   },
   "pc-123": {
-   "w": 66,
+   "w": 67,
    "tier": "Medium",
    "section": "Ch13",
    "why": [
-    "Ch13: ~15.9 exam items expected, 97 bank questions",
+    "Ch13: ~15.9 exam items expected, 99 bank questions",
     "slide note: gauge vs French: \"VERY IMPORTANT\" (×1.5)"
    ]
   },
@@ -790,15 +790,15 @@
    "tier": "Low",
    "section": "Ch13",
    "why": [
-    "Ch13: ~15.9 exam items expected, 97 bank questions"
+    "Ch13: ~15.9 exam items expected, 99 bank questions"
    ]
   },
   "pc-125": {
-   "w": 55,
+   "w": 56,
    "tier": "Medium",
    "section": "Ch13",
    "why": [
-    "Ch13: ~15.9 exam items expected, 97 bank questions",
+    "Ch13: ~15.9 exam items expected, 99 bank questions",
     "concept named in the study guide (×1.25)"
    ]
   },
@@ -807,108 +807,108 @@
    "tier": "Low",
    "section": "Ch13",
    "why": [
-    "Ch13: ~15.9 exam items expected, 97 bank questions"
+    "Ch13: ~15.9 exam items expected, 99 bank questions"
    ]
   },
   "pc-127": {
-   "w": 55,
+   "w": 56,
    "tier": "Medium",
    "section": "Ch13",
    "why": [
-    "Ch13: ~15.9 exam items expected, 97 bank questions",
+    "Ch13: ~15.9 exam items expected, 99 bank questions",
     "concept named in the study guide (×1.25)"
    ]
   },
   "pc-128": {
-   "w": 55,
+   "w": 56,
    "tier": "Medium",
    "section": "Ch13",
    "why": [
-    "Ch13: ~15.9 exam items expected, 97 bank questions",
+    "Ch13: ~15.9 exam items expected, 99 bank questions",
     "concept named in the study guide (×1.25)"
    ]
   },
   "pc-129": {
-   "w": 55,
+   "w": 56,
    "tier": "Medium",
    "section": "Ch13",
    "why": [
-    "Ch13: ~15.9 exam items expected, 97 bank questions",
+    "Ch13: ~15.9 exam items expected, 99 bank questions",
     "concept named in the study guide (×1.25)"
    ]
   },
   "pc-130": {
-   "w": 76,
-   "tier": "High",
+   "w": 72,
+   "tier": "Medium",
    "section": "Ch14",
    "why": [
-    "Ch14: ~10.2 exam items expected, 45 bank questions",
+    "Ch14: ~10.2 exam items expected, 49 bank questions",
     "concept named in the study guide (×1.25)"
    ]
   },
   "pc-131": {
-   "w": 76,
-   "tier": "High",
+   "w": 72,
+   "tier": "Medium",
    "section": "Ch14",
    "why": [
-    "Ch14: ~10.2 exam items expected, 45 bank questions",
+    "Ch14: ~10.2 exam items expected, 49 bank questions",
     "concept named in the study guide (×1.25)"
    ]
   },
   "pc-132": {
-   "w": 76,
-   "tier": "High",
+   "w": 72,
+   "tier": "Medium",
    "section": "Ch14",
    "why": [
-    "Ch14: ~10.2 exam items expected, 45 bank questions",
+    "Ch14: ~10.2 exam items expected, 49 bank questions",
     "concept named in the study guide (×1.25)"
    ]
   },
   "pc-133": {
-   "w": 61,
+   "w": 58,
    "tier": "Medium",
    "section": "Ch14",
    "why": [
-    "Ch14: ~10.2 exam items expected, 45 bank questions"
+    "Ch14: ~10.2 exam items expected, 49 bank questions"
    ]
   },
   "pc-134": {
-   "w": 76,
-   "tier": "High",
+   "w": 72,
+   "tier": "Medium",
    "section": "Ch14",
    "why": [
-    "Ch14: ~10.2 exam items expected, 45 bank questions",
+    "Ch14: ~10.2 exam items expected, 49 bank questions",
     "concept named in the study guide (×1.25)"
    ]
   },
   "pc-135": {
-   "w": 61,
+   "w": 58,
    "tier": "Medium",
    "section": "Ch14",
    "why": [
-    "Ch14: ~10.2 exam items expected, 45 bank questions"
+    "Ch14: ~10.2 exam items expected, 49 bank questions"
    ]
   },
   "pc-136": {
-   "w": 76,
-   "tier": "High",
+   "w": 72,
+   "tier": "Medium",
    "section": "Ch14",
    "why": [
-    "Ch14: ~10.2 exam items expected, 45 bank questions",
+    "Ch14: ~10.2 exam items expected, 49 bank questions",
     "concept named in the study guide (×1.25)"
    ]
   },
   "pc-137": {
-   "w": 76,
-   "tier": "High",
+   "w": 72,
+   "tier": "Medium",
    "section": "Ch14",
    "why": [
-    "Ch14: ~10.2 exam items expected, 45 bank questions",
+    "Ch14: ~10.2 exam items expected, 49 bank questions",
     "concept named in the study guide (×1.25)"
    ]
   },
   "pc-138": {
-   "w": 48,
+   "w": 50,
    "tier": "Low",
    "section": "Ch6",
    "why": [
@@ -916,7 +916,7 @@
    ]
   },
   "pc-139": {
-   "w": 48,
+   "w": 50,
    "tier": "Low",
    "section": "Ch6",
    "why": [
@@ -924,7 +924,7 @@
    ]
   },
   "pc-140": {
-   "w": 48,
+   "w": 50,
    "tier": "Low",
    "section": "Ch6",
    "why": [
@@ -932,7 +932,7 @@
    ]
   },
   "pc-141": {
-   "w": 48,
+   "w": 50,
    "tier": "Low",
    "section": "Ch6",
    "why": [
@@ -940,7 +940,7 @@
    ]
   },
   "pc-142": {
-   "w": 48,
+   "w": 50,
    "tier": "Low",
    "section": "Ch6",
    "why": [
@@ -952,7 +952,7 @@
    "tier": "Low",
    "section": "Ch11",
    "why": [
-    "Ch11: ~7.1 exam items expected, 30 bank questions",
+    "Ch11: ~7.1 exam items expected, 32 bank questions",
     "topic not on the guide's Ch11 list (×0.5)"
    ]
   },
@@ -961,12 +961,12 @@
    "tier": "Low",
    "section": "Ch11",
    "why": [
-    "Ch11: ~7.1 exam items expected, 30 bank questions",
+    "Ch11: ~7.1 exam items expected, 32 bank questions",
     "topic not on the guide's Ch11 list (×0.5)"
    ]
   },
   "pc-145": {
-   "w": 79,
+   "w": 82,
    "tier": "High",
    "section": "Ch1-2",
    "why": [
@@ -974,308 +974,308 @@
    ]
   },
   "pc-146": {
-   "w": 86,
+   "w": 82,
    "tier": "High",
    "section": "Ch10",
    "why": [
-    "Ch10: ~19.5 exam items expected, 76 bank questions",
+    "Ch10: ~19.5 exam items expected, 82 bank questions",
     "concept named in the study guide (×1.25)"
    ]
   },
   "pc-147": {
-   "w": 94,
+   "w": 91,
    "tier": "High",
    "section": "Ch10",
    "why": [
-    "Ch10: ~19.5 exam items expected, 76 bank questions",
+    "Ch10: ~19.5 exam items expected, 82 bank questions",
     "concept named in the study guide (×1.25)",
     "select-N format: 13 on the exam (×1.1)"
    ]
   },
   "pc-148": {
-   "w": 86,
+   "w": 82,
    "tier": "High",
    "section": "Ch10",
    "why": [
-    "Ch10: ~19.5 exam items expected, 76 bank questions",
+    "Ch10: ~19.5 exam items expected, 82 bank questions",
     "concept named in the study guide (×1.25)"
    ]
   },
   "pc-149": {
-   "w": 69,
+   "w": 66,
    "tier": "Medium",
    "section": "Ch10",
    "why": [
-    "Ch10: ~19.5 exam items expected, 76 bank questions"
+    "Ch10: ~19.5 exam items expected, 82 bank questions"
    ]
   },
   "pc-150": {
-   "w": 86,
+   "w": 82,
    "tier": "High",
    "section": "Ch10",
    "why": [
-    "Ch10: ~19.5 exam items expected, 76 bank questions",
+    "Ch10: ~19.5 exam items expected, 82 bank questions",
     "concept named in the study guide (×1.25)"
    ]
   },
   "pc-151": {
-   "w": 69,
+   "w": 66,
    "tier": "Medium",
    "section": "Ch10",
    "why": [
-    "Ch10: ~19.5 exam items expected, 76 bank questions"
+    "Ch10: ~19.5 exam items expected, 82 bank questions"
    ]
   },
   "pc-152": {
-   "w": 86,
+   "w": 82,
    "tier": "High",
    "section": "Ch10",
    "why": [
-    "Ch10: ~19.5 exam items expected, 76 bank questions",
+    "Ch10: ~19.5 exam items expected, 82 bank questions",
     "concept named in the study guide (×1.25)"
    ]
   },
   "pc-153": {
-   "w": 69,
+   "w": 66,
    "tier": "Medium",
    "section": "Ch10",
    "why": [
-    "Ch10: ~19.5 exam items expected, 76 bank questions"
+    "Ch10: ~19.5 exam items expected, 82 bank questions"
    ]
   },
   "pc-154": {
-   "w": 75,
-   "tier": "High",
+   "w": 72,
+   "tier": "Medium",
    "section": "Ch10",
    "why": [
-    "Ch10: ~19.5 exam items expected, 76 bank questions",
+    "Ch10: ~19.5 exam items expected, 82 bank questions",
     "select-N format: 13 on the exam (×1.1)"
    ]
   },
   "pc-155": {
-   "w": 86,
+   "w": 82,
    "tier": "High",
    "section": "Ch10",
    "why": [
-    "Ch10: ~19.5 exam items expected, 76 bank questions",
+    "Ch10: ~19.5 exam items expected, 82 bank questions",
     "concept named in the study guide (×1.25)"
    ]
   },
   "pc-156": {
-   "w": 100,
+   "w": 95,
    "tier": "High",
    "section": "Ch12",
    "why": [
-    "Ch12: ~21.4 exam items expected, 94 bank questions",
+    "Ch12: ~21.4 exam items expected, 103 bank questions",
     "slide note: six rights: \"Must know these 6\" (×1.5)",
     "select-N format: 13 on the exam (×1.1)"
    ]
   },
   "pc-157": {
-   "w": 76,
-   "tier": "High",
+   "w": 72,
+   "tier": "Medium",
    "section": "Ch12",
    "why": [
-    "Ch12: ~21.4 exam items expected, 94 bank questions",
+    "Ch12: ~21.4 exam items expected, 103 bank questions",
     "concept named in the study guide (×1.25)"
    ]
   },
   "pc-158": {
-   "w": 61,
+   "w": 57,
    "tier": "Medium",
    "section": "Ch12",
    "why": [
-    "Ch12: ~21.4 exam items expected, 94 bank questions"
+    "Ch12: ~21.4 exam items expected, 103 bank questions"
    ]
   },
   "pc-159": {
-   "w": 76,
-   "tier": "High",
+   "w": 72,
+   "tier": "Medium",
    "section": "Ch12",
    "why": [
-    "Ch12: ~21.4 exam items expected, 94 bank questions",
+    "Ch12: ~21.4 exam items expected, 103 bank questions",
     "concept named in the study guide (×1.25)"
    ]
   },
   "pc-160": {
-   "w": 83,
+   "w": 79,
    "tier": "High",
    "section": "Ch12",
    "why": [
-    "Ch12: ~21.4 exam items expected, 94 bank questions",
+    "Ch12: ~21.4 exam items expected, 103 bank questions",
     "concept named in the study guide (×1.25)",
     "select-N format: 13 on the exam (×1.1)"
    ]
   },
   "pc-161": {
-   "w": 76,
-   "tier": "High",
+   "w": 72,
+   "tier": "Medium",
    "section": "Ch12",
    "why": [
-    "Ch12: ~21.4 exam items expected, 94 bank questions",
+    "Ch12: ~21.4 exam items expected, 103 bank questions",
     "concept named in the study guide (×1.25)"
    ]
   },
   "pc-162": {
-   "w": 76,
-   "tier": "High",
+   "w": 72,
+   "tier": "Medium",
    "section": "Ch12",
    "why": [
-    "Ch12: ~21.4 exam items expected, 94 bank questions",
+    "Ch12: ~21.4 exam items expected, 103 bank questions",
     "concept named in the study guide (×1.25)"
    ]
   },
   "pc-163": {
-   "w": 76,
-   "tier": "High",
+   "w": 72,
+   "tier": "Medium",
    "section": "Ch12",
    "why": [
-    "Ch12: ~21.4 exam items expected, 94 bank questions",
+    "Ch12: ~21.4 exam items expected, 103 bank questions",
     "concept named in the study guide (×1.25)"
    ]
   },
   "pc-164": {
-   "w": 76,
-   "tier": "High",
+   "w": 72,
+   "tier": "Medium",
    "section": "Ch12",
    "why": [
-    "Ch12: ~21.4 exam items expected, 94 bank questions",
+    "Ch12: ~21.4 exam items expected, 103 bank questions",
     "concept named in the study guide (×1.25)"
    ]
   },
   "pc-165": {
-   "w": 76,
-   "tier": "High",
+   "w": 72,
+   "tier": "Medium",
    "section": "Ch12",
    "why": [
-    "Ch12: ~21.4 exam items expected, 94 bank questions",
+    "Ch12: ~21.4 exam items expected, 103 bank questions",
     "concept named in the study guide (×1.25)"
    ]
   },
   "pc-166": {
-   "w": 100,
+   "w": 95,
    "tier": "High",
    "section": "Ch12",
    "why": [
-    "Ch12: ~21.4 exam items expected, 94 bank questions",
+    "Ch12: ~21.4 exam items expected, 103 bank questions",
     "slide note: reaction categories: \"know these categories, will be on exam\" (×1.5)",
     "select-N format: 13 on the exam (×1.1)"
    ]
   },
   "pc-167": {
-   "w": 91,
+   "w": 86,
    "tier": "High",
    "section": "Ch12",
    "why": [
-    "Ch12: ~21.4 exam items expected, 94 bank questions",
+    "Ch12: ~21.4 exam items expected, 103 bank questions",
     "slide note: reaction categories: \"know these categories, will be on exam\" (×1.5)"
    ]
   },
   "pc-168": {
-   "w": 76,
-   "tier": "High",
+   "w": 72,
+   "tier": "Medium",
    "section": "Ch12",
    "why": [
-    "Ch12: ~21.4 exam items expected, 94 bank questions",
+    "Ch12: ~21.4 exam items expected, 103 bank questions",
     "concept named in the study guide (×1.25)"
    ]
   },
   "pc-169": {
-   "w": 91,
+   "w": 86,
    "tier": "High",
    "section": "Ch12",
    "why": [
-    "Ch12: ~21.4 exam items expected, 94 bank questions",
+    "Ch12: ~21.4 exam items expected, 103 bank questions",
     "slide note: \"20 minutes very important number\" (×1.5)"
    ]
   },
   "pc-170": {
-   "w": 76,
-   "tier": "High",
+   "w": 72,
+   "tier": "Medium",
    "section": "Ch12",
    "why": [
-    "Ch12: ~21.4 exam items expected, 94 bank questions",
+    "Ch12: ~21.4 exam items expected, 103 bank questions",
     "concept named in the study guide (×1.25)"
    ]
   },
   "pc-171": {
-   "w": 61,
+   "w": 57,
    "tier": "Medium",
    "section": "Ch12",
    "why": [
-    "Ch12: ~21.4 exam items expected, 94 bank questions"
+    "Ch12: ~21.4 exam items expected, 103 bank questions"
    ]
   },
   "pc-172": {
-   "w": 66,
+   "w": 67,
    "tier": "Medium",
    "section": "Ch13",
    "why": [
-    "Ch13: ~15.9 exam items expected, 97 bank questions",
+    "Ch13: ~15.9 exam items expected, 99 bank questions",
     "slide note: gauge vs French: \"VERY IMPORTANT\" (×1.5)"
    ]
   },
   "pc-173": {
-   "w": 60,
+   "w": 61,
    "tier": "Medium",
    "section": "Ch13",
    "why": [
-    "Ch13: ~15.9 exam items expected, 97 bank questions",
+    "Ch13: ~15.9 exam items expected, 99 bank questions",
     "concept named in the study guide (×1.25)",
     "select-N format: 13 on the exam (×1.1)"
    ]
   },
   "pc-174": {
-   "w": 55,
+   "w": 56,
    "tier": "Medium",
    "section": "Ch13",
    "why": [
-    "Ch13: ~15.9 exam items expected, 97 bank questions",
+    "Ch13: ~15.9 exam items expected, 99 bank questions",
     "concept named in the study guide (×1.25)"
    ]
   },
   "pc-175": {
-   "w": 55,
+   "w": 56,
    "tier": "Medium",
    "section": "Ch13",
    "why": [
-    "Ch13: ~15.9 exam items expected, 97 bank questions",
+    "Ch13: ~15.9 exam items expected, 99 bank questions",
     "concept named in the study guide (×1.25)"
    ]
   },
   "pc-176": {
-   "w": 55,
+   "w": 56,
    "tier": "Medium",
    "section": "Ch13",
    "why": [
-    "Ch13: ~15.9 exam items expected, 97 bank questions",
+    "Ch13: ~15.9 exam items expected, 99 bank questions",
     "concept named in the study guide (×1.25)"
    ]
   },
   "pc-177": {
-   "w": 55,
+   "w": 56,
    "tier": "Medium",
    "section": "Ch13",
    "why": [
-    "Ch13: ~15.9 exam items expected, 97 bank questions",
+    "Ch13: ~15.9 exam items expected, 99 bank questions",
     "concept named in the study guide (×1.25)"
    ]
   },
   "pc-178": {
-   "w": 55,
+   "w": 56,
    "tier": "Medium",
    "section": "Ch13",
    "why": [
-    "Ch13: ~15.9 exam items expected, 97 bank questions",
+    "Ch13: ~15.9 exam items expected, 99 bank questions",
     "concept named in the study guide (×1.25)"
    ]
   },
   "pc-179": {
-   "w": 55,
+   "w": 56,
    "tier": "Medium",
    "section": "Ch13",
    "why": [
-    "Ch13: ~15.9 exam items expected, 97 bank questions",
+    "Ch13: ~15.9 exam items expected, 99 bank questions",
     "concept named in the study guide (×1.25)"
    ]
   },
@@ -1284,73 +1284,73 @@
    "tier": "Low",
    "section": "Ch13",
    "why": [
-    "Ch13: ~15.9 exam items expected, 97 bank questions"
+    "Ch13: ~15.9 exam items expected, 99 bank questions"
    ]
   },
   "pc-181": {
-   "w": 66,
+   "w": 67,
    "tier": "Medium",
    "section": "Ch13",
    "why": [
-    "Ch13: ~15.9 exam items expected, 97 bank questions",
+    "Ch13: ~15.9 exam items expected, 99 bank questions",
     "slide note: abbreviations: \"know this slide\" (×1.5)"
    ]
   },
   "pc-182": {
-   "w": 66,
+   "w": 67,
    "tier": "Medium",
    "section": "Ch13",
    "why": [
-    "Ch13: ~15.9 exam items expected, 97 bank questions",
+    "Ch13: ~15.9 exam items expected, 99 bank questions",
     "slide note: abbreviations: \"know this slide\" (×1.5)"
    ]
   },
   "pc-183": {
-   "w": 72,
+   "w": 73,
    "tier": "Medium",
    "section": "Ch13",
    "why": [
-    "Ch13: ~15.9 exam items expected, 97 bank questions",
+    "Ch13: ~15.9 exam items expected, 99 bank questions",
     "slide note: abbreviations: \"know this slide\" (×1.5)",
     "select-N format: 13 on the exam (×1.1)"
    ]
   },
   "pc-184": {
-   "w": 98,
+   "w": 100,
    "tier": "High",
    "section": "Ch13",
    "why": [
-    "Ch13: ~15.9 exam items expected, 97 bank questions",
+    "Ch13: ~15.9 exam items expected, 99 bank questions",
     "slide note: abbreviations: \"know this slide\" (×1.5)",
     "safe dose notation fill-in: 2 on the exam (×1.5)"
    ]
   },
   "pc-185": {
-   "w": 98,
+   "w": 100,
    "tier": "High",
    "section": "Ch13",
    "why": [
-    "Ch13: ~15.9 exam items expected, 97 bank questions",
+    "Ch13: ~15.9 exam items expected, 99 bank questions",
     "slide note: abbreviations: \"know this slide\" (×1.5)",
     "safe dose notation fill-in: 2 on the exam (×1.5)"
    ]
   },
   "pc-186": {
-   "w": 98,
+   "w": 100,
    "tier": "High",
    "section": "Ch13",
    "why": [
-    "Ch13: ~15.9 exam items expected, 97 bank questions",
+    "Ch13: ~15.9 exam items expected, 99 bank questions",
     "slide note: abbreviations: \"know this slide\" (×1.5)",
     "safe dose notation fill-in: 2 on the exam (×1.5)"
    ]
   },
   "pc-187": {
-   "w": 76,
-   "tier": "High",
+   "w": 72,
+   "tier": "Medium",
    "section": "Ch12",
    "why": [
-    "Ch12: ~21.4 exam items expected, 94 bank questions",
+    "Ch12: ~21.4 exam items expected, 103 bank questions",
     "dose math, typed exactly (×1.25)"
    ]
   },
@@ -1359,7 +1359,7 @@
    "tier": "Low",
    "section": "Ch13",
    "why": [
-    "Ch13: ~15.9 exam items expected, 97 bank questions"
+    "Ch13: ~15.9 exam items expected, 99 bank questions"
    ]
   },
   "pc-189": {
@@ -1367,74 +1367,74 @@
    "tier": "Low",
    "section": "Ch13",
    "why": [
-    "Ch13: ~15.9 exam items expected, 97 bank questions"
+    "Ch13: ~15.9 exam items expected, 99 bank questions"
    ]
   },
   "pc-190": {
-   "w": 76,
-   "tier": "High",
+   "w": 72,
+   "tier": "Medium",
    "section": "Ch14",
    "why": [
-    "Ch14: ~10.2 exam items expected, 45 bank questions",
+    "Ch14: ~10.2 exam items expected, 49 bank questions",
     "concept named in the study guide (×1.25)"
    ]
   },
   "pc-191": {
-   "w": 76,
-   "tier": "High",
+   "w": 72,
+   "tier": "Medium",
    "section": "Ch14",
    "why": [
-    "Ch14: ~10.2 exam items expected, 45 bank questions",
+    "Ch14: ~10.2 exam items expected, 49 bank questions",
     "concept named in the study guide (×1.25)"
    ]
   },
   "pc-192": {
-   "w": 76,
-   "tier": "High",
+   "w": 72,
+   "tier": "Medium",
    "section": "Ch14",
    "why": [
-    "Ch14: ~10.2 exam items expected, 45 bank questions",
+    "Ch14: ~10.2 exam items expected, 49 bank questions",
     "concept named in the study guide (×1.25)"
    ]
   },
   "pc-193": {
-   "w": 83,
+   "w": 80,
    "tier": "High",
    "section": "Ch14",
    "why": [
-    "Ch14: ~10.2 exam items expected, 45 bank questions",
+    "Ch14: ~10.2 exam items expected, 49 bank questions",
     "concept named in the study guide (×1.25)",
     "select-N format: 13 on the exam (×1.1)"
    ]
   },
   "pc-194": {
-   "w": 76,
-   "tier": "High",
+   "w": 72,
+   "tier": "Medium",
    "section": "Ch14",
    "why": [
-    "Ch14: ~10.2 exam items expected, 45 bank questions",
+    "Ch14: ~10.2 exam items expected, 49 bank questions",
     "concept named in the study guide (×1.25)"
    ]
   },
   "pc-195": {
-   "w": 76,
-   "tier": "High",
+   "w": 72,
+   "tier": "Medium",
    "section": "Ch14",
    "why": [
-    "Ch14: ~10.2 exam items expected, 45 bank questions",
+    "Ch14: ~10.2 exam items expected, 49 bank questions",
     "concept named in the study guide (×1.25)"
    ]
   },
   "pc-196": {
-   "w": 61,
+   "w": 58,
    "tier": "Medium",
    "section": "Ch14",
    "why": [
-    "Ch14: ~10.2 exam items expected, 45 bank questions"
+    "Ch14: ~10.2 exam items expected, 49 bank questions"
    ]
   },
   "pc-197": {
-   "w": 60,
+   "w": 62,
    "tier": "Medium",
    "section": "Ch5",
    "why": [
@@ -1442,7 +1442,7 @@
    ]
   },
   "pc-198": {
-   "w": 66,
+   "w": 68,
    "tier": "Medium",
    "section": "Ch5",
    "why": [
@@ -1451,7 +1451,7 @@
    ]
   },
   "pc-199": {
-   "w": 60,
+   "w": 62,
    "tier": "Medium",
    "section": "Ch5",
    "why": [
@@ -1459,7 +1459,7 @@
    ]
   },
   "pc-200": {
-   "w": 60,
+   "w": 62,
    "tier": "Medium",
    "section": "Ch5",
    "why": [
@@ -1467,310 +1467,310 @@
    ]
   },
   "pc-201": {
-   "w": 76,
-   "tier": "High",
+   "w": 71,
+   "tier": "Medium",
    "section": "Ch9",
    "why": [
-    "Ch9: ~8.3 exam items expected, 29 bank questions"
+    "Ch9: ~8.3 exam items expected, 32 bank questions"
    ]
   },
   "pc-202": {
-   "w": 76,
-   "tier": "High",
+   "w": 71,
+   "tier": "Medium",
    "section": "Ch9",
    "why": [
-    "Ch9: ~8.3 exam items expected, 29 bank questions"
+    "Ch9: ~8.3 exam items expected, 32 bank questions"
    ]
   },
   "pc-203": {
-   "w": 76,
-   "tier": "High",
+   "w": 71,
+   "tier": "Medium",
    "section": "Ch9",
    "why": [
-    "Ch9: ~8.3 exam items expected, 29 bank questions"
+    "Ch9: ~8.3 exam items expected, 32 bank questions"
    ]
   },
   "pc-204": {
-   "w": 38,
+   "w": 36,
    "tier": "Low",
    "section": "Ch9",
    "why": [
-    "Ch9: ~8.3 exam items expected, 29 bank questions",
+    "Ch9: ~8.3 exam items expected, 32 bank questions",
     "topic not on the guide's Ch9 list (×0.5)"
    ]
   },
   "pc-205": {
-   "w": 63,
+   "w": 61,
    "tier": "Medium",
    "section": "Ch11",
    "why": [
-    "Ch11: ~7.1 exam items expected, 30 bank questions"
+    "Ch11: ~7.1 exam items expected, 32 bank questions"
    ]
   },
   "pc-206": {
-   "w": 63,
+   "w": 61,
    "tier": "Medium",
    "section": "Ch11",
    "why": [
-    "Ch11: ~7.1 exam items expected, 30 bank questions"
+    "Ch11: ~7.1 exam items expected, 32 bank questions"
    ]
   },
   "pc-207": {
-   "w": 70,
+   "w": 69,
    "tier": "Medium",
    "section": "Ch3",
    "why": [
-    "Ch3: ~4.7 exam items expected, 18 bank questions"
+    "Ch3: ~4.7 exam items expected, 19 bank questions"
    ]
   },
   "pc-208": {
-   "w": 70,
+   "w": 69,
    "tier": "Medium",
    "section": "Ch3",
    "why": [
-    "Ch3: ~4.7 exam items expected, 18 bank questions"
+    "Ch3: ~4.7 exam items expected, 19 bank questions"
    ]
   },
   "pc-209": {
-   "w": 69,
+   "w": 66,
    "tier": "Medium",
    "section": "Ch10",
    "why": [
-    "Ch10: ~19.5 exam items expected, 76 bank questions"
+    "Ch10: ~19.5 exam items expected, 82 bank questions"
    ]
   },
   "pc-210": {
-   "w": 69,
+   "w": 66,
    "tier": "Medium",
    "section": "Ch10",
    "why": [
-    "Ch10: ~19.5 exam items expected, 76 bank questions"
+    "Ch10: ~19.5 exam items expected, 82 bank questions"
    ]
   },
   "pc-211": {
-   "w": 86,
+   "w": 82,
    "tier": "High",
    "section": "Ch10",
    "why": [
-    "Ch10: ~19.5 exam items expected, 76 bank questions",
+    "Ch10: ~19.5 exam items expected, 82 bank questions",
     "concept named in the study guide (×1.25)"
    ]
   },
   "pc-212": {
-   "w": 86,
+   "w": 82,
    "tier": "High",
    "section": "Ch10",
    "why": [
-    "Ch10: ~19.5 exam items expected, 76 bank questions",
+    "Ch10: ~19.5 exam items expected, 82 bank questions",
     "concept named in the study guide (×1.25)"
    ]
   },
   "pc-213": {
-   "w": 86,
+   "w": 82,
    "tier": "High",
    "section": "Ch10",
    "why": [
-    "Ch10: ~19.5 exam items expected, 76 bank questions",
+    "Ch10: ~19.5 exam items expected, 82 bank questions",
     "concept named in the study guide (×1.25)"
    ]
   },
   "pc-214": {
-   "w": 69,
+   "w": 66,
    "tier": "Medium",
    "section": "Ch10",
    "why": [
-    "Ch10: ~19.5 exam items expected, 76 bank questions"
+    "Ch10: ~19.5 exam items expected, 82 bank questions"
    ]
   },
   "pc-215": {
-   "w": 69,
+   "w": 66,
    "tier": "Medium",
    "section": "Ch10",
    "why": [
-    "Ch10: ~19.5 exam items expected, 76 bank questions"
+    "Ch10: ~19.5 exam items expected, 82 bank questions"
    ]
   },
   "pc-216": {
-   "w": 94,
+   "w": 91,
    "tier": "High",
    "section": "Ch10",
    "why": [
-    "Ch10: ~19.5 exam items expected, 76 bank questions",
+    "Ch10: ~19.5 exam items expected, 82 bank questions",
     "concept named in the study guide (×1.25)",
     "select-N format: 13 on the exam (×1.1)"
    ]
   },
   "pc-217": {
-   "w": 86,
+   "w": 82,
    "tier": "High",
    "section": "Ch10",
    "why": [
-    "Ch10: ~19.5 exam items expected, 76 bank questions",
+    "Ch10: ~19.5 exam items expected, 82 bank questions",
     "concept named in the study guide (×1.25)"
    ]
   },
   "pc-218": {
-   "w": 69,
+   "w": 66,
    "tier": "Medium",
    "section": "Ch10",
    "why": [
-    "Ch10: ~19.5 exam items expected, 76 bank questions"
+    "Ch10: ~19.5 exam items expected, 82 bank questions"
    ]
   },
   "pc-219": {
-   "w": 69,
+   "w": 66,
    "tier": "Medium",
    "section": "Ch10",
    "why": [
-    "Ch10: ~19.5 exam items expected, 76 bank questions"
+    "Ch10: ~19.5 exam items expected, 82 bank questions"
    ]
   },
   "pc-220": {
-   "w": 86,
+   "w": 82,
    "tier": "High",
    "section": "Ch10",
    "why": [
-    "Ch10: ~19.5 exam items expected, 76 bank questions",
+    "Ch10: ~19.5 exam items expected, 82 bank questions",
     "concept named in the study guide (×1.25)"
    ]
   },
   "pc-221": {
-   "w": 76,
-   "tier": "High",
+   "w": 72,
+   "tier": "Medium",
    "section": "Ch12",
    "why": [
-    "Ch12: ~21.4 exam items expected, 94 bank questions",
+    "Ch12: ~21.4 exam items expected, 103 bank questions",
     "concept named in the study guide (×1.25)"
    ]
   },
   "pc-222": {
-   "w": 61,
+   "w": 57,
    "tier": "Medium",
    "section": "Ch12",
    "why": [
-    "Ch12: ~21.4 exam items expected, 94 bank questions"
+    "Ch12: ~21.4 exam items expected, 103 bank questions"
    ]
   },
   "pc-223": {
-   "w": 61,
+   "w": 57,
    "tier": "Medium",
    "section": "Ch12",
    "why": [
-    "Ch12: ~21.4 exam items expected, 94 bank questions"
+    "Ch12: ~21.4 exam items expected, 103 bank questions"
    ]
   },
   "pc-224": {
-   "w": 76,
-   "tier": "High",
+   "w": 72,
+   "tier": "Medium",
    "section": "Ch12",
    "why": [
-    "Ch12: ~21.4 exam items expected, 94 bank questions",
+    "Ch12: ~21.4 exam items expected, 103 bank questions",
     "concept named in the study guide (×1.25)"
    ]
   },
   "pc-225": {
-   "w": 76,
-   "tier": "High",
+   "w": 72,
+   "tier": "Medium",
    "section": "Ch12",
    "why": [
-    "Ch12: ~21.4 exam items expected, 94 bank questions",
+    "Ch12: ~21.4 exam items expected, 103 bank questions",
     "concept named in the study guide (×1.25)"
    ]
   },
   "pc-226": {
-   "w": 76,
-   "tier": "High",
+   "w": 72,
+   "tier": "Medium",
    "section": "Ch12",
    "why": [
-    "Ch12: ~21.4 exam items expected, 94 bank questions",
+    "Ch12: ~21.4 exam items expected, 103 bank questions",
     "concept named in the study guide (×1.25)"
    ]
   },
   "pc-227": {
-   "w": 76,
-   "tier": "High",
+   "w": 72,
+   "tier": "Medium",
    "section": "Ch12",
    "why": [
-    "Ch12: ~21.4 exam items expected, 94 bank questions",
+    "Ch12: ~21.4 exam items expected, 103 bank questions",
     "concept named in the study guide (×1.25)"
    ]
   },
   "pc-228": {
-   "w": 83,
+   "w": 79,
    "tier": "High",
    "section": "Ch12",
    "why": [
-    "Ch12: ~21.4 exam items expected, 94 bank questions",
+    "Ch12: ~21.4 exam items expected, 103 bank questions",
     "concept named in the study guide (×1.25)",
     "select-N format: 13 on the exam (×1.1)"
    ]
   },
   "pc-229": {
-   "w": 76,
-   "tier": "High",
+   "w": 72,
+   "tier": "Medium",
    "section": "Ch12",
    "why": [
-    "Ch12: ~21.4 exam items expected, 94 bank questions",
+    "Ch12: ~21.4 exam items expected, 103 bank questions",
     "concept named in the study guide (×1.25)"
    ]
   },
   "pc-230": {
-   "w": 76,
-   "tier": "High",
+   "w": 72,
+   "tier": "Medium",
    "section": "Ch12",
    "why": [
-    "Ch12: ~21.4 exam items expected, 94 bank questions",
+    "Ch12: ~21.4 exam items expected, 103 bank questions",
     "concept named in the study guide (×1.25)"
    ]
   },
   "pc-231": {
-   "w": 67,
+   "w": 63,
    "tier": "Medium",
    "section": "Ch12",
    "why": [
-    "Ch12: ~21.4 exam items expected, 94 bank questions",
+    "Ch12: ~21.4 exam items expected, 103 bank questions",
     "select-N format: 13 on the exam (×1.1)"
    ]
   },
   "pc-232": {
-   "w": 61,
+   "w": 57,
    "tier": "Medium",
    "section": "Ch12",
    "why": [
-    "Ch12: ~21.4 exam items expected, 94 bank questions"
+    "Ch12: ~21.4 exam items expected, 103 bank questions"
    ]
   },
   "pc-233": {
-   "w": 91,
+   "w": 86,
    "tier": "High",
    "section": "Ch12",
    "why": [
-    "Ch12: ~21.4 exam items expected, 94 bank questions",
+    "Ch12: ~21.4 exam items expected, 103 bank questions",
     "slide note: \"20 minutes very important number\" (×1.5)"
    ]
   },
   "pc-234": {
-   "w": 61,
+   "w": 57,
    "tier": "Medium",
    "section": "Ch12",
    "why": [
-    "Ch12: ~21.4 exam items expected, 94 bank questions"
+    "Ch12: ~21.4 exam items expected, 103 bank questions"
    ]
   },
   "pc-235": {
-   "w": 61,
+   "w": 57,
    "tier": "Medium",
    "section": "Ch12",
    "why": [
-    "Ch12: ~21.4 exam items expected, 94 bank questions"
+    "Ch12: ~21.4 exam items expected, 103 bank questions"
    ]
   },
   "pc-236": {
-   "w": 76,
-   "tier": "High",
+   "w": 72,
+   "tier": "Medium",
    "section": "Ch12",
    "why": [
-    "Ch12: ~21.4 exam items expected, 94 bank questions",
+    "Ch12: ~21.4 exam items expected, 103 bank questions",
     "concept named in the study guide (×1.25)"
    ]
   },
@@ -1779,7 +1779,7 @@
    "tier": "Low",
    "section": "Ch13",
    "why": [
-    "Ch13: ~15.9 exam items expected, 97 bank questions"
+    "Ch13: ~15.9 exam items expected, 99 bank questions"
    ]
   },
   "pc-238": {
@@ -1787,24 +1787,24 @@
    "tier": "Low",
    "section": "Ch13",
    "why": [
-    "Ch13: ~15.9 exam items expected, 97 bank questions"
+    "Ch13: ~15.9 exam items expected, 99 bank questions"
    ]
   },
   "pc-239": {
-   "w": 55,
+   "w": 56,
    "tier": "Medium",
    "section": "Ch13",
    "why": [
-    "Ch13: ~15.9 exam items expected, 97 bank questions",
+    "Ch13: ~15.9 exam items expected, 99 bank questions",
     "concept named in the study guide (×1.25)"
    ]
   },
   "pc-240": {
-   "w": 55,
+   "w": 56,
    "tier": "Medium",
    "section": "Ch13",
    "why": [
-    "Ch13: ~15.9 exam items expected, 97 bank questions",
+    "Ch13: ~15.9 exam items expected, 99 bank questions",
     "concept named in the study guide (×1.25)"
    ]
   },
@@ -1813,182 +1813,182 @@
    "tier": "Low",
    "section": "Ch13",
    "why": [
-    "Ch13: ~15.9 exam items expected, 97 bank questions"
+    "Ch13: ~15.9 exam items expected, 99 bank questions"
    ]
   },
   "pc-242": {
-   "w": 55,
+   "w": 56,
    "tier": "Medium",
    "section": "Ch13",
    "why": [
-    "Ch13: ~15.9 exam items expected, 97 bank questions",
+    "Ch13: ~15.9 exam items expected, 99 bank questions",
     "concept named in the study guide (×1.25)"
    ]
   },
   "pc-243": {
-   "w": 60,
+   "w": 61,
    "tier": "Medium",
    "section": "Ch13",
    "why": [
-    "Ch13: ~15.9 exam items expected, 97 bank questions",
+    "Ch13: ~15.9 exam items expected, 99 bank questions",
     "concept named in the study guide (×1.25)",
     "select-N format: 13 on the exam (×1.1)"
    ]
   },
   "pc-244": {
-   "w": 55,
+   "w": 56,
    "tier": "Medium",
    "section": "Ch13",
    "why": [
-    "Ch13: ~15.9 exam items expected, 97 bank questions",
+    "Ch13: ~15.9 exam items expected, 99 bank questions",
     "concept named in the study guide (×1.25)"
    ]
   },
   "pc-245": {
-   "w": 55,
+   "w": 56,
    "tier": "Medium",
    "section": "Ch13",
    "why": [
-    "Ch13: ~15.9 exam items expected, 97 bank questions",
+    "Ch13: ~15.9 exam items expected, 99 bank questions",
     "concept named in the study guide (×1.25)"
    ]
   },
   "pc-246": {
-   "w": 55,
+   "w": 56,
    "tier": "Medium",
    "section": "Ch13",
    "why": [
-    "Ch13: ~15.9 exam items expected, 97 bank questions",
+    "Ch13: ~15.9 exam items expected, 99 bank questions",
     "concept named in the study guide (×1.25)"
    ]
   },
   "pc-247": {
-   "w": 98,
+   "w": 100,
    "tier": "High",
    "section": "Ch13",
    "why": [
-    "Ch13: ~15.9 exam items expected, 97 bank questions",
+    "Ch13: ~15.9 exam items expected, 99 bank questions",
     "slide note: abbreviations: \"know this slide\" (×1.5)",
     "safe dose notation fill-in: 2 on the exam (×1.5)"
    ]
   },
   "pc-248": {
-   "w": 98,
+   "w": 100,
    "tier": "High",
    "section": "Ch13",
    "why": [
-    "Ch13: ~15.9 exam items expected, 97 bank questions",
+    "Ch13: ~15.9 exam items expected, 99 bank questions",
     "slide note: abbreviations: \"know this slide\" (×1.5)",
     "safe dose notation fill-in: 2 on the exam (×1.5)"
    ]
   },
   "pc-249": {
-   "w": 82,
+   "w": 83,
    "tier": "High",
    "section": "Ch13",
    "why": [
-    "Ch13: ~15.9 exam items expected, 97 bank questions",
+    "Ch13: ~15.9 exam items expected, 99 bank questions",
     "slide note: abbreviations: \"know this slide\" (×1.5)",
     "dose math, typed exactly (×1.25)"
    ]
   },
   "pc-250": {
-   "w": 76,
-   "tier": "High",
+   "w": 72,
+   "tier": "Medium",
    "section": "Ch14",
    "why": [
-    "Ch14: ~10.2 exam items expected, 45 bank questions",
+    "Ch14: ~10.2 exam items expected, 49 bank questions",
     "concept named in the study guide (×1.25)"
    ]
   },
   "pc-251": {
-   "w": 76,
-   "tier": "High",
+   "w": 72,
+   "tier": "Medium",
    "section": "Ch14",
    "why": [
-    "Ch14: ~10.2 exam items expected, 45 bank questions",
+    "Ch14: ~10.2 exam items expected, 49 bank questions",
     "concept named in the study guide (×1.25)"
    ]
   },
   "pc-252": {
-   "w": 61,
+   "w": 58,
    "tier": "Medium",
    "section": "Ch14",
    "why": [
-    "Ch14: ~10.2 exam items expected, 45 bank questions"
+    "Ch14: ~10.2 exam items expected, 49 bank questions"
    ]
   },
   "pc-253": {
-   "w": 76,
-   "tier": "High",
+   "w": 72,
+   "tier": "Medium",
    "section": "Ch14",
    "why": [
-    "Ch14: ~10.2 exam items expected, 45 bank questions",
+    "Ch14: ~10.2 exam items expected, 49 bank questions",
     "concept named in the study guide (×1.25)"
    ]
   },
   "pc-254": {
-   "w": 67,
+   "w": 64,
    "tier": "Medium",
    "section": "Ch14",
    "why": [
-    "Ch14: ~10.2 exam items expected, 45 bank questions",
+    "Ch14: ~10.2 exam items expected, 49 bank questions",
     "select-N format: 13 on the exam (×1.1)"
    ]
   },
   "pc-255": {
-   "w": 76,
-   "tier": "High",
+   "w": 72,
+   "tier": "Medium",
    "section": "Ch12",
    "why": [
-    "Ch12: ~21.4 exam items expected, 94 bank questions",
+    "Ch12: ~21.4 exam items expected, 103 bank questions",
     "concept named in the study guide (×1.25)"
    ]
   },
   "pc-256": {
-   "w": 61,
+   "w": 58,
    "tier": "Medium",
    "section": "Ch14",
    "why": [
-    "Ch14: ~10.2 exam items expected, 45 bank questions"
+    "Ch14: ~10.2 exam items expected, 49 bank questions"
    ]
   },
   "pc-257": {
-   "w": 55,
+   "w": 56,
    "tier": "Medium",
    "section": "Ch13",
    "why": [
-    "Ch13: ~15.9 exam items expected, 97 bank questions",
+    "Ch13: ~15.9 exam items expected, 99 bank questions",
     "concept named in the study guide (×1.25)"
    ]
   },
   "pc-258": {
-   "w": 70,
+   "w": 69,
    "tier": "Medium",
    "section": "Ch3",
    "why": [
-    "Ch3: ~4.7 exam items expected, 18 bank questions"
+    "Ch3: ~4.7 exam items expected, 19 bank questions"
    ]
   },
   "pc-259": {
-   "w": 70,
+   "w": 69,
    "tier": "Medium",
    "section": "Ch3",
    "why": [
-    "Ch3: ~4.7 exam items expected, 18 bank questions"
+    "Ch3: ~4.7 exam items expected, 19 bank questions"
    ]
   },
   "pc-260": {
-   "w": 77,
+   "w": 76,
    "tier": "High",
    "section": "Ch3",
    "why": [
-    "Ch3: ~4.7 exam items expected, 18 bank questions",
+    "Ch3: ~4.7 exam items expected, 19 bank questions",
     "select-N format: 13 on the exam (×1.1)"
    ]
   },
   "pc-261": {
-   "w": 60,
+   "w": 62,
    "tier": "Medium",
    "section": "Ch5",
    "why": [
@@ -1996,7 +1996,7 @@
    ]
   },
   "pc-262": {
-   "w": 60,
+   "w": 62,
    "tier": "Medium",
    "section": "Ch5",
    "why": [
@@ -2004,7 +2004,7 @@
    ]
   },
   "pc-263": {
-   "w": 48,
+   "w": 50,
    "tier": "Low",
    "section": "Ch6",
    "why": [
@@ -2012,7 +2012,7 @@
    ]
   },
   "pc-264": {
-   "w": 48,
+   "w": 50,
    "tier": "Low",
    "section": "Ch6",
    "why": [
@@ -2020,313 +2020,313 @@
    ]
   },
   "pc-265": {
-   "w": 76,
-   "tier": "High",
+   "w": 71,
+   "tier": "Medium",
    "section": "Ch9",
    "why": [
-    "Ch9: ~8.3 exam items expected, 29 bank questions"
+    "Ch9: ~8.3 exam items expected, 32 bank questions"
    ]
   },
   "pc-266": {
-   "w": 76,
-   "tier": "High",
+   "w": 71,
+   "tier": "Medium",
    "section": "Ch9",
    "why": [
-    "Ch9: ~8.3 exam items expected, 29 bank questions"
+    "Ch9: ~8.3 exam items expected, 32 bank questions"
    ]
   },
   "pc-267": {
-   "w": 76,
-   "tier": "High",
+   "w": 71,
+   "tier": "Medium",
    "section": "Ch9",
    "why": [
-    "Ch9: ~8.3 exam items expected, 29 bank questions"
+    "Ch9: ~8.3 exam items expected, 32 bank questions"
    ]
   },
   "pc-268": {
-   "w": 69,
+   "w": 67,
    "tier": "Medium",
    "section": "Ch11",
    "why": [
-    "Ch11: ~7.1 exam items expected, 30 bank questions",
+    "Ch11: ~7.1 exam items expected, 32 bank questions",
     "select-N format: 13 on the exam (×1.1)"
    ]
   },
   "pc-269": {
-   "w": 75,
-   "tier": "High",
+   "w": 72,
+   "tier": "Medium",
    "section": "Ch10",
    "why": [
-    "Ch10: ~19.5 exam items expected, 76 bank questions",
+    "Ch10: ~19.5 exam items expected, 82 bank questions",
     "select-N format: 13 on the exam (×1.1)"
    ]
   },
   "pc-270": {
-   "w": 69,
+   "w": 66,
    "tier": "Medium",
    "section": "Ch10",
    "why": [
-    "Ch10: ~19.5 exam items expected, 76 bank questions"
+    "Ch10: ~19.5 exam items expected, 82 bank questions"
    ]
   },
   "pc-271": {
-   "w": 86,
+   "w": 82,
    "tier": "High",
    "section": "Ch10",
    "why": [
-    "Ch10: ~19.5 exam items expected, 76 bank questions",
+    "Ch10: ~19.5 exam items expected, 82 bank questions",
     "concept named in the study guide (×1.25)"
    ]
   },
   "pc-272": {
-   "w": 69,
+   "w": 66,
    "tier": "Medium",
    "section": "Ch10",
    "why": [
-    "Ch10: ~19.5 exam items expected, 76 bank questions"
+    "Ch10: ~19.5 exam items expected, 82 bank questions"
    ]
   },
   "pc-273": {
-   "w": 86,
+   "w": 82,
    "tier": "High",
    "section": "Ch10",
    "why": [
-    "Ch10: ~19.5 exam items expected, 76 bank questions",
+    "Ch10: ~19.5 exam items expected, 82 bank questions",
     "concept named in the study guide (×1.25)"
    ]
   },
   "pc-274": {
-   "w": 69,
+   "w": 66,
    "tier": "Medium",
    "section": "Ch10",
    "why": [
-    "Ch10: ~19.5 exam items expected, 76 bank questions"
+    "Ch10: ~19.5 exam items expected, 82 bank questions"
    ]
   },
   "pc-275": {
-   "w": 69,
+   "w": 66,
    "tier": "Medium",
    "section": "Ch10",
    "why": [
-    "Ch10: ~19.5 exam items expected, 76 bank questions"
+    "Ch10: ~19.5 exam items expected, 82 bank questions"
    ]
   },
   "pc-276": {
-   "w": 69,
+   "w": 66,
    "tier": "Medium",
    "section": "Ch10",
    "why": [
-    "Ch10: ~19.5 exam items expected, 76 bank questions"
+    "Ch10: ~19.5 exam items expected, 82 bank questions"
    ]
   },
   "pc-277": {
-   "w": 86,
+   "w": 82,
    "tier": "High",
    "section": "Ch10",
    "why": [
-    "Ch10: ~19.5 exam items expected, 76 bank questions",
+    "Ch10: ~19.5 exam items expected, 82 bank questions",
     "concept named in the study guide (×1.25)"
    ]
   },
   "pc-278": {
-   "w": 69,
+   "w": 66,
    "tier": "Medium",
    "section": "Ch10",
    "why": [
-    "Ch10: ~19.5 exam items expected, 76 bank questions"
+    "Ch10: ~19.5 exam items expected, 82 bank questions"
    ]
   },
   "pc-279": {
-   "w": 86,
+   "w": 82,
    "tier": "High",
    "section": "Ch10",
    "why": [
-    "Ch10: ~19.5 exam items expected, 76 bank questions",
+    "Ch10: ~19.5 exam items expected, 82 bank questions",
     "concept named in the study guide (×1.25)"
    ]
   },
   "pc-280": {
-   "w": 69,
+   "w": 66,
    "tier": "Medium",
    "section": "Ch10",
    "why": [
-    "Ch10: ~19.5 exam items expected, 76 bank questions"
+    "Ch10: ~19.5 exam items expected, 82 bank questions"
    ]
   },
   "pc-281": {
-   "w": 69,
+   "w": 66,
    "tier": "Medium",
    "section": "Ch10",
    "why": [
-    "Ch10: ~19.5 exam items expected, 76 bank questions"
+    "Ch10: ~19.5 exam items expected, 82 bank questions"
    ]
   },
   "pc-282": {
-   "w": 86,
+   "w": 82,
    "tier": "High",
    "section": "Ch10",
    "why": [
-    "Ch10: ~19.5 exam items expected, 76 bank questions",
+    "Ch10: ~19.5 exam items expected, 82 bank questions",
     "concept named in the study guide (×1.25)"
    ]
   },
   "pc-283": {
-   "w": 76,
-   "tier": "High",
+   "w": 72,
+   "tier": "Medium",
    "section": "Ch12",
    "why": [
-    "Ch12: ~21.4 exam items expected, 94 bank questions",
+    "Ch12: ~21.4 exam items expected, 103 bank questions",
     "concept named in the study guide (×1.25)"
    ]
   },
   "pc-284": {
-   "w": 76,
-   "tier": "High",
+   "w": 72,
+   "tier": "Medium",
    "section": "Ch12",
    "why": [
-    "Ch12: ~21.4 exam items expected, 94 bank questions",
+    "Ch12: ~21.4 exam items expected, 103 bank questions",
     "concept named in the study guide (×1.25)"
    ]
   },
   "pc-285": {
-   "w": 61,
+   "w": 57,
    "tier": "Medium",
    "section": "Ch12",
    "why": [
-    "Ch12: ~21.4 exam items expected, 94 bank questions"
+    "Ch12: ~21.4 exam items expected, 103 bank questions"
    ]
   },
   "pc-286": {
-   "w": 76,
-   "tier": "High",
+   "w": 72,
+   "tier": "Medium",
    "section": "Ch12",
    "why": [
-    "Ch12: ~21.4 exam items expected, 94 bank questions",
+    "Ch12: ~21.4 exam items expected, 103 bank questions",
     "concept named in the study guide (×1.25)"
    ]
   },
   "pc-287": {
-   "w": 61,
+   "w": 57,
    "tier": "Medium",
    "section": "Ch12",
    "why": [
-    "Ch12: ~21.4 exam items expected, 94 bank questions"
+    "Ch12: ~21.4 exam items expected, 103 bank questions"
    ]
   },
   "pc-288": {
-   "w": 61,
+   "w": 57,
    "tier": "Medium",
    "section": "Ch12",
    "why": [
-    "Ch12: ~21.4 exam items expected, 94 bank questions"
+    "Ch12: ~21.4 exam items expected, 103 bank questions"
    ]
   },
   "pc-289": {
-   "w": 76,
-   "tier": "High",
+   "w": 72,
+   "tier": "Medium",
    "section": "Ch12",
    "why": [
-    "Ch12: ~21.4 exam items expected, 94 bank questions",
+    "Ch12: ~21.4 exam items expected, 103 bank questions",
     "concept named in the study guide (×1.25)"
    ]
   },
   "pc-290": {
-   "w": 76,
-   "tier": "High",
+   "w": 72,
+   "tier": "Medium",
    "section": "Ch12",
    "why": [
-    "Ch12: ~21.4 exam items expected, 94 bank questions",
+    "Ch12: ~21.4 exam items expected, 103 bank questions",
     "concept named in the study guide (×1.25)"
    ]
   },
   "pc-291": {
-   "w": 76,
-   "tier": "High",
+   "w": 72,
+   "tier": "Medium",
    "section": "Ch12",
    "why": [
-    "Ch12: ~21.4 exam items expected, 94 bank questions",
+    "Ch12: ~21.4 exam items expected, 103 bank questions",
     "concept named in the study guide (×1.25)"
    ]
   },
   "pc-292": {
-   "w": 76,
-   "tier": "High",
+   "w": 72,
+   "tier": "Medium",
    "section": "Ch12",
    "why": [
-    "Ch12: ~21.4 exam items expected, 94 bank questions",
+    "Ch12: ~21.4 exam items expected, 103 bank questions",
     "concept named in the study guide (×1.25)"
    ]
   },
   "pc-293": {
-   "w": 100,
+   "w": 95,
    "tier": "High",
    "section": "Ch12",
    "why": [
-    "Ch12: ~21.4 exam items expected, 94 bank questions",
+    "Ch12: ~21.4 exam items expected, 103 bank questions",
     "slide note: reaction categories: \"know these categories, will be on exam\" (×1.5)",
     "select-N format: 13 on the exam (×1.1)"
    ]
   },
   "pc-294": {
-   "w": 91,
+   "w": 86,
    "tier": "High",
    "section": "Ch12",
    "why": [
-    "Ch12: ~21.4 exam items expected, 94 bank questions",
+    "Ch12: ~21.4 exam items expected, 103 bank questions",
     "slide note: reaction categories (continued) (×1.5)"
    ]
   },
   "pc-295": {
-   "w": 76,
-   "tier": "High",
+   "w": 72,
+   "tier": "Medium",
    "section": "Ch12",
    "why": [
-    "Ch12: ~21.4 exam items expected, 94 bank questions",
+    "Ch12: ~21.4 exam items expected, 103 bank questions",
     "concept named in the study guide (×1.25)"
    ]
   },
   "pc-296": {
-   "w": 61,
+   "w": 57,
    "tier": "Medium",
    "section": "Ch12",
    "why": [
-    "Ch12: ~21.4 exam items expected, 94 bank questions"
+    "Ch12: ~21.4 exam items expected, 103 bank questions"
    ]
   },
   "pc-297": {
-   "w": 76,
-   "tier": "High",
+   "w": 72,
+   "tier": "Medium",
    "section": "Ch12",
    "why": [
-    "Ch12: ~21.4 exam items expected, 94 bank questions",
+    "Ch12: ~21.4 exam items expected, 103 bank questions",
     "concept named in the study guide (×1.25)"
    ]
   },
   "pc-298": {
-   "w": 55,
+   "w": 56,
    "tier": "Medium",
    "section": "Ch13",
    "why": [
-    "Ch13: ~15.9 exam items expected, 97 bank questions",
+    "Ch13: ~15.9 exam items expected, 99 bank questions",
     "concept named in the study guide (×1.25)"
    ]
   },
   "pc-299": {
-   "w": 60,
+   "w": 61,
    "tier": "Medium",
    "section": "Ch13",
    "why": [
-    "Ch13: ~15.9 exam items expected, 97 bank questions",
+    "Ch13: ~15.9 exam items expected, 99 bank questions",
     "concept named in the study guide (×1.25)",
     "select-N format: 13 on the exam (×1.1)"
    ]
   },
   "pc-300": {
-   "w": 55,
+   "w": 56,
    "tier": "Medium",
    "section": "Ch13",
    "why": [
-    "Ch13: ~15.9 exam items expected, 97 bank questions",
+    "Ch13: ~15.9 exam items expected, 99 bank questions",
     "concept named in the study guide (×1.25)"
    ]
   },
@@ -2335,7 +2335,7 @@
    "tier": "Low",
    "section": "Ch13",
    "why": [
-    "Ch13: ~15.9 exam items expected, 97 bank questions"
+    "Ch13: ~15.9 exam items expected, 99 bank questions"
    ]
   },
   "pc-302": {
@@ -2343,15 +2343,15 @@
    "tier": "Low",
    "section": "Ch13",
    "why": [
-    "Ch13: ~15.9 exam items expected, 97 bank questions"
+    "Ch13: ~15.9 exam items expected, 99 bank questions"
    ]
   },
   "pc-303": {
-   "w": 60,
+   "w": 61,
    "tier": "Medium",
    "section": "Ch13",
    "why": [
-    "Ch13: ~15.9 exam items expected, 97 bank questions",
+    "Ch13: ~15.9 exam items expected, 99 bank questions",
     "concept named in the study guide (×1.25)",
     "select-N format: 13 on the exam (×1.1)"
    ]
@@ -2361,7 +2361,7 @@
    "tier": "Low",
    "section": "Ch13",
    "why": [
-    "Ch13: ~15.9 exam items expected, 97 bank questions"
+    "Ch13: ~15.9 exam items expected, 99 bank questions"
    ]
   },
   "pc-305": {
@@ -2369,15 +2369,15 @@
    "tier": "Low",
    "section": "Ch13",
    "why": [
-    "Ch13: ~15.9 exam items expected, 97 bank questions"
+    "Ch13: ~15.9 exam items expected, 99 bank questions"
    ]
   },
   "pc-306": {
-   "w": 55,
+   "w": 56,
    "tier": "Medium",
    "section": "Ch13",
    "why": [
-    "Ch13: ~15.9 exam items expected, 97 bank questions",
+    "Ch13: ~15.9 exam items expected, 99 bank questions",
     "concept named in the study guide (×1.25)"
    ]
   },
@@ -2386,7 +2386,7 @@
    "tier": "Low",
    "section": "Ch13",
    "why": [
-    "Ch13: ~15.9 exam items expected, 97 bank questions"
+    "Ch13: ~15.9 exam items expected, 99 bank questions"
    ]
   },
   "pc-308": {
@@ -2394,33 +2394,33 @@
    "tier": "Low",
    "section": "Ch13",
    "why": [
-    "Ch13: ~15.9 exam items expected, 97 bank questions"
+    "Ch13: ~15.9 exam items expected, 99 bank questions"
    ]
   },
   "pc-309": {
-   "w": 55,
+   "w": 56,
    "tier": "Medium",
    "section": "Ch13",
    "why": [
-    "Ch13: ~15.9 exam items expected, 97 bank questions",
+    "Ch13: ~15.9 exam items expected, 99 bank questions",
     "concept named in the study guide (×1.25)"
    ]
   },
   "pc-310": {
-   "w": 66,
+   "w": 67,
    "tier": "Medium",
    "section": "Ch13",
    "why": [
-    "Ch13: ~15.9 exam items expected, 97 bank questions",
+    "Ch13: ~15.9 exam items expected, 99 bank questions",
     "slide note: abbreviations: \"know this slide\" (×1.5)"
    ]
   },
   "pc-311": {
-   "w": 98,
+   "w": 100,
    "tier": "High",
    "section": "Ch13",
    "why": [
-    "Ch13: ~15.9 exam items expected, 97 bank questions",
+    "Ch13: ~15.9 exam items expected, 99 bank questions",
     "slide note: abbreviations: \"know this slide\" (×1.5)",
     "safe dose notation fill-in: 2 on the exam (×1.5)"
    ]
@@ -2430,7 +2430,7 @@
    "tier": "Low",
    "section": "Ch13",
    "why": [
-    "Ch13: ~15.9 exam items expected, 97 bank questions"
+    "Ch13: ~15.9 exam items expected, 99 bank questions"
    ]
   },
   "pc-313": {
@@ -2438,129 +2438,129 @@
    "tier": "Low",
    "section": "Ch13",
    "why": [
-    "Ch13: ~15.9 exam items expected, 97 bank questions"
+    "Ch13: ~15.9 exam items expected, 99 bank questions"
    ]
   },
   "pc-314": {
-   "w": 76,
-   "tier": "High",
+   "w": 72,
+   "tier": "Medium",
    "section": "Ch14",
    "why": [
-    "Ch14: ~10.2 exam items expected, 45 bank questions",
+    "Ch14: ~10.2 exam items expected, 49 bank questions",
     "concept named in the study guide (×1.25)"
    ]
   },
   "pc-315": {
-   "w": 61,
+   "w": 58,
    "tier": "Medium",
    "section": "Ch14",
    "why": [
-    "Ch14: ~10.2 exam items expected, 45 bank questions"
+    "Ch14: ~10.2 exam items expected, 49 bank questions"
    ]
   },
   "pc-316": {
-   "w": 61,
+   "w": 58,
    "tier": "Medium",
    "section": "Ch14",
    "why": [
-    "Ch14: ~10.2 exam items expected, 45 bank questions"
+    "Ch14: ~10.2 exam items expected, 49 bank questions"
    ]
   },
   "pc-317": {
-   "w": 76,
-   "tier": "High",
+   "w": 72,
+   "tier": "Medium",
    "section": "Ch14",
    "why": [
-    "Ch14: ~10.2 exam items expected, 45 bank questions",
+    "Ch14: ~10.2 exam items expected, 49 bank questions",
     "concept named in the study guide (×1.25)"
    ]
   },
   "pc-318": {
-   "w": 61,
+   "w": 58,
    "tier": "Medium",
    "section": "Ch14",
    "why": [
-    "Ch14: ~10.2 exam items expected, 45 bank questions"
+    "Ch14: ~10.2 exam items expected, 49 bank questions"
    ]
   },
   "pc-319": {
-   "w": 76,
-   "tier": "High",
+   "w": 72,
+   "tier": "Medium",
    "section": "Ch14",
    "why": [
-    "Ch14: ~10.2 exam items expected, 45 bank questions",
+    "Ch14: ~10.2 exam items expected, 49 bank questions",
     "concept named in the study guide (×1.25)"
    ]
   },
   "pc-320": {
-   "w": 76,
-   "tier": "High",
+   "w": 72,
+   "tier": "Medium",
    "section": "Ch14",
    "why": [
-    "Ch14: ~10.2 exam items expected, 45 bank questions",
+    "Ch14: ~10.2 exam items expected, 49 bank questions",
     "concept named in the study guide (×1.25)"
    ]
   },
   "pc-321": {
-   "w": 61,
+   "w": 58,
    "tier": "Medium",
    "section": "Ch14",
    "why": [
-    "Ch14: ~10.2 exam items expected, 45 bank questions"
+    "Ch14: ~10.2 exam items expected, 49 bank questions"
    ]
   },
   "pc-322": {
-   "w": 61,
+   "w": 58,
    "tier": "Medium",
    "section": "Ch14",
    "why": [
-    "Ch14: ~10.2 exam items expected, 45 bank questions"
+    "Ch14: ~10.2 exam items expected, 49 bank questions"
    ]
   },
   "pc-323": {
-   "w": 76,
-   "tier": "High",
+   "w": 71,
+   "tier": "Medium",
    "section": "Ch9",
    "why": [
-    "Ch9: ~8.3 exam items expected, 29 bank questions"
+    "Ch9: ~8.3 exam items expected, 32 bank questions"
    ]
   },
   "pc-324": {
-   "w": 76,
-   "tier": "High",
+   "w": 71,
+   "tier": "Medium",
    "section": "Ch9",
    "why": [
-    "Ch9: ~8.3 exam items expected, 29 bank questions"
+    "Ch9: ~8.3 exam items expected, 32 bank questions"
    ]
   },
   "pc-325": {
-   "w": 76,
-   "tier": "High",
+   "w": 71,
+   "tier": "Medium",
    "section": "Ch9",
    "why": [
-    "Ch9: ~8.3 exam items expected, 29 bank questions"
+    "Ch9: ~8.3 exam items expected, 32 bank questions"
    ]
   },
   "pc-326": {
-   "w": 76,
-   "tier": "High",
+   "w": 71,
+   "tier": "Medium",
    "section": "Ch9",
    "why": [
-    "Ch9: ~8.3 exam items expected, 29 bank questions"
+    "Ch9: ~8.3 exam items expected, 32 bank questions"
    ]
   },
   "pc-327": {
-   "w": 42,
+   "w": 39,
    "tier": "Low",
    "section": "Ch9",
    "why": [
-    "Ch9: ~8.3 exam items expected, 29 bank questions",
+    "Ch9: ~8.3 exam items expected, 32 bank questions",
     "topic not on the guide's Ch9 list (×0.5)",
     "select-N format: 13 on the exam (×1.1)"
    ]
   },
   "pc-328": {
-   "w": 30,
+   "w": 31,
    "tier": "Low",
    "section": "Ch5",
    "why": [
@@ -2569,208 +2569,208 @@
    ]
   },
   "pc-329": {
-   "w": 75,
-   "tier": "High",
+   "w": 72,
+   "tier": "Medium",
    "section": "Ch10",
    "why": [
-    "Ch10: ~19.5 exam items expected, 76 bank questions",
+    "Ch10: ~19.5 exam items expected, 82 bank questions",
     "select-N format: 13 on the exam (×1.1)"
    ]
   },
   "pc-330": {
-   "w": 75,
-   "tier": "High",
+   "w": 72,
+   "tier": "Medium",
    "section": "Ch10",
    "why": [
-    "Ch10: ~19.5 exam items expected, 76 bank questions",
+    "Ch10: ~19.5 exam items expected, 82 bank questions",
     "select-N format: 13 on the exam (×1.1)"
    ]
   },
   "pc-331": {
-   "w": 69,
+   "w": 66,
    "tier": "Medium",
    "section": "Ch10",
    "why": [
-    "Ch10: ~19.5 exam items expected, 76 bank questions"
+    "Ch10: ~19.5 exam items expected, 82 bank questions"
    ]
   },
   "pc-332": {
-   "w": 69,
+   "w": 66,
    "tier": "Medium",
    "section": "Ch10",
    "why": [
-    "Ch10: ~19.5 exam items expected, 76 bank questions"
+    "Ch10: ~19.5 exam items expected, 82 bank questions"
    ]
   },
   "pc-333": {
-   "w": 69,
+   "w": 66,
    "tier": "Medium",
    "section": "Ch10",
    "why": [
-    "Ch10: ~19.5 exam items expected, 76 bank questions"
+    "Ch10: ~19.5 exam items expected, 82 bank questions"
    ]
   },
   "pc-334": {
-   "w": 69,
+   "w": 66,
    "tier": "Medium",
    "section": "Ch10",
    "why": [
-    "Ch10: ~19.5 exam items expected, 76 bank questions"
+    "Ch10: ~19.5 exam items expected, 82 bank questions"
    ]
   },
   "pc-335": {
-   "w": 69,
+   "w": 66,
    "tier": "Medium",
    "section": "Ch10",
    "why": [
-    "Ch10: ~19.5 exam items expected, 76 bank questions"
+    "Ch10: ~19.5 exam items expected, 82 bank questions"
    ]
   },
   "pc-336": {
-   "w": 69,
+   "w": 66,
    "tier": "Medium",
    "section": "Ch10",
    "why": [
-    "Ch10: ~19.5 exam items expected, 76 bank questions"
+    "Ch10: ~19.5 exam items expected, 82 bank questions"
    ]
   },
   "pc-337": {
-   "w": 86,
+   "w": 82,
    "tier": "High",
    "section": "Ch10",
    "why": [
-    "Ch10: ~19.5 exam items expected, 76 bank questions",
+    "Ch10: ~19.5 exam items expected, 82 bank questions",
     "concept named in the study guide (×1.25)"
    ]
   },
   "pc-338": {
-   "w": 69,
+   "w": 66,
    "tier": "Medium",
    "section": "Ch10",
    "why": [
-    "Ch10: ~19.5 exam items expected, 76 bank questions"
+    "Ch10: ~19.5 exam items expected, 82 bank questions"
    ]
   },
   "pc-339": {
-   "w": 86,
+   "w": 82,
    "tier": "High",
    "section": "Ch10",
    "why": [
-    "Ch10: ~19.5 exam items expected, 76 bank questions",
+    "Ch10: ~19.5 exam items expected, 82 bank questions",
     "concept named in the study guide (×1.25)"
    ]
   },
   "pc-340": {
-   "w": 69,
+   "w": 66,
    "tier": "Medium",
    "section": "Ch10",
    "why": [
-    "Ch10: ~19.5 exam items expected, 76 bank questions"
+    "Ch10: ~19.5 exam items expected, 82 bank questions"
    ]
   },
   "pc-341": {
-   "w": 76,
-   "tier": "High",
+   "w": 72,
+   "tier": "Medium",
    "section": "Ch12",
    "why": [
-    "Ch12: ~21.4 exam items expected, 94 bank questions",
+    "Ch12: ~21.4 exam items expected, 103 bank questions",
     "concept named in the study guide (×1.25)"
    ]
   },
   "pc-342": {
-   "w": 61,
+   "w": 57,
    "tier": "Medium",
    "section": "Ch12",
    "why": [
-    "Ch12: ~21.4 exam items expected, 94 bank questions"
+    "Ch12: ~21.4 exam items expected, 103 bank questions"
    ]
   },
   "pc-343": {
-   "w": 61,
+   "w": 57,
    "tier": "Medium",
    "section": "Ch12",
    "why": [
-    "Ch12: ~21.4 exam items expected, 94 bank questions"
+    "Ch12: ~21.4 exam items expected, 103 bank questions"
    ]
   },
   "pc-344": {
-   "w": 61,
+   "w": 57,
    "tier": "Medium",
    "section": "Ch12",
    "why": [
-    "Ch12: ~21.4 exam items expected, 94 bank questions"
+    "Ch12: ~21.4 exam items expected, 103 bank questions"
    ]
   },
   "pc-345": {
-   "w": 76,
-   "tier": "High",
+   "w": 72,
+   "tier": "Medium",
    "section": "Ch12",
    "why": [
-    "Ch12: ~21.4 exam items expected, 94 bank questions",
+    "Ch12: ~21.4 exam items expected, 103 bank questions",
     "concept named in the study guide (×1.25)"
    ]
   },
   "pc-346": {
-   "w": 83,
+   "w": 79,
    "tier": "High",
    "section": "Ch12",
    "why": [
-    "Ch12: ~21.4 exam items expected, 94 bank questions",
+    "Ch12: ~21.4 exam items expected, 103 bank questions",
     "concept named in the study guide (×1.25)",
     "select-N format: 13 on the exam (×1.1)"
    ]
   },
   "pc-347": {
-   "w": 61,
+   "w": 57,
    "tier": "Medium",
    "section": "Ch12",
    "why": [
-    "Ch12: ~21.4 exam items expected, 94 bank questions"
+    "Ch12: ~21.4 exam items expected, 103 bank questions"
    ]
   },
   "pc-348": {
-   "w": 76,
-   "tier": "High",
+   "w": 72,
+   "tier": "Medium",
    "section": "Ch12",
    "why": [
-    "Ch12: ~21.4 exam items expected, 94 bank questions",
+    "Ch12: ~21.4 exam items expected, 103 bank questions",
     "concept named in the study guide (×1.25)"
    ]
   },
   "pc-349": {
-   "w": 76,
-   "tier": "High",
+   "w": 72,
+   "tier": "Medium",
    "section": "Ch12",
    "why": [
-    "Ch12: ~21.4 exam items expected, 94 bank questions",
+    "Ch12: ~21.4 exam items expected, 103 bank questions",
     "concept named in the study guide (×1.25)"
    ]
   },
   "pc-350": {
-   "w": 76,
-   "tier": "High",
+   "w": 72,
+   "tier": "Medium",
    "section": "Ch12",
    "why": [
-    "Ch12: ~21.4 exam items expected, 94 bank questions",
+    "Ch12: ~21.4 exam items expected, 103 bank questions",
     "concept named in the study guide (×1.25)"
    ]
   },
   "pc-351": {
-   "w": 83,
+   "w": 79,
    "tier": "High",
    "section": "Ch12",
    "why": [
-    "Ch12: ~21.4 exam items expected, 94 bank questions",
+    "Ch12: ~21.4 exam items expected, 103 bank questions",
     "concept named in the study guide (×1.25)",
     "select-N format: 13 on the exam (×1.1)"
    ]
   },
   "pc-352": {
-   "w": 66,
+   "w": 67,
    "tier": "Medium",
    "section": "Ch13",
    "why": [
-    "Ch13: ~15.9 exam items expected, 97 bank questions",
+    "Ch13: ~15.9 exam items expected, 99 bank questions",
     "slide note: gauge vs French: \"VERY IMPORTANT\" (×1.5)"
    ]
   },
@@ -2779,7 +2779,7 @@
    "tier": "Low",
    "section": "Ch13",
    "why": [
-    "Ch13: ~15.9 exam items expected, 97 bank questions"
+    "Ch13: ~15.9 exam items expected, 99 bank questions"
    ]
   },
   "pc-354": {
@@ -2787,15 +2787,15 @@
    "tier": "Low",
    "section": "Ch13",
    "why": [
-    "Ch13: ~15.9 exam items expected, 97 bank questions"
+    "Ch13: ~15.9 exam items expected, 99 bank questions"
    ]
   },
   "pc-355": {
-   "w": 55,
+   "w": 56,
    "tier": "Medium",
    "section": "Ch13",
    "why": [
-    "Ch13: ~15.9 exam items expected, 97 bank questions",
+    "Ch13: ~15.9 exam items expected, 99 bank questions",
     "dose math, typed exactly (×1.25)"
    ]
   },
@@ -2804,7 +2804,7 @@
    "tier": "Low",
    "section": "Ch13",
    "why": [
-    "Ch13: ~15.9 exam items expected, 97 bank questions"
+    "Ch13: ~15.9 exam items expected, 99 bank questions"
    ]
   },
   "pc-357": {
@@ -2812,15 +2812,15 @@
    "tier": "Low",
    "section": "Ch13",
    "why": [
-    "Ch13: ~15.9 exam items expected, 97 bank questions"
+    "Ch13: ~15.9 exam items expected, 99 bank questions"
    ]
   },
   "pc-358": {
-   "w": 60,
+   "w": 61,
    "tier": "Medium",
    "section": "Ch13",
    "why": [
-    "Ch13: ~15.9 exam items expected, 97 bank questions",
+    "Ch13: ~15.9 exam items expected, 99 bank questions",
     "concept named in the study guide (×1.25)",
     "select-N format: 13 on the exam (×1.1)"
    ]
@@ -2830,7 +2830,7 @@
    "tier": "Low",
    "section": "Ch13",
    "why": [
-    "Ch13: ~15.9 exam items expected, 97 bank questions"
+    "Ch13: ~15.9 exam items expected, 99 bank questions"
    ]
   },
   "pc-360": {
@@ -2838,15 +2838,15 @@
    "tier": "Low",
    "section": "Ch13",
    "why": [
-    "Ch13: ~15.9 exam items expected, 97 bank questions"
+    "Ch13: ~15.9 exam items expected, 99 bank questions"
    ]
   },
   "pc-361": {
-   "w": 55,
+   "w": 56,
    "tier": "Medium",
    "section": "Ch13",
    "why": [
-    "Ch13: ~15.9 exam items expected, 97 bank questions",
+    "Ch13: ~15.9 exam items expected, 99 bank questions",
     "concept named in the study guide (×1.25)"
    ]
   },
@@ -2855,15 +2855,15 @@
    "tier": "Low",
    "section": "Ch13",
    "why": [
-    "Ch13: ~15.9 exam items expected, 97 bank questions"
+    "Ch13: ~15.9 exam items expected, 99 bank questions"
    ]
   },
   "pc-363": {
-   "w": 55,
+   "w": 56,
    "tier": "Medium",
    "section": "Ch13",
    "why": [
-    "Ch13: ~15.9 exam items expected, 97 bank questions",
+    "Ch13: ~15.9 exam items expected, 99 bank questions",
     "concept named in the study guide (×1.25)"
    ]
   },
@@ -2872,88 +2872,88 @@
    "tier": "Low",
    "section": "Ch13",
    "why": [
-    "Ch13: ~15.9 exam items expected, 97 bank questions"
+    "Ch13: ~15.9 exam items expected, 99 bank questions"
    ]
   },
   "pc-365": {
-   "w": 61,
+   "w": 58,
    "tier": "Medium",
    "section": "Ch14",
    "why": [
-    "Ch14: ~10.2 exam items expected, 45 bank questions"
+    "Ch14: ~10.2 exam items expected, 49 bank questions"
    ]
   },
   "pc-366": {
-   "w": 76,
-   "tier": "High",
+   "w": 72,
+   "tier": "Medium",
    "section": "Ch14",
    "why": [
-    "Ch14: ~10.2 exam items expected, 45 bank questions",
+    "Ch14: ~10.2 exam items expected, 49 bank questions",
     "concept named in the study guide (×1.25)"
    ]
   },
   "pc-367": {
-   "w": 61,
+   "w": 58,
    "tier": "Medium",
    "section": "Ch14",
    "why": [
-    "Ch14: ~10.2 exam items expected, 45 bank questions"
+    "Ch14: ~10.2 exam items expected, 49 bank questions"
    ]
   },
   "pc-368": {
-   "w": 61,
+   "w": 58,
    "tier": "Medium",
    "section": "Ch14",
    "why": [
-    "Ch14: ~10.2 exam items expected, 45 bank questions"
+    "Ch14: ~10.2 exam items expected, 49 bank questions"
    ]
   },
   "pc-369": {
-   "w": 76,
-   "tier": "High",
+   "w": 72,
+   "tier": "Medium",
    "section": "Ch14",
    "why": [
-    "Ch14: ~10.2 exam items expected, 45 bank questions",
+    "Ch14: ~10.2 exam items expected, 49 bank questions",
     "concept named in the study guide (×1.25)"
    ]
   },
   "pc-370": {
-   "w": 76,
-   "tier": "High",
+   "w": 72,
+   "tier": "Medium",
    "section": "Ch14",
    "why": [
-    "Ch14: ~10.2 exam items expected, 45 bank questions",
+    "Ch14: ~10.2 exam items expected, 49 bank questions",
     "concept named in the study guide (×1.25)"
    ]
   },
   "pc-371": {
-   "w": 76,
-   "tier": "High",
+   "w": 72,
+   "tier": "Medium",
    "section": "Ch14",
    "why": [
-    "Ch14: ~10.2 exam items expected, 45 bank questions",
+    "Ch14: ~10.2 exam items expected, 49 bank questions",
     "concept named in the study guide (×1.25)"
    ]
   },
   "pc-372": {
-   "w": 76,
-   "tier": "High",
+   "w": 72,
+   "tier": "Medium",
    "section": "Ch14",
    "why": [
-    "Ch14: ~10.2 exam items expected, 45 bank questions",
+    "Ch14: ~10.2 exam items expected, 49 bank questions",
     "concept named in the study guide (×1.25)"
    ]
   },
   "pc-373": {
-   "w": 63,
+   "w": 61,
    "tier": "Medium",
    "section": "Ch11",
    "why": [
-    "Ch11: ~7.1 exam items expected, 30 bank questions"
+    "Ch11: ~7.1 exam items expected, 32 bank questions"
    ]
   },
   "pc-374": {
-   "w": 79,
+   "w": 82,
    "tier": "High",
    "section": "Ch1-2",
    "why": [
@@ -2961,7 +2961,7 @@
    ]
   },
   "pc-375": {
-   "w": 30,
+   "w": 31,
    "tier": "Low",
    "section": "Ch5",
    "why": [
@@ -2970,7 +2970,7 @@
    ]
   },
   "pc-376": {
-   "w": 30,
+   "w": 31,
    "tier": "Low",
    "section": "Ch5",
    "why": [
@@ -2979,7 +2979,7 @@
    ]
   },
   "pc-377": {
-   "w": 48,
+   "w": 50,
    "tier": "Low",
    "section": "Ch6",
    "why": [
@@ -2987,250 +2987,250 @@
    ]
   },
   "pc-378": {
-   "w": 83,
+   "w": 79,
    "tier": "High",
    "section": "Ch9",
    "why": [
-    "Ch9: ~8.3 exam items expected, 29 bank questions",
+    "Ch9: ~8.3 exam items expected, 32 bank questions",
     "select-N format: 13 on the exam (×1.1)"
    ]
   },
   "pc-379": {
-   "w": 69,
+   "w": 66,
    "tier": "Medium",
    "section": "Ch10",
    "why": [
-    "Ch10: ~19.5 exam items expected, 76 bank questions"
+    "Ch10: ~19.5 exam items expected, 82 bank questions"
    ]
   },
   "pc-380": {
-   "w": 69,
+   "w": 66,
    "tier": "Medium",
    "section": "Ch10",
    "why": [
-    "Ch10: ~19.5 exam items expected, 76 bank questions"
+    "Ch10: ~19.5 exam items expected, 82 bank questions"
    ]
   },
   "pc-381": {
-   "w": 69,
+   "w": 66,
    "tier": "Medium",
    "section": "Ch10",
    "why": [
-    "Ch10: ~19.5 exam items expected, 76 bank questions"
+    "Ch10: ~19.5 exam items expected, 82 bank questions"
    ]
   },
   "pc-382": {
-   "w": 69,
+   "w": 66,
    "tier": "Medium",
    "section": "Ch10",
    "why": [
-    "Ch10: ~19.5 exam items expected, 76 bank questions"
+    "Ch10: ~19.5 exam items expected, 82 bank questions"
    ]
   },
   "pc-383": {
-   "w": 69,
+   "w": 66,
    "tier": "Medium",
    "section": "Ch10",
    "why": [
-    "Ch10: ~19.5 exam items expected, 76 bank questions"
+    "Ch10: ~19.5 exam items expected, 82 bank questions"
    ]
   },
   "pc-384": {
-   "w": 86,
+   "w": 82,
    "tier": "High",
    "section": "Ch10",
    "why": [
-    "Ch10: ~19.5 exam items expected, 76 bank questions",
+    "Ch10: ~19.5 exam items expected, 82 bank questions",
     "concept named in the study guide (×1.25)"
    ]
   },
   "pc-385": {
-   "w": 69,
+   "w": 66,
    "tier": "Medium",
    "section": "Ch10",
    "why": [
-    "Ch10: ~19.5 exam items expected, 76 bank questions"
+    "Ch10: ~19.5 exam items expected, 82 bank questions"
    ]
   },
   "pc-386": {
-   "w": 75,
-   "tier": "High",
+   "w": 72,
+   "tier": "Medium",
    "section": "Ch10",
    "why": [
-    "Ch10: ~19.5 exam items expected, 76 bank questions",
+    "Ch10: ~19.5 exam items expected, 82 bank questions",
     "select-N format: 13 on the exam (×1.1)"
    ]
   },
   "pc-387": {
-   "w": 69,
+   "w": 66,
    "tier": "Medium",
    "section": "Ch10",
    "why": [
-    "Ch10: ~19.5 exam items expected, 76 bank questions"
+    "Ch10: ~19.5 exam items expected, 82 bank questions"
    ]
   },
   "pc-388": {
-   "w": 69,
+   "w": 66,
    "tier": "Medium",
    "section": "Ch10",
    "why": [
-    "Ch10: ~19.5 exam items expected, 76 bank questions"
+    "Ch10: ~19.5 exam items expected, 82 bank questions"
    ]
   },
   "pc-389": {
-   "w": 69,
+   "w": 66,
    "tier": "Medium",
    "section": "Ch10",
    "why": [
-    "Ch10: ~19.5 exam items expected, 76 bank questions"
+    "Ch10: ~19.5 exam items expected, 82 bank questions"
    ]
   },
   "pc-390": {
-   "w": 69,
+   "w": 66,
    "tier": "Medium",
    "section": "Ch10",
    "why": [
-    "Ch10: ~19.5 exam items expected, 76 bank questions"
+    "Ch10: ~19.5 exam items expected, 82 bank questions"
    ]
   },
   "pc-391": {
-   "w": 76,
-   "tier": "High",
+   "w": 72,
+   "tier": "Medium",
    "section": "Ch12",
    "why": [
-    "Ch12: ~21.4 exam items expected, 94 bank questions",
+    "Ch12: ~21.4 exam items expected, 103 bank questions",
     "concept named in the study guide (×1.25)"
    ]
   },
   "pc-392": {
-   "w": 61,
+   "w": 57,
    "tier": "Medium",
    "section": "Ch12",
    "why": [
-    "Ch12: ~21.4 exam items expected, 94 bank questions"
+    "Ch12: ~21.4 exam items expected, 103 bank questions"
    ]
   },
   "pc-393": {
-   "w": 61,
+   "w": 57,
    "tier": "Medium",
    "section": "Ch12",
    "why": [
-    "Ch12: ~21.4 exam items expected, 94 bank questions"
+    "Ch12: ~21.4 exam items expected, 103 bank questions"
    ]
   },
   "pc-394": {
-   "w": 61,
+   "w": 57,
    "tier": "Medium",
    "section": "Ch12",
    "why": [
-    "Ch12: ~21.4 exam items expected, 94 bank questions"
+    "Ch12: ~21.4 exam items expected, 103 bank questions"
    ]
   },
   "pc-395": {
-   "w": 76,
-   "tier": "High",
+   "w": 72,
+   "tier": "Medium",
    "section": "Ch12",
    "why": [
-    "Ch12: ~21.4 exam items expected, 94 bank questions",
+    "Ch12: ~21.4 exam items expected, 103 bank questions",
     "concept named in the study guide (×1.25)"
    ]
   },
   "pc-396": {
-   "w": 76,
-   "tier": "High",
+   "w": 72,
+   "tier": "Medium",
    "section": "Ch12",
    "why": [
-    "Ch12: ~21.4 exam items expected, 94 bank questions",
+    "Ch12: ~21.4 exam items expected, 103 bank questions",
     "concept named in the study guide (×1.25)"
    ]
   },
   "pc-397": {
-   "w": 76,
-   "tier": "High",
+   "w": 72,
+   "tier": "Medium",
    "section": "Ch12",
    "why": [
-    "Ch12: ~21.4 exam items expected, 94 bank questions",
+    "Ch12: ~21.4 exam items expected, 103 bank questions",
     "concept named in the study guide (×1.25)"
    ]
   },
   "pc-398": {
-   "w": 76,
-   "tier": "High",
+   "w": 72,
+   "tier": "Medium",
    "section": "Ch12",
    "why": [
-    "Ch12: ~21.4 exam items expected, 94 bank questions",
+    "Ch12: ~21.4 exam items expected, 103 bank questions",
     "concept named in the study guide (×1.25)"
    ]
   },
   "pc-399": {
-   "w": 76,
-   "tier": "High",
+   "w": 72,
+   "tier": "Medium",
    "section": "Ch12",
    "why": [
-    "Ch12: ~21.4 exam items expected, 94 bank questions",
+    "Ch12: ~21.4 exam items expected, 103 bank questions",
     "concept named in the study guide (×1.25)"
    ]
   },
   "pc-400": {
-   "w": 76,
-   "tier": "High",
+   "w": 72,
+   "tier": "Medium",
    "section": "Ch12",
    "why": [
-    "Ch12: ~21.4 exam items expected, 94 bank questions",
+    "Ch12: ~21.4 exam items expected, 103 bank questions",
     "concept named in the study guide (×1.25)"
    ]
   },
   "pc-401": {
-   "w": 61,
+   "w": 57,
    "tier": "Medium",
    "section": "Ch12",
    "why": [
-    "Ch12: ~21.4 exam items expected, 94 bank questions"
+    "Ch12: ~21.4 exam items expected, 103 bank questions"
    ]
   },
   "pc-402": {
-   "w": 67,
+   "w": 63,
    "tier": "Medium",
    "section": "Ch12",
    "why": [
-    "Ch12: ~21.4 exam items expected, 94 bank questions",
+    "Ch12: ~21.4 exam items expected, 103 bank questions",
     "select-N format: 13 on the exam (×1.1)"
    ]
   },
   "pc-403": {
-   "w": 55,
+   "w": 56,
    "tier": "Medium",
    "section": "Ch13",
    "why": [
-    "Ch13: ~15.9 exam items expected, 97 bank questions",
+    "Ch13: ~15.9 exam items expected, 99 bank questions",
     "concept named in the study guide (×1.25)"
    ]
   },
   "pc-404": {
-   "w": 82,
+   "w": 83,
    "tier": "High",
    "section": "Ch13",
    "why": [
-    "Ch13: ~15.9 exam items expected, 97 bank questions",
+    "Ch13: ~15.9 exam items expected, 99 bank questions",
     "slide note: abbreviations: \"know this slide\" (×1.5)",
     "dose math, typed exactly (×1.25)"
    ]
   },
   "pc-405": {
-   "w": 66,
+   "w": 67,
    "tier": "Medium",
    "section": "Ch13",
    "why": [
-    "Ch13: ~15.9 exam items expected, 97 bank questions",
+    "Ch13: ~15.9 exam items expected, 99 bank questions",
     "slide note: abbreviations: \"know this slide\" (×1.5)"
    ]
   },
   "pc-406": {
-   "w": 66,
+   "w": 67,
    "tier": "Medium",
    "section": "Ch13",
    "why": [
-    "Ch13: ~15.9 exam items expected, 97 bank questions",
+    "Ch13: ~15.9 exam items expected, 99 bank questions",
     "slide note: abbreviations: \"know this slide\" (×1.5)"
    ]
   },
@@ -3239,15 +3239,15 @@
    "tier": "Low",
    "section": "Ch13",
    "why": [
-    "Ch13: ~15.9 exam items expected, 97 bank questions"
+    "Ch13: ~15.9 exam items expected, 99 bank questions"
    ]
   },
   "pc-408": {
-   "w": 55,
+   "w": 56,
    "tier": "Medium",
    "section": "Ch13",
    "why": [
-    "Ch13: ~15.9 exam items expected, 97 bank questions",
+    "Ch13: ~15.9 exam items expected, 99 bank questions",
     "concept named in the study guide (×1.25)"
    ]
   },
@@ -3256,7 +3256,7 @@
    "tier": "Low",
    "section": "Ch13",
    "why": [
-    "Ch13: ~15.9 exam items expected, 97 bank questions"
+    "Ch13: ~15.9 exam items expected, 99 bank questions"
    ]
   },
   "pc-410": {
@@ -3264,7 +3264,7 @@
    "tier": "Low",
    "section": "Ch13",
    "why": [
-    "Ch13: ~15.9 exam items expected, 97 bank questions"
+    "Ch13: ~15.9 exam items expected, 99 bank questions"
    ]
   },
   "pc-411": {
@@ -3272,7 +3272,7 @@
    "tier": "Low",
    "section": "Ch13",
    "why": [
-    "Ch13: ~15.9 exam items expected, 97 bank questions"
+    "Ch13: ~15.9 exam items expected, 99 bank questions"
    ]
   },
   "pc-412": {
@@ -3280,15 +3280,15 @@
    "tier": "Low",
    "section": "Ch13",
    "why": [
-    "Ch13: ~15.9 exam items expected, 97 bank questions"
+    "Ch13: ~15.9 exam items expected, 99 bank questions"
    ]
   },
   "pc-413": {
-   "w": 48,
+   "w": 49,
    "tier": "Low",
    "section": "Ch13",
    "why": [
-    "Ch13: ~15.9 exam items expected, 97 bank questions",
+    "Ch13: ~15.9 exam items expected, 99 bank questions",
     "select-N format: 13 on the exam (×1.1)"
    ]
   },
@@ -3297,7 +3297,7 @@
    "tier": "Low",
    "section": "Ch13",
    "why": [
-    "Ch13: ~15.9 exam items expected, 97 bank questions"
+    "Ch13: ~15.9 exam items expected, 99 bank questions"
    ]
   },
   "pc-415": {
@@ -3305,7 +3305,7 @@
    "tier": "Low",
    "section": "Ch13",
    "why": [
-    "Ch13: ~15.9 exam items expected, 97 bank questions"
+    "Ch13: ~15.9 exam items expected, 99 bank questions"
    ]
   },
   "pc-416": {
@@ -3313,7 +3313,7 @@
    "tier": "Low",
    "section": "Ch13",
    "why": [
-    "Ch13: ~15.9 exam items expected, 97 bank questions"
+    "Ch13: ~15.9 exam items expected, 99 bank questions"
    ]
   },
   "pc-417": {
@@ -3321,65 +3321,65 @@
    "tier": "Low",
    "section": "Ch13",
    "why": [
-    "Ch13: ~15.9 exam items expected, 97 bank questions"
+    "Ch13: ~15.9 exam items expected, 99 bank questions"
    ]
   },
   "pc-418": {
-   "w": 76,
-   "tier": "High",
+   "w": 72,
+   "tier": "Medium",
    "section": "Ch14",
    "why": [
-    "Ch14: ~10.2 exam items expected, 45 bank questions",
+    "Ch14: ~10.2 exam items expected, 49 bank questions",
     "concept named in the study guide (×1.25)"
    ]
   },
   "pc-419": {
-   "w": 76,
-   "tier": "High",
+   "w": 72,
+   "tier": "Medium",
    "section": "Ch14",
    "why": [
-    "Ch14: ~10.2 exam items expected, 45 bank questions",
+    "Ch14: ~10.2 exam items expected, 49 bank questions",
     "concept named in the study guide (×1.25)"
    ]
   },
   "pc-420": {
-   "w": 76,
-   "tier": "High",
+   "w": 72,
+   "tier": "Medium",
    "section": "Ch14",
    "why": [
-    "Ch14: ~10.2 exam items expected, 45 bank questions",
+    "Ch14: ~10.2 exam items expected, 49 bank questions",
     "concept named in the study guide (×1.25)"
    ]
   },
   "pc-421": {
-   "w": 76,
-   "tier": "High",
+   "w": 72,
+   "tier": "Medium",
    "section": "Ch14",
    "why": [
-    "Ch14: ~10.2 exam items expected, 45 bank questions",
+    "Ch14: ~10.2 exam items expected, 49 bank questions",
     "concept named in the study guide (×1.25)"
    ]
   },
   "pc-422": {
-   "w": 76,
-   "tier": "High",
+   "w": 72,
+   "tier": "Medium",
    "section": "Ch14",
    "why": [
-    "Ch14: ~10.2 exam items expected, 45 bank questions",
+    "Ch14: ~10.2 exam items expected, 49 bank questions",
     "concept named in the study guide (×1.25)"
    ]
   },
   "pc-423": {
-   "w": 76,
-   "tier": "High",
+   "w": 72,
+   "tier": "Medium",
    "section": "Ch14",
    "why": [
-    "Ch14: ~10.2 exam items expected, 45 bank questions",
+    "Ch14: ~10.2 exam items expected, 49 bank questions",
     "concept named in the study guide (×1.25)"
    ]
   },
   "pc-424": {
-   "w": 48,
+   "w": 50,
    "tier": "Low",
    "section": "Ch6",
    "why": [
@@ -3387,7 +3387,7 @@
    ]
   },
   "pc-425": {
-   "w": 48,
+   "w": 50,
    "tier": "Low",
    "section": "Ch6",
    "why": [
@@ -3395,23 +3395,23 @@
    ]
   },
   "pc-426": {
-   "w": 63,
+   "w": 61,
    "tier": "Medium",
    "section": "Ch11",
    "why": [
-    "Ch11: ~7.1 exam items expected, 30 bank questions"
+    "Ch11: ~7.1 exam items expected, 32 bank questions"
    ]
   },
   "pc-427": {
-   "w": 63,
+   "w": 61,
    "tier": "Medium",
    "section": "Ch11",
    "why": [
-    "Ch11: ~7.1 exam items expected, 30 bank questions"
+    "Ch11: ~7.1 exam items expected, 32 bank questions"
    ]
   },
   "pc-428": {
-   "w": 48,
+   "w": 50,
    "tier": "Low",
    "section": "Ch6",
    "why": [
@@ -3419,193 +3419,428 @@
    ]
   },
   "pc-429": {
-   "w": 91,
+   "w": 86,
    "tier": "High",
    "section": "Ch12",
    "why": [
-    "Ch12: ~21.4 exam items expected, 94 bank questions",
+    "Ch12: ~21.4 exam items expected, 103 bank questions",
     "slide note: reaction categories: \"know these categories, will be on exam\" (×1.5)"
    ]
   },
   "pc-430": {
-   "w": 91,
+   "w": 86,
    "tier": "High",
    "section": "Ch12",
    "why": [
-    "Ch12: ~21.4 exam items expected, 94 bank questions",
+    "Ch12: ~21.4 exam items expected, 103 bank questions",
     "slide note: reaction categories: \"know these categories, will be on exam\" (×1.5)"
    ]
   },
   "pc-431": {
-   "w": 100,
+   "w": 95,
    "tier": "High",
    "section": "Ch12",
    "why": [
-    "Ch12: ~21.4 exam items expected, 94 bank questions",
+    "Ch12: ~21.4 exam items expected, 103 bank questions",
     "slide note: reaction categories (continued) (×1.5)",
     "select-N format: 13 on the exam (×1.1)"
    ]
   },
   "pc-432": {
-   "w": 91,
+   "w": 86,
    "tier": "High",
    "section": "Ch12",
    "why": [
-    "Ch12: ~21.4 exam items expected, 94 bank questions",
+    "Ch12: ~21.4 exam items expected, 103 bank questions",
     "slide note: reaction categories (continued) (×1.5)"
    ]
   },
   "pc-433": {
-   "w": 61,
+   "w": 57,
    "tier": "Medium",
    "section": "Ch12",
    "why": [
-    "Ch12: ~21.4 exam items expected, 94 bank questions"
+    "Ch12: ~21.4 exam items expected, 103 bank questions"
    ]
   },
   "pc-434": {
-   "w": 91,
+   "w": 86,
    "tier": "High",
    "section": "Ch12",
    "why": [
-    "Ch12: ~21.4 exam items expected, 94 bank questions",
+    "Ch12: ~21.4 exam items expected, 103 bank questions",
     "slide note: six rights: \"Must know these 6\" (×1.5)"
    ]
   },
   "pc-435": {
-   "w": 91,
+   "w": 86,
    "tier": "High",
    "section": "Ch12",
    "why": [
-    "Ch12: ~21.4 exam items expected, 94 bank questions",
+    "Ch12: ~21.4 exam items expected, 103 bank questions",
     "slide note: six rights: \"Must know these 6\" (×1.5)"
    ]
   },
   "pc-436": {
-   "w": 72,
+   "w": 73,
    "tier": "Medium",
    "section": "Ch13",
    "why": [
-    "Ch13: ~15.9 exam items expected, 97 bank questions",
+    "Ch13: ~15.9 exam items expected, 99 bank questions",
     "slide note: gauge vs French: \"VERY IMPORTANT\" (×1.5)",
     "select-N format: 13 on the exam (×1.1)"
    ]
   },
   "pc-437": {
-   "w": 66,
+   "w": 67,
    "tier": "Medium",
    "section": "Ch13",
    "why": [
-    "Ch13: ~15.9 exam items expected, 97 bank questions",
+    "Ch13: ~15.9 exam items expected, 99 bank questions",
     "slide note: abbreviations: \"know this slide\" (×1.5)"
    ]
   },
   "pc-438": {
-   "w": 66,
+   "w": 67,
    "tier": "Medium",
    "section": "Ch13",
    "why": [
-    "Ch13: ~15.9 exam items expected, 97 bank questions",
+    "Ch13: ~15.9 exam items expected, 99 bank questions",
     "slide note: abbreviations: \"know this slide\" (×1.5)"
    ]
   },
   "pc-439": {
-   "w": 72,
+   "w": 73,
    "tier": "Medium",
    "section": "Ch13",
    "why": [
-    "Ch13: ~15.9 exam items expected, 97 bank questions",
+    "Ch13: ~15.9 exam items expected, 99 bank questions",
     "slide note: abbreviations: \"know this slide\" (×1.5)",
     "select-N format: 13 on the exam (×1.1)"
    ]
   },
   "pc-440": {
-   "w": 98,
+   "w": 100,
    "tier": "High",
    "section": "Ch13",
    "why": [
-    "Ch13: ~15.9 exam items expected, 97 bank questions",
+    "Ch13: ~15.9 exam items expected, 99 bank questions",
     "slide note: abbreviations: \"know this slide\" (×1.5)",
     "safe dose notation fill-in: 2 on the exam (×1.5)"
    ]
   },
   "pc-441": {
-   "w": 98,
+   "w": 100,
    "tier": "High",
    "section": "Ch13",
    "why": [
-    "Ch13: ~15.9 exam items expected, 97 bank questions",
+    "Ch13: ~15.9 exam items expected, 99 bank questions",
     "slide note: abbreviations: \"know this slide\" (×1.5)",
     "safe dose notation fill-in: 2 on the exam (×1.5)"
    ]
   },
   "pc-442": {
-   "w": 82,
+   "w": 83,
    "tier": "High",
    "section": "Ch13",
    "why": [
-    "Ch13: ~15.9 exam items expected, 97 bank questions",
+    "Ch13: ~15.9 exam items expected, 99 bank questions",
     "concept named in the study guide (×1.25)",
     "safe dose notation fill-in: 2 on the exam (×1.5)"
    ]
   },
   "pc-443": {
-   "w": 82,
+   "w": 83,
    "tier": "High",
    "section": "Ch13",
    "why": [
-    "Ch13: ~15.9 exam items expected, 97 bank questions",
+    "Ch13: ~15.9 exam items expected, 99 bank questions",
     "slide note: abbreviations: \"know this slide\" (×1.5)",
     "dose math, typed exactly (×1.25)"
    ]
   },
   "pc-444": {
-   "w": 86,
+   "w": 82,
    "tier": "High",
    "section": "Ch10",
    "why": [
-    "Ch10: ~19.5 exam items expected, 76 bank questions",
+    "Ch10: ~19.5 exam items expected, 82 bank questions",
     "concept named in the study guide (×1.25)"
    ]
   },
   "pc-445": {
-   "w": 86,
+   "w": 82,
    "tier": "High",
    "section": "Ch10",
    "why": [
-    "Ch10: ~19.5 exam items expected, 76 bank questions",
+    "Ch10: ~19.5 exam items expected, 82 bank questions",
     "concept named in the study guide (×1.25)"
    ]
   },
   "pc-446": {
-   "w": 76,
-   "tier": "High",
+   "w": 72,
+   "tier": "Medium",
    "section": "Ch12",
    "why": [
-    "Ch12: ~21.4 exam items expected, 94 bank questions",
+    "Ch12: ~21.4 exam items expected, 103 bank questions",
     "concept named in the study guide (×1.25)"
    ]
   },
   "pc-447": {
-   "w": 76,
-   "tier": "High",
+   "w": 72,
+   "tier": "Medium",
    "section": "Ch12",
    "why": [
-    "Ch12: ~21.4 exam items expected, 94 bank questions",
+    "Ch12: ~21.4 exam items expected, 103 bank questions",
     "concept named in the study guide (×1.25)"
    ]
   },
   "pc-448": {
-   "w": 76,
-   "tier": "High",
+   "w": 72,
+   "tier": "Medium",
    "section": "Ch14",
    "why": [
-    "Ch14: ~10.2 exam items expected, 45 bank questions",
+    "Ch14: ~10.2 exam items expected, 49 bank questions",
     "concept named in the study guide (×1.25)"
    ]
   },
+  "pc-449": {
+   "w": 57,
+   "tier": "Medium",
+   "section": "Ch12",
+   "why": [
+    "Ch12: ~21.4 exam items expected, 103 bank questions"
+   ]
+  },
+  "pc-450": {
+   "w": 63,
+   "tier": "Medium",
+   "section": "Ch12",
+   "why": [
+    "Ch12: ~21.4 exam items expected, 103 bank questions",
+    "select-N format: 13 on the exam (×1.1)"
+   ]
+  },
+  "pc-451": {
+   "w": 72,
+   "tier": "Medium",
+   "section": "Ch12",
+   "why": [
+    "Ch12: ~21.4 exam items expected, 103 bank questions",
+    "concept named in the study guide (×1.25)"
+   ]
+  },
+  "pc-452": {
+   "w": 72,
+   "tier": "Medium",
+   "section": "Ch12",
+   "why": [
+    "Ch12: ~21.4 exam items expected, 103 bank questions",
+    "concept named in the study guide (×1.25)"
+   ]
+  },
+  "pc-453": {
+   "w": 72,
+   "tier": "Medium",
+   "section": "Ch12",
+   "why": [
+    "Ch12: ~21.4 exam items expected, 103 bank questions",
+    "concept named in the study guide (×1.25)"
+   ]
+  },
+  "pc-454": {
+   "w": 72,
+   "tier": "Medium",
+   "section": "Ch12",
+   "why": [
+    "Ch12: ~21.4 exam items expected, 103 bank questions",
+    "concept named in the study guide (×1.25)"
+   ]
+  },
+  "pc-455": {
+   "w": 72,
+   "tier": "Medium",
+   "section": "Ch12",
+   "why": [
+    "Ch12: ~21.4 exam items expected, 103 bank questions",
+    "concept named in the study guide (×1.25)"
+   ]
+  },
+  "pc-456": {
+   "w": 72,
+   "tier": "Medium",
+   "section": "Ch12",
+   "why": [
+    "Ch12: ~21.4 exam items expected, 103 bank questions",
+    "concept named in the study guide (×1.25)"
+   ]
+  },
+  "pc-457": {
+   "w": 57,
+   "tier": "Medium",
+   "section": "Ch12",
+   "why": [
+    "Ch12: ~21.4 exam items expected, 103 bank questions"
+   ]
+  },
+  "pc-458": {
+   "w": 91,
+   "tier": "High",
+   "section": "Ch10",
+   "why": [
+    "Ch10: ~19.5 exam items expected, 82 bank questions",
+    "concept named in the study guide (×1.25)",
+    "select-N format: 13 on the exam (×1.1)"
+   ]
+  },
+  "pc-459": {
+   "w": 82,
+   "tier": "High",
+   "section": "Ch10",
+   "why": [
+    "Ch10: ~19.5 exam items expected, 82 bank questions",
+    "concept named in the study guide (×1.25)"
+   ]
+  },
+  "pc-460": {
+   "w": 82,
+   "tier": "High",
+   "section": "Ch10",
+   "why": [
+    "Ch10: ~19.5 exam items expected, 82 bank questions",
+    "concept named in the study guide (×1.25)"
+   ]
+  },
+  "pc-461": {
+   "w": 66,
+   "tier": "Medium",
+   "section": "Ch10",
+   "why": [
+    "Ch10: ~19.5 exam items expected, 82 bank questions"
+   ]
+  },
+  "pc-462": {
+   "w": 72,
+   "tier": "Medium",
+   "section": "Ch10",
+   "why": [
+    "Ch10: ~19.5 exam items expected, 82 bank questions",
+    "select-N format: 13 on the exam (×1.1)"
+   ]
+  },
+  "pc-463": {
+   "w": 66,
+   "tier": "Medium",
+   "section": "Ch10",
+   "why": [
+    "Ch10: ~19.5 exam items expected, 82 bank questions"
+   ]
+  },
+  "pc-464": {
+   "w": 56,
+   "tier": "Medium",
+   "section": "Ch13",
+   "why": [
+    "Ch13: ~15.9 exam items expected, 99 bank questions",
+    "concept named in the study guide (×1.25)"
+   ]
+  },
+  "pc-465": {
+   "w": 56,
+   "tier": "Medium",
+   "section": "Ch13",
+   "why": [
+    "Ch13: ~15.9 exam items expected, 99 bank questions",
+    "concept named in the study guide (×1.25)"
+   ]
+  },
+  "pc-466": {
+   "w": 72,
+   "tier": "Medium",
+   "section": "Ch14",
+   "why": [
+    "Ch14: ~10.2 exam items expected, 49 bank questions",
+    "concept named in the study guide (×1.25)"
+   ]
+  },
+  "pc-467": {
+   "w": 72,
+   "tier": "Medium",
+   "section": "Ch14",
+   "why": [
+    "Ch14: ~10.2 exam items expected, 49 bank questions",
+    "concept named in the study guide (×1.25)"
+   ]
+  },
+  "pc-468": {
+   "w": 72,
+   "tier": "Medium",
+   "section": "Ch14",
+   "why": [
+    "Ch14: ~10.2 exam items expected, 49 bank questions",
+    "concept named in the study guide (×1.25)"
+   ]
+  },
+  "pc-469": {
+   "w": 72,
+   "tier": "Medium",
+   "section": "Ch14",
+   "why": [
+    "Ch14: ~10.2 exam items expected, 49 bank questions",
+    "concept named in the study guide (×1.25)"
+   ]
+  },
+  "pc-470": {
+   "w": 61,
+   "tier": "Medium",
+   "section": "Ch11",
+   "why": [
+    "Ch11: ~7.1 exam items expected, 32 bank questions"
+   ]
+  },
+  "pc-471": {
+   "w": 67,
+   "tier": "Medium",
+   "section": "Ch11",
+   "why": [
+    "Ch11: ~7.1 exam items expected, 32 bank questions",
+    "select-N format: 13 on the exam (×1.1)"
+   ]
+  },
+  "pc-472": {
+   "w": 71,
+   "tier": "Medium",
+   "section": "Ch9",
+   "why": [
+    "Ch9: ~8.3 exam items expected, 32 bank questions"
+   ]
+  },
+  "pc-473": {
+   "w": 71,
+   "tier": "Medium",
+   "section": "Ch9",
+   "why": [
+    "Ch9: ~8.3 exam items expected, 32 bank questions"
+   ]
+  },
+  "pc-474": {
+   "w": 71,
+   "tier": "Medium",
+   "section": "Ch9",
+   "why": [
+    "Ch9: ~8.3 exam items expected, 32 bank questions"
+   ]
+  },
+  "pc-475": {
+   "w": 69,
+   "tier": "Medium",
+   "section": "Ch3",
+   "why": [
+    "Ch3: ~4.7 exam items expected, 19 bank questions"
+   ]
+  },
   "pc-001": {
-   "w": 34,
+   "w": 35,
    "tier": "Low",
    "section": "Ch6",
    "why": [
@@ -3614,7 +3849,7 @@
    ]
   },
   "pc-002": {
-   "w": 34,
+   "w": 35,
    "tier": "Low",
    "section": "Ch6",
    "why": [
@@ -3623,7 +3858,7 @@
    ]
   },
   "pc-003": {
-   "w": 19,
+   "w": 20,
    "tier": "Low",
    "section": "Ch6",
    "why": [
@@ -3632,7 +3867,7 @@
    ]
   },
   "pc-004": {
-   "w": 19,
+   "w": 20,
    "tier": "Low",
    "section": "Ch6",
    "why": [
@@ -3641,7 +3876,7 @@
    ]
   },
   "pc-005": {
-   "w": 19,
+   "w": 20,
    "tier": "Low",
    "section": "Ch6",
    "why": [
@@ -3650,7 +3885,7 @@
    ]
   },
   "pc-006": {
-   "w": 19,
+   "w": 20,
    "tier": "Low",
    "section": "Ch6",
    "why": [
@@ -3659,7 +3894,7 @@
    ]
   },
   "pc-007": {
-   "w": 34,
+   "w": 35,
    "tier": "Low",
    "section": "Ch6",
    "why": [
@@ -3668,7 +3903,7 @@
    ]
   },
   "pc-008": {
-   "w": 48,
+   "w": 50,
    "tier": "Low",
    "section": "Ch6",
    "why": [
@@ -3676,7 +3911,7 @@
    ]
   },
   "pc-009": {
-   "w": 48,
+   "w": 50,
    "tier": "Low",
    "section": "Ch6",
    "why": [
@@ -3684,7 +3919,7 @@
    ]
   },
   "pc-010": {
-   "w": 48,
+   "w": 50,
    "tier": "Low",
    "section": "Ch6",
    "why": [
@@ -3692,7 +3927,7 @@
    ]
   },
   "pc-011": {
-   "w": 48,
+   "w": 50,
    "tier": "Low",
    "section": "Ch6",
    "why": [
@@ -3700,8 +3935,8 @@
    ]
   },
   "pc-012": {
-   "w": 53,
-   "tier": "Low",
+   "w": 55,
+   "tier": "Medium",
    "section": "Ch6",
    "why": [
     "Ch6: ~4.7 exam items expected, 26 bank questions",
@@ -3709,7 +3944,7 @@
    ]
   },
   "pc-013": {
-   "w": 48,
+   "w": 50,
    "tier": "Low",
    "section": "Ch6",
    "why": [
@@ -3717,8 +3952,8 @@
    ]
   },
   "pc-014": {
-   "w": 53,
-   "tier": "Low",
+   "w": 55,
+   "tier": "Medium",
    "section": "Ch6",
    "why": [
     "Ch6: ~4.7 exam items expected, 26 bank questions",
@@ -3726,52 +3961,52 @@
    ]
   },
   "pc-015": {
-   "w": 63,
+   "w": 61,
    "tier": "Medium",
    "section": "Ch11",
    "why": [
-    "Ch11: ~7.1 exam items expected, 30 bank questions"
+    "Ch11: ~7.1 exam items expected, 32 bank questions"
    ]
   },
   "pc-016": {
-   "w": 69,
+   "w": 67,
    "tier": "Medium",
    "section": "Ch11",
    "why": [
-    "Ch11: ~7.1 exam items expected, 30 bank questions",
+    "Ch11: ~7.1 exam items expected, 32 bank questions",
     "select-N format: 13 on the exam (×1.1)"
    ]
   },
   "pc-017": {
-   "w": 63,
+   "w": 61,
    "tier": "Medium",
    "section": "Ch11",
    "why": [
-    "Ch11: ~7.1 exam items expected, 30 bank questions"
+    "Ch11: ~7.1 exam items expected, 32 bank questions"
    ]
   },
   "pc-018": {
-   "w": 63,
+   "w": 61,
    "tier": "Medium",
    "section": "Ch11",
    "why": [
-    "Ch11: ~7.1 exam items expected, 30 bank questions"
+    "Ch11: ~7.1 exam items expected, 32 bank questions"
    ]
   },
   "pc-019": {
-   "w": 63,
+   "w": 61,
    "tier": "Medium",
    "section": "Ch11",
    "why": [
-    "Ch11: ~7.1 exam items expected, 30 bank questions"
+    "Ch11: ~7.1 exam items expected, 32 bank questions"
    ]
   },
   "pc-020": {
-   "w": 69,
+   "w": 67,
    "tier": "Medium",
    "section": "Ch11",
    "why": [
-    "Ch11: ~7.1 exam items expected, 30 bank questions",
+    "Ch11: ~7.1 exam items expected, 32 bank questions",
     "select-N format: 13 on the exam (×1.1)"
    ]
   },
@@ -3780,32 +4015,32 @@
    "tier": "Low",
    "section": "Ch11",
    "why": [
-    "Ch11: ~7.1 exam items expected, 30 bank questions",
+    "Ch11: ~7.1 exam items expected, 32 bank questions",
     "topic not on the guide's Ch11 list (×0.5)"
    ]
   },
   "pc-022": {
-   "w": 63,
+   "w": 61,
    "tier": "Medium",
    "section": "Ch11",
    "why": [
-    "Ch11: ~7.1 exam items expected, 30 bank questions"
+    "Ch11: ~7.1 exam items expected, 32 bank questions"
    ]
   },
   "pc-023": {
-   "w": 63,
+   "w": 61,
    "tier": "Medium",
    "section": "Ch11",
    "why": [
-    "Ch11: ~7.1 exam items expected, 30 bank questions"
+    "Ch11: ~7.1 exam items expected, 32 bank questions"
    ]
   },
   "pc-024": {
-   "w": 63,
+   "w": 61,
    "tier": "Medium",
    "section": "Ch11",
    "why": [
-    "Ch11: ~7.1 exam items expected, 30 bank questions"
+    "Ch11: ~7.1 exam items expected, 32 bank questions"
    ]
   },
   "pc-025": {
@@ -3813,7 +4048,7 @@
    "tier": "Low",
    "section": "Ch11",
    "why": [
-    "Ch11: ~7.1 exam items expected, 30 bank questions",
+    "Ch11: ~7.1 exam items expected, 32 bank questions",
     "topic not on the guide's Ch11 list (×0.5)"
    ]
   },
@@ -3822,101 +4057,101 @@
    "tier": "Low",
    "section": "Ch11",
    "why": [
-    "Ch11: ~7.1 exam items expected, 30 bank questions",
+    "Ch11: ~7.1 exam items expected, 32 bank questions",
     "topic not on the guide's Ch11 list (×0.5)"
    ]
   },
   "pc-027": {
-   "w": 76,
-   "tier": "High",
+   "w": 71,
+   "tier": "Medium",
    "section": "Ch9",
    "why": [
-    "Ch9: ~8.3 exam items expected, 29 bank questions"
+    "Ch9: ~8.3 exam items expected, 32 bank questions"
    ]
   },
   "pc-028": {
-   "w": 83,
+   "w": 79,
    "tier": "High",
    "section": "Ch9",
    "why": [
-    "Ch9: ~8.3 exam items expected, 29 bank questions",
+    "Ch9: ~8.3 exam items expected, 32 bank questions",
     "select-N format: 13 on the exam (×1.1)"
    ]
   },
   "pc-029": {
-   "w": 38,
+   "w": 36,
    "tier": "Low",
    "section": "Ch9",
    "why": [
-    "Ch9: ~8.3 exam items expected, 29 bank questions",
+    "Ch9: ~8.3 exam items expected, 32 bank questions",
     "topic not on the guide's Ch9 list (×0.5)"
    ]
   },
   "pc-030": {
-   "w": 42,
+   "w": 39,
    "tier": "Low",
    "section": "Ch9",
    "why": [
-    "Ch9: ~8.3 exam items expected, 29 bank questions",
+    "Ch9: ~8.3 exam items expected, 32 bank questions",
     "topic not on the guide's Ch9 list (×0.5)",
     "select-N format: 13 on the exam (×1.1)"
    ]
   },
   "pc-031": {
-   "w": 42,
+   "w": 39,
    "tier": "Low",
    "section": "Ch9",
    "why": [
-    "Ch9: ~8.3 exam items expected, 29 bank questions",
+    "Ch9: ~8.3 exam items expected, 32 bank questions",
     "topic not on the guide's Ch9 list (×0.5)",
     "select-N format: 13 on the exam (×1.1)"
    ]
   },
   "pc-032": {
-   "w": 38,
+   "w": 36,
    "tier": "Low",
    "section": "Ch9",
    "why": [
-    "Ch9: ~8.3 exam items expected, 29 bank questions",
+    "Ch9: ~8.3 exam items expected, 32 bank questions",
     "topic not on the guide's Ch9 list (×0.5)"
    ]
   },
   "pc-033": {
-   "w": 38,
+   "w": 36,
    "tier": "Low",
    "section": "Ch9",
    "why": [
-    "Ch9: ~8.3 exam items expected, 29 bank questions",
+    "Ch9: ~8.3 exam items expected, 32 bank questions",
     "topic not on the guide's Ch9 list (×0.5)"
    ]
   },
   "pc-034": {
-   "w": 38,
+   "w": 36,
    "tier": "Low",
    "section": "Ch9",
    "why": [
-    "Ch9: ~8.3 exam items expected, 29 bank questions",
+    "Ch9: ~8.3 exam items expected, 32 bank questions",
     "topic not on the guide's Ch9 list (×0.5)"
    ]
   },
   "pc-035": {
-   "w": 76,
-   "tier": "High",
+   "w": 71,
+   "tier": "Medium",
    "section": "Ch9",
    "why": [
-    "Ch9: ~8.3 exam items expected, 29 bank questions"
+    "Ch9: ~8.3 exam items expected, 32 bank questions"
    ]
   },
   "pc-036": {
-   "w": 76,
-   "tier": "High",
+   "w": 71,
+   "tier": "Medium",
    "section": "Ch9",
    "why": [
-    "Ch9: ~8.3 exam items expected, 29 bank questions"
+    "Ch9: ~8.3 exam items expected, 32 bank questions"
    ]
   },
   "pc-037": {
-   "w": 48,
+   "w": 50,
    "tier": "Low",
    "section": "Ch6",
    "why": [
@@ -3924,7 +4159,7 @@
    ]
   },
   "pc-038": {
-   "w": 79,
+   "w": 82,
    "tier": "High",
    "section": "Ch1-2",
    "why": [
@@ -3932,7 +4167,7 @@
    ]
   },
   "pc-039": {
-   "w": 79,
+   "w": 82,
    "tier": "High",
    "section": "Ch1-2",
    "why": [
@@ -3940,7 +4175,7 @@
    ]
   },
   "pc-040": {
-   "w": 79,
+   "w": 82,
    "tier": "High",
    "section": "Ch1-2",
    "why": [
@@ -3948,7 +4183,7 @@
    ]
   },
   "pc-041": {
-   "w": 79,
+   "w": 82,
    "tier": "High",
    "section": "Ch1-2",
    "why": [
@@ -3956,7 +4191,7 @@
    ]
   },
   "pc-042": {
-   "w": 79,
+   "w": 82,
    "tier": "High",
    "section": "Ch1-2",
    "why": [
@@ -3968,11 +4203,11 @@
    "tier": "Low",
    "section": "Ch13",
    "why": [
-    "Ch13: ~15.9 exam items expected, 97 bank questions"
+    "Ch13: ~15.9 exam items expected, 99 bank questions"
    ]
   },
   "pc-044": {
-   "w": 79,
+   "w": 82,
    "tier": "High",
    "section": "Ch1-2",
    "why": [
@@ -3980,11 +4215,11 @@
    ]
   },
   "pc-045": {
-   "w": 35,
+   "w": 34,
    "tier": "Low",
    "section": "Ch3",
    "why": [
-    "Ch3: ~4.7 exam items expected, 18 bank questions",
+    "Ch3: ~4.7 exam items expected, 19 bank questions",
     "topic not on the guide's Ch3 list (×0.5)"
    ]
   },
@@ -3993,38 +4228,38 @@
    "tier": "Low",
    "section": "Ch3",
    "why": [
-    "Ch3: ~4.7 exam items expected, 18 bank questions",
+    "Ch3: ~4.7 exam items expected, 19 bank questions",
     "topic not on the guide's Ch3 list (×0.5)",
     "select-N format: 13 on the exam (×1.1)"
    ]
   },
   "pc-047": {
-   "w": 70,
+   "w": 69,
    "tier": "Medium",
    "section": "Ch3",
    "why": [
-    "Ch3: ~4.7 exam items expected, 18 bank questions"
+    "Ch3: ~4.7 exam items expected, 19 bank questions"
    ]
   },
   "pc-048": {
-   "w": 35,
+   "w": 34,
    "tier": "Low",
    "section": "Ch3",
    "why": [
-    "Ch3: ~4.7 exam items expected, 18 bank questions",
+    "Ch3: ~4.7 exam items expected, 19 bank questions",
     "topic not on the guide's Ch3 list (×0.5)"
    ]
   },
   "pc-049": {
-   "w": 70,
+   "w": 69,
    "tier": "Medium",
    "section": "Ch3",
    "why": [
-    "Ch3: ~4.7 exam items expected, 18 bank questions"
+    "Ch3: ~4.7 exam items expected, 19 bank questions"
    ]
   },
   "pc-050": {
-   "w": 30,
+   "w": 31,
    "tier": "Low",
    "section": "Ch5",
    "why": [
@@ -4033,7 +4268,7 @@
    ]
   },
   "pc-051": {
-   "w": 60,
+   "w": 62,
    "tier": "Medium",
    "section": "Ch5",
    "why": [
@@ -4041,7 +4276,7 @@
    ]
   },
   "pc-052": {
-   "w": 60,
+   "w": 62,
    "tier": "Medium",
    "section": "Ch5",
    "why": [
@@ -4049,7 +4284,7 @@
    ]
   },
   "pc-053": {
-   "w": 30,
+   "w": 31,
    "tier": "Low",
    "section": "Ch5",
    "why": [
@@ -4058,7 +4293,7 @@
    ]
   },
   "pc-054": {
-   "w": 33,
+   "w": 34,
    "tier": "Low",
    "section": "Ch5",
    "why": [
@@ -4068,150 +4303,150 @@
    ]
   },
   "pc-055": {
-   "w": 69,
+   "w": 66,
    "tier": "Medium",
    "section": "Ch10",
    "why": [
-    "Ch10: ~19.5 exam items expected, 76 bank questions"
+    "Ch10: ~19.5 exam items expected, 82 bank questions"
    ]
   },
   "pc-056": {
-   "w": 86,
+   "w": 82,
    "tier": "High",
    "section": "Ch10",
    "why": [
-    "Ch10: ~19.5 exam items expected, 76 bank questions",
+    "Ch10: ~19.5 exam items expected, 82 bank questions",
     "concept named in the study guide (×1.25)"
    ]
   },
   "pc-057": {
-   "w": 69,
+   "w": 66,
    "tier": "Medium",
    "section": "Ch10",
    "why": [
-    "Ch10: ~19.5 exam items expected, 76 bank questions"
+    "Ch10: ~19.5 exam items expected, 82 bank questions"
    ]
   },
   "pc-058": {
-   "w": 69,
+   "w": 66,
    "tier": "Medium",
    "section": "Ch10",
    "why": [
-    "Ch10: ~19.5 exam items expected, 76 bank questions"
+    "Ch10: ~19.5 exam items expected, 82 bank questions"
    ]
   },
   "pc-059": {
-   "w": 69,
+   "w": 66,
    "tier": "Medium",
    "section": "Ch10",
    "why": [
-    "Ch10: ~19.5 exam items expected, 76 bank questions"
+    "Ch10: ~19.5 exam items expected, 82 bank questions"
    ]
   },
   "pc-060": {
-   "w": 86,
+   "w": 82,
    "tier": "High",
    "section": "Ch10",
    "why": [
-    "Ch10: ~19.5 exam items expected, 76 bank questions",
+    "Ch10: ~19.5 exam items expected, 82 bank questions",
     "concept named in the study guide (×1.25)"
    ]
   },
   "pc-061": {
-   "w": 75,
-   "tier": "High",
+   "w": 72,
+   "tier": "Medium",
    "section": "Ch10",
    "why": [
-    "Ch10: ~19.5 exam items expected, 76 bank questions",
+    "Ch10: ~19.5 exam items expected, 82 bank questions",
     "select-N format: 13 on the exam (×1.1)"
    ]
   },
   "pc-062": {
-   "w": 61,
+   "w": 57,
    "tier": "Medium",
    "section": "Ch12",
    "why": [
-    "Ch12: ~21.4 exam items expected, 94 bank questions"
+    "Ch12: ~21.4 exam items expected, 103 bank questions"
    ]
   },
   "pc-063": {
-   "w": 76,
-   "tier": "High",
+   "w": 72,
+   "tier": "Medium",
    "section": "Ch12",
    "why": [
-    "Ch12: ~21.4 exam items expected, 94 bank questions",
+    "Ch12: ~21.4 exam items expected, 103 bank questions",
     "concept named in the study guide (×1.25)"
    ]
   },
   "pc-064": {
-   "w": 61,
+   "w": 57,
    "tier": "Medium",
    "section": "Ch12",
    "why": [
-    "Ch12: ~21.4 exam items expected, 94 bank questions"
+    "Ch12: ~21.4 exam items expected, 103 bank questions"
    ]
   },
   "pc-065": {
-   "w": 76,
-   "tier": "High",
+   "w": 72,
+   "tier": "Medium",
    "section": "Ch12",
    "why": [
-    "Ch12: ~21.4 exam items expected, 94 bank questions",
+    "Ch12: ~21.4 exam items expected, 103 bank questions",
     "concept named in the study guide (×1.25)"
    ]
   },
   "pc-066": {
-   "w": 76,
-   "tier": "High",
+   "w": 72,
+   "tier": "Medium",
    "section": "Ch12",
    "why": [
-    "Ch12: ~21.4 exam items expected, 94 bank questions",
+    "Ch12: ~21.4 exam items expected, 103 bank questions",
     "concept named in the study guide (×1.25)"
    ]
   },
   "pc-067": {
-   "w": 76,
-   "tier": "High",
+   "w": 72,
+   "tier": "Medium",
    "section": "Ch12",
    "why": [
-    "Ch12: ~21.4 exam items expected, 94 bank questions",
+    "Ch12: ~21.4 exam items expected, 103 bank questions",
     "concept named in the study guide (×1.25)"
    ]
   },
   "pc-068": {
-   "w": 55,
+   "w": 56,
    "tier": "Medium",
    "section": "Ch13",
    "why": [
-    "Ch13: ~15.9 exam items expected, 97 bank questions",
+    "Ch13: ~15.9 exam items expected, 99 bank questions",
     "concept named in the study guide (×1.25)"
    ]
   },
   "pc-069": {
-   "w": 55,
+   "w": 56,
    "tier": "Medium",
    "section": "Ch13",
    "why": [
-    "Ch13: ~15.9 exam items expected, 97 bank questions",
+    "Ch13: ~15.9 exam items expected, 99 bank questions",
     "concept named in the study guide (×1.25)"
    ]
   },
   "pc-070": {
-   "w": 60,
+   "w": 61,
    "tier": "Medium",
    "section": "Ch13",
    "why": [
-    "Ch13: ~15.9 exam items expected, 97 bank questions",
+    "Ch13: ~15.9 exam items expected, 99 bank questions",
     "concept named in the study guide (×1.25)",
     "select-N format: 13 on the exam (×1.1)"
    ]
   },
   "pc-071": {
-   "w": 55,
+   "w": 56,
    "tier": "Medium",
    "section": "Ch13",
    "why": [
-    "Ch13: ~15.9 exam items expected, 97 bank questions",
+    "Ch13: ~15.9 exam items expected, 99 bank questions",
     "concept named in the study guide (×1.25)"
    ]
   },
@@ -4220,7 +4455,7 @@
    "tier": "Low",
    "section": "Ch13",
    "why": [
-    "Ch13: ~15.9 exam items expected, 97 bank questions"
+    "Ch13: ~15.9 exam items expected, 99 bank questions"
    ]
   },
   "pc-073": {
@@ -4228,23 +4463,23 @@
    "tier": "Low",
    "section": "Ch13",
    "why": [
-    "Ch13: ~15.9 exam items expected, 97 bank questions"
+    "Ch13: ~15.9 exam items expected, 99 bank questions"
    ]
   },
   "pc-074": {
-   "w": 70,
+   "w": 69,
    "tier": "Medium",
    "section": "Ch3",
    "why": [
-    "Ch3: ~4.7 exam items expected, 18 bank questions"
+    "Ch3: ~4.7 exam items expected, 19 bank questions"
    ]
   },
   "pc-075": {
-   "w": 35,
+   "w": 34,
    "tier": "Low",
    "section": "Ch3",
    "why": [
-    "Ch3: ~4.7 exam items expected, 18 bank questions",
+    "Ch3: ~4.7 exam items expected, 19 bank questions",
     "topic not on the guide's Ch3 list (×0.5)"
    ]
   },

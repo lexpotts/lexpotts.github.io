@@ -3254,5 +3254,73 @@
   "t": "amitriptyline",
   "a": [],
   "d": "An antidepressant whose dosing can be guided by CYP2D6/CYP2C19 gene testing."
+ },
+ {
+  "t": "angiography",
+  "a": [
+   "angiogram"
+  ],
+  "d": "Imaging of blood vessels with contrast injected through a catheter, usually from the femoral or radial artery."
+ },
+ {
+  "t": "thrombolysis",
+  "a": [
+   "catheter-directed thrombolysis"
+  ],
+  "d": "Dissolving a blood clot with a drug, sometimes delivered right at the clot through a catheter."
+ },
+ {
+  "t": "cecostomy",
+  "a": [
+   "cecostomy tube"
+  ],
+  "d": "A tube through the abdominal wall into the cecum (the first part of the large bowel)."
+ },
+ {
+  "t": "BCG",
+  "a": [
+   "Bacille Calmette-Guerin"
+  ],
+  "cs": true,
+  "d": "A tuberculosis vaccine used in some other countries; not part of US health care worker requirements (TB is screened for instead)."
+ },
+ {
+  "t": "MMR",
+  "a": [
+   "measles, mumps and rubella"
+  ],
+  "cs": true,
+  "d": "The combined measles, mumps and rubella vaccine; commonly required for health care staff."
+ },
+ {
+  "t": "hepatitis B",
+  "a": [
+   "Hep B"
+  ],
+  "d": "A bloodborne liver virus; health care workers are commonly required to be vaccinated against it."
+ },
+ {
+  "t": "titer",
+  "a": [
+   "titre"
+  ],
+  "d": "A blood test showing antibody level, used to prove immunity (e.g. to varicella) instead of a vaccination record."
+ },
+ {
+  "t": "intra-articular",
+  "a": [],
+  "d": "Into a joint, as for arthrography or a steroid injection."
+ },
+ {
+  "t": "intra-arterial",
+  "a": [],
+  "d": "Into an artery, by catheter from the femoral or radial artery (angiography, thrombolysis)."
+ },
+ {
+  "t": "ionic contrast",
+  "a": [
+   "meglumine"
+  ],
+  "d": "Contrast that splits into an iodinated anion and a sodium or meglumine cation, adding particles (osmolality) but no iodine."
  }
 ]
