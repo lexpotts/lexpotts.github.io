@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<title>MRI Quiz</title>
+<title>MIRS Study Aid</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&family=Space+Grotesk:wght@500;700&family=JetBrains+Mono:wght@500&display=swap">
 <style>
@@ -827,7 +827,7 @@ $('#import-file').onchange = async e => {
   } else {
     // Alex's LAN server: this copy is Mer's.
     DEFAULT_WHO = 'Mer';
-    document.title = $('#app-title').textContent = "Mer's MRI Quiz";
+    document.title = $('#app-title').textContent = "MIRS Quiz";
     if (!store.get('quiz-who', '')) whoEl.value = DEFAULT_WHO;
   }
   maybeUpdate();

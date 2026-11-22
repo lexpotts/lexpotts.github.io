@@ -2762,5 +2762,240 @@
   ],
   "cs": false,
   "d": "Date of birth; one of the two patient identifiers (with full name)."
+ },
+ {
+  "t": "CPAP",
+  "a": [
+   "BiPAP",
+   "BIPAP"
+  ],
+  "cs": true,
+  "d": "Continuous (CPAP) or bilevel (BiPAP) positive airway pressure: positive-pressure breathing support through a tight mask, with no tube in the airway."
+ },
+ {
+  "t": "ACLS",
+  "a": [
+   "Advanced Cardiovascular Life Support"
+  ],
+  "cs": true,
+  "d": "Advanced Cardiovascular Life Support: the advanced resuscitation training (rhythms, drugs, defibrillation) beyond basic CPR."
+ },
+ {
+  "t": "ST segment",
+  "a": [
+   "ST"
+  ],
+  "d": "The flat stretch of the ECG between the QRS and the T wave. Elevation or depression can signal heart ischemia (but is distorted inside an MRI)."
+ },
+ {
+  "t": "NSAID",
+  "a": [
+   "NSAIDs",
+   "nonsteroidal anti-inflammatory"
+  ],
+  "d": "Nonsteroidal anti-inflammatory drug (ibuprofen, naproxen, aspirin). Risks: GI bleeding and kidney injury."
+ },
+ {
+  "t": "acetaminophen",
+  "a": [
+   "Tylenol"
+  ],
+  "d": "A pain and fever reliever that is not anti-inflammatory. Liver toxicity in overdose."
+ },
+ {
+  "t": "contrast-associated AKI",
+  "a": [
+   "CA-AKI"
+  ],
+  "d": "Acute kidney injury that FOLLOWS contrast, whatever the actual cause."
+ },
+ {
+  "t": "contrast-induced AKI",
+  "a": [
+   "CI-AKI"
+  ],
+  "d": "Acute kidney injury actually CAUSED by the contrast."
+ },
+ {
+  "t": "RIS",
+  "a": [
+   "radiology information system"
+  ],
+  "cs": true,
+  "d": "Radiology information system: the department software for orders, scheduling and exam records."
+ },
+ {
+  "t": "nurse practitioner",
+  "a": [
+   "NP"
+  ],
+  "d": "An advanced-practice nurse who can prescribe and order exams where state law allows."
+ },
+ {
+  "t": "physician assistant",
+  "a": [
+   "PA"
+  ],
+  "d": "A licensed clinician who can prescribe and order exams where state law allows."
+ },
+ {
+  "t": "HITECH Act",
+  "a": [
+   "HITECH"
+  ],
+  "d": "A 2009 federal law that strengthened HIPAA privacy, security and enforcement."
+ },
+ {
+  "t": "minimum necessary",
+  "a": [],
+  "d": "HIPAA habit: share only the patient information the other person needs for the task, not the whole record."
+ },
+ {
+  "t": "ABC extinguisher",
+  "a": [
+   "ABC dry chemical",
+   "ABC"
+  ],
+  "d": "A dry-chemical fire extinguisher rated for class A (ordinary), B (flammable liquid) and C (electrical) fires."
+ },
+ {
+  "t": "biologic",
+  "a": [
+   "biologics"
+  ],
+  "d": "A medical product made by living cells, such as a vaccine or blood product. Regulated by FDA licensure."
+ },
+ {
+  "t": "steady state",
+  "a": [],
+  "d": "When repeated doses keep a drug level stable; reached after about 4–5 half-lives."
+ },
+ {
+  "t": "protein-bound",
+  "a": [
+   "protein binding"
+  ],
+  "d": "Drug attached to blood proteins. It is inactive and held in reserve; only free (unbound) drug acts."
+ },
+ {
+  "t": "lidocaine",
+  "a": [],
+  "d": "A local anesthetic that is also an antiarrhythmic drug."
+ },
+ {
+  "t": "amiodarone",
+  "a": [],
+  "d": "An antiarrhythmic drug; in cardiac arrest it is used for shock-refractory VF or pulseless VT."
+ },
+ {
+  "t": "vasopressin",
+  "a": [],
+  "d": "A drug once used in cardiac arrest; no longer part of the AHA adult cardiac arrest algorithm."
+ },
+ {
+  "t": "double-J stent",
+  "a": [
+   "ureteral stent",
+   "double-J"
+  ],
+  "d": "A thin tube in the ureter with one coil in the kidney pelvis and one in the bladder, holding the ureter open."
+ },
+ {
+  "t": "encrustation",
+  "a": [],
+  "d": "Mineral crust building up on a stent or catheter, which can block it."
+ },
+ {
+  "t": "double-barrel colostomy",
+  "a": [
+   "double-barrel"
+  ],
+  "d": "Two stomas side by side: the proximal one passes stool, the distal one only mucus."
+ },
+ {
+  "t": "leadless pacemaker",
+  "a": [],
+  "d": "A tiny pacemaker placed inside a heart chamber through the femoral vein, with no leads."
+ },
+ {
+  "t": "patency",
+  "a": [
+   "patent"
+  ],
+  "d": "Being open and flowing freely (e.g. an IV that flushes easily with no swelling)."
+ },
+ {
+  "t": "incompatibility",
+  "a": [
+   "incompatible"
+  ],
+  "d": "Two drugs or fluids that react when mixed (cloudiness, crystals, color change). Stop, and don't flush it into the patient."
+ },
+ {
+  "t": "capacity",
+  "a": [
+   "decision-making capacity"
+  ],
+  "courses": [
+   "Patient Care"
+  ],
+  "d": "A patient's ability to understand information and make a decision. Without it, a legal representative gives consent."
+ },
+ {
+  "t": "compression band",
+  "a": [
+   "radial compression band"
+  ],
+  "d": "An inflatable wrist band that presses on the radial artery puncture to stop bleeding after radial access."
+ },
+ {
+  "t": "wide-bore",
+  "a": [
+   "open scanner",
+   "open MRI"
+  ],
+  "d": "An MRI scanner with a larger opening (or an open design) that helps claustrophobic or larger patients."
+ },
+ {
+  "t": "uptake",
+  "a": [
+   "uptake period"
+  ],
+  "d": "How much tracer a tissue takes in. In PET, the quiet waiting time after injection while FDG is absorbed."
+ },
+ {
+  "t": "seizure threshold",
+  "a": [
+   "seizure-threshold"
+  ],
+  "d": "How easily seizures are triggered. Some drugs lower it, which matters before myelography."
+ },
+ {
+  "t": "postprimary",
+  "a": [
+   "postprimary credential"
+  ],
+  "d": "An ARRT credential earned after a primary one (e.g. CT, MR, mammography, VI, CI)."
+ },
+ {
+  "t": "mammography",
+  "a": [
+   "mammogram"
+  ],
+  "d": "X-ray imaging of the breast, using compression. Screening is for no symptoms; diagnostic is for a symptom or an abnormal screen."
+ },
+ {
+  "t": "tympanic",
+  "a": [
+   "tympanic membrane"
+  ],
+  "d": "The eardrum. A tympanic thermometer reads its infrared heat, which tracks core temperature."
+ },
+ {
+  "t": "horizontal evacuation",
+  "a": [
+   "horizontal before vertical"
+  ],
+  "d": "Fire evacuation that moves people sideways first, through a fire door to a safe area on the same floor, before using stairs."
  }
 ]
