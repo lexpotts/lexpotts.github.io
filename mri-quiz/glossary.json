@@ -2997,5 +2997,262 @@
    "horizontal before vertical"
   ],
   "d": "Fire evacuation that moves people sideways first, through a fire door to a safe area on the same floor, before using stairs."
+ },
+ {
+  "t": "weighted intestinal tube",
+  "a": [
+   "Cantor",
+   "Cantor tube",
+   "Harris",
+   "Miller-Abbott"
+  ],
+  "courses": [
+   "Patient Care"
+  ],
+  "d": "A long tube with a weighted tip (tungsten today) carried into the small bowel by peristalsis to decompress an obstruction; not taped tight until in position."
+ },
+ {
+  "t": "pinocytosis",
+  "a": [],
+  "d": "A cell taking in tiny droplets of fluid, with whatever is dissolved in them."
+ },
+ {
+  "t": "CYP2D6",
+  "a": [
+   "CYP2C19"
+  ],
+  "cs": true,
+  "d": "Liver enzymes whose inherited variants change how fast some drugs are cleared (pharmacogenomics)."
+ },
+ {
+  "t": "iohexol",
+  "a": [
+   "Omnipaque"
+  ],
+  "d": "A common low-osmolar, nonionic iodinated contrast agent (generic iohexol, brand Omnipaque)."
+ },
+ {
+  "t": "QOD",
+  "a": [],
+  "cs": true,
+  "d": "\"Every other day\": an error-prone abbreviation; write it out."
+ },
+ {
+  "t": "SL",
+  "a": [],
+  "cs": true,
+  "d": "Sublingual (under the tongue). SC can be misread as SL, which is why SUBQ is written instead."
+ },
+ {
+  "t": "inferior vena cava",
+  "a": [
+   "IVC"
+  ],
+  "d": "The large vein returning blood from the lower body to the right atrium; where a femoral central line tip sits, above the diaphragm."
+ },
+ {
+  "t": "sonography",
+  "a": [
+   "sonographer",
+   "ultrasound"
+  ],
+  "d": "Imaging with high-frequency sound waves (ultrasound): real-time, no ionizing radiation."
+ },
+ {
+  "t": "fluoroscopy",
+  "a": [
+   "fluoro"
+  ],
+  "d": "Real-time, moving x-ray imaging, used to guide procedures and contrast studies."
+ },
+ {
+  "t": "CNS",
+  "a": [
+   "central nervous system"
+  ],
+  "cs": false,
+  "d": "Central nervous system: the brain and spinal cord."
+ },
+ {
+  "t": "V1 lead",
+  "a": [
+   "V1"
+  ],
+  "cs": true,
+  "d": "The chest ECG electrode (brown, US colors) at the 4th intercostal space, right sternal border."
+ },
+ {
+  "t": "ondansetron",
+  "a": [
+   "Zofran"
+  ],
+  "d": "An antiemetic (anti-nausea) drug."
+ },
+ {
+  "t": "scopolamine",
+  "a": [
+   "scopolamine patch"
+  ],
+  "d": "An antiemetic, often a patch behind the ear for motion sickness. Check any patch before MRI."
+ },
+ {
+  "t": "antiemetic",
+  "a": [
+   "antiemetics"
+  ],
+  "d": "A drug that prevents or treats nausea and vomiting."
+ },
+ {
+  "t": "diuretic",
+  "a": [
+   "diuretics",
+   "furosemide",
+   "Lasix"
+  ],
+  "d": "A drug that increases urine output (e.g. furosemide). Patients may need to void urgently."
+ },
+ {
+  "t": "direct oral anticoagulant",
+  "a": [
+   "DOAC",
+   "DOACs",
+   "apixaban",
+   "rivaroxaban",
+   "dabigatran",
+   "Eliquis"
+  ],
+  "d": "Newer oral blood thinners (apixaban, rivaroxaban, dabigatran); may be held before invasive procedures per the ordering team."
+ },
+ {
+  "t": "blood conservation system",
+  "a": [
+   "ConstaVac"
+  ],
+  "d": "A surgical drain that collects blood from a joint so it can be given back to the patient (reinfused)."
+ },
+ {
+  "t": "external catheter",
+  "a": [
+   "condom catheter"
+  ],
+  "d": "A sheath (males) or suction device (females) that collects urine without entering the bladder."
+ },
+ {
+  "t": "chaperone",
+  "a": [],
+  "courses": [
+   "Patient Care"
+  ],
+  "d": "A staff member who stays in the room during an intimate exam or procedure, for the patient's comfort and protection."
+ },
+ {
+  "t": "child life specialist",
+  "a": [],
+  "d": "A trained professional who helps children cope with medical procedures."
+ },
+ {
+  "t": "blanching",
+  "a": [
+   "blanch"
+  ],
+  "d": "Skin turning pale or white, e.g. around an IV site where fluid is pressing on tissue."
+ },
+ {
+  "t": "pulse pressure",
+  "a": [],
+  "d": "Systolic minus diastolic pressure (about 30–50 mm Hg). Narrowing can mean falling stroke volume."
+ },
+ {
+  "t": "stroke volume",
+  "a": [],
+  "d": "The amount of blood the heart pumps out with each beat."
+ },
+ {
+  "t": "fomite",
+  "a": [
+   "fomites"
+  ],
+  "d": "An object (used dressing, instrument) carrying live organisms that can spread infection by touch."
+ },
+ {
+  "t": "vector",
+  "a": [],
+  "courses": [
+   "Patient Care"
+  ],
+  "d": "A living carrier, such as an insect, that transmits an infectious agent."
+ },
+ {
+  "t": "reservoir",
+  "a": [],
+  "courses": [
+   "Patient Care"
+  ],
+  "d": "In the cycle of infection, the place where the agent lives and multiplies (a person, animal or object)."
+ },
+ {
+  "t": "carrier",
+  "a": [],
+  "courses": [
+   "Patient Care"
+  ],
+  "d": "A person who harbors an infectious agent with no illness but can still spread it."
+ },
+ {
+  "t": "Standard Precautions",
+  "a": [],
+  "d": "Infection-control practices used with every patient, every time, because anyone may carry an infection."
+ },
+ {
+  "t": "dorsalis pedis",
+  "a": [],
+  "d": "The pulse on the top of the foot."
+ },
+ {
+  "t": "posterior tibial",
+  "a": [],
+  "d": "The pulse behind the inner ankle bone."
+ },
+ {
+  "t": "roller clamp",
+  "a": [],
+  "d": "The wheel clamp on IV tubing that controls or stops flow; closed before spiking the bag."
+ },
+ {
+  "t": "drip chamber",
+  "a": [],
+  "d": "The clear chamber below an IV bag where drops are seen; kept about half full."
+ },
+ {
+  "t": "needleless connector",
+  "a": [],
+  "d": "The access port on an IV line that a syringe attaches to directly, with no needle. Scrub with alcohol first."
+ },
+ {
+  "t": "near miss",
+  "a": [
+   "near misses"
+  ],
+  "d": "An error caught before it reached the patient. Still reported in the facility's safety event system."
+ },
+ {
+  "t": "CT simulation",
+  "a": [
+   "simulation"
+  ],
+  "courses": [
+   "Patient Care"
+  ],
+  "d": "A planning CT before radiation therapy, done in the treatment position, often with skin marks or tattoos."
+ },
+ {
+  "t": "sphygmomanometer",
+  "a": [],
+  "d": "A blood pressure cuff and gauge."
+ },
+ {
+  "t": "amitriptyline",
+  "a": [],
+  "d": "An antidepressant whose dosing can be guided by CYP2D6/CYP2C19 gene testing."
  }
 ]
