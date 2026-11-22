@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<title>Mer's MRI Quiz</title>
+<title>MRI Quiz</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&family=Space+Grotesk:wght@500;700&family=JetBrains+Mono:wght@500&display=swap">
 <style>
@@ -41,6 +41,8 @@ h1 small{font:500 .75rem var(--font-mono);color:var(--muted);margin-left:8px;let
 .sync{flex-basis:100%;font:500 .8rem var(--font-mono);color:var(--warn);letter-spacing:.02em}
 h2{font-size:1.15rem}
 .who{display:flex;align-items:center;gap:8px;font-size:.9rem;color:var(--muted)}
+/* The title and name depend on the mode (LAN: Mer's, static: generic), so they stay hidden until boot decides. */
+html:not(.booted) #app-title, html:not(.booted) .who{visibility:hidden}
 .who input{width:8em;font:inherit;color:var(--ink);background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:4px 8px}
 .label{font:500 .72rem var(--font-mono);text-transform:uppercase;letter-spacing:.08em;color:var(--muted)}
 .row{display:flex;flex-wrap:wrap;gap:8px}
@@ -767,13 +769,16 @@ $('#import-file').onchange = async e => {
 // ---------- start: decide the mode, then load ----------
 (async function boot(){
   try { const c = await getJSON('quiz-config.json?t=' + Date.now()); if (c && c.mode === 'static') { STATIC = true; CONFIG = c } } catch {}
+  // (getJSON times out after 8 s, so the header can never stay hidden longer than that)
   if (STATIC) {
     lsLoad();
-    if (CONFIG.title) { document.title = CONFIG.title; $('#app-title').textContent = CONFIG.title }
+    const title = CONFIG.title || 'MRI Quiz';
+    document.title = title; $('#app-title').textContent = title;
     if (!store.get('quiz-who', '')) whoEl.value = 'Me';
     $('#flag').textContent = 'Make a note about this question';
     $('#flag-send').textContent = 'Save note';
-  }
+  } else document.title = "Mer's MRI Quiz";
+  document.documentElement.classList.add('booted');   // reveal the title and name now that they're right
   maybeUpdate();
   load();
 })();
