@@ -163,6 +163,8 @@ section{display:flex;flex-direction:column;gap:12px}
       <h2>Start a round</h2>
       <div class="label">Course</div>
       <div class="row" id="courses"></div>
+      <div class="label" id="chapters-label">Chapters</div>
+      <div class="row" id="chapters"></div>
       <div class="label">Topics</div>
       <div class="row" id="topics"></div>
       <div class="label">Which questions</div>
@@ -255,7 +257,10 @@ section{display:flex;flex-direction:column;gap:12px}
 const $ = s => document.querySelector(s);
 const store = { get(k,d){try{return localStorage.getItem(k)??d}catch{return d}}, set(k,v){try{localStorage.setItem(k,v)}catch{}} };
 let BANK = [], HISTORY = [];
-let sel = { course: 'all', topics: new Set(), mode: 'smart', n: 10 };
+let sel = { course: 'all', chapters: new Set(), topics: new Set(), mode: 'smart', n: 10 };
+// "Ch 1–2 …" < "Ch 3 …" < "Ch 10 …"; lectures without a number sort alphabetically after.
+const chapterKey = c => { const m = /^Ch\s*(\d+)/.exec(c || ''); return m ? [0, +m[1], c] : [1, 0, c || ''] };
+const byChapter = (a, b) => { const x = chapterKey(a), y = chapterKey(b); return x[0]-y[0] || x[1]-y[1] || x[2].localeCompare(y[2]) };
 let round = null;
 
 const whoEl = $('#who');
@@ -438,10 +443,30 @@ function renderPicker(){
   for (const name of courses){
     const b = document.createElement('button'); b.className='chip'; b.textContent = name==='all'?'All courses':name;
     b.setAttribute('aria-pressed', String(sel.course===name));
-    b.onclick = () => { sel.course=name; sel.topics.clear(); renderPicker(); };
+    b.onclick = () => { sel.course=name; sel.chapters.clear(); sel.topics.clear(); renderPicker(); };
     c.append(b);
   }
-  const topics = [...new Set(BANK.filter(q=>sel.course==='all'||q.course===sel.course).map(q=>q.topic))];
+  // Chapters (or lectures) of the chosen course. Pick any number; none picked = every chapter.
+  const inCourse = BANK.filter(q=>sel.course==='all'||q.course===sel.course);
+  const ch = $('#chapters'); ch.innerHTML='';
+  if (sel.course==='all') {
+    const note=document.createElement('span'); note.className='note'; note.textContent='Pick a course to choose chapters.'; ch.append(note);
+  } else {
+    const chapters = [...new Set(inCourse.map(q=>q.chapter).filter(Boolean))].sort(byChapter);
+    for (const name of chapters){
+      const b = document.createElement('button'); b.className='chip'; b.textContent=name;
+      b.setAttribute('aria-pressed', String(sel.chapters.has(name)));
+      b.onclick = () => {
+        sel.chapters.has(name)?sel.chapters.delete(name):sel.chapters.add(name);
+        // drop topics that no longer belong to any chosen chapter
+        const still = new Set(inCourse.filter(q=>!sel.chapters.size||sel.chapters.has(q.chapter)).map(q=>q.topic));
+        for (const t of [...sel.topics]) if (!still.has(t)) sel.topics.delete(t);
+        renderPicker();
+      };
+      ch.append(b);
+    }
+  }
+  const topics = [...new Set(inCourse.filter(q=>!sel.chapters.size||sel.chapters.has(q.chapter)).map(q=>q.topic))];
   const t = $('#topics'); t.innerHTML='';
   for (const name of topics){
     const b = document.createElement('button'); b.className='chip'; b.textContent=name;
@@ -453,14 +478,14 @@ function renderPicker(){
   $('#pool-note').textContent = sel.mode==='new'
     ? (n ? `${n} new ${n===1?'question':'questions'} you haven't answered yet` : 'No new questions here. You\'ve answered them all.')
     : `${n} questions match`;
-  if (!sel.topics.size && n) $('#pool-note').textContent += ' (all topics)';
+  if (!sel.topics.size && n) $('#pool-note').textContent += sel.chapters.size ? ` (${sel.chapters.size} ${sel.chapters.size===1?'chapter':'chapters'}, all topics)` : ' (all topics)';
 }
 for (const b of document.querySelectorAll('#modes .chip')) b.onclick = () => { sel.mode=b.dataset.mode; document.querySelectorAll('#modes .chip').forEach(x=>x.setAttribute('aria-pressed',String(x===b))); renderPicker(); };
 for (const b of document.querySelectorAll('#counts .chip')) b.onclick = () => { sel.n=+b.dataset.n; document.querySelectorAll('#counts .chip').forEach(x=>x.setAttribute('aria-pressed',String(x===b))); };
 
 function pool(){
   const last = latest();
-  let p = BANK.filter(q => (sel.course==='all'||q.course===sel.course) && (!sel.topics.size||sel.topics.has(q.topic)));
+  let p = BANK.filter(q => (sel.course==='all'||q.course===sel.course) && (!sel.chapters.size||sel.chapters.has(q.chapter)) && (!sel.topics.size||sel.topics.has(q.topic)));
   if (sel.mode==='missed') p = p.filter(q => last[q.id] && !last[q.id].correct);
   if (sel.mode==='new') p = p.filter(q => !last[q.id]);   // never answered by this person, right or wrong
   return p;
